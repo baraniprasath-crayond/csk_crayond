@@ -28,14 +28,15 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
-
+    <!-- <link rel="stylesheet" href="./plugin/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./plugin/4.0.0_bootstrap.min.css">
 
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.css">
 
 </head>
-
+ 
 <body>
     <!-- desktop header -->
     <section>
@@ -44,7 +45,7 @@
                 <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="row">
                         <div class="col-8 col-xs-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 logo_area">
-                            <div class="menu-toggle">
+                            <div class="menu-toggle" onclick="myFunction()">
                                 <div class="line l1"></div>
                                 <div class="line l2"></div>
                             </div>
@@ -94,7 +95,7 @@
 
     <!-- mobile menu list -->
     <section>
-        <div class="mobile-nav">
+        <div class="mobile-nav" id='mobile-nav'>
             <ul>
                 <li><a class="active" href="./index.html">Home</a></li>
                 <li><a href="#">News</a></li>
@@ -125,6 +126,27 @@
 
     <section class="main_section_bk_img">
         <br />
+        <!-- add banner section-->
+        <section class="head_ad_banner top_ad_banners">
+            <div class="container-fluid" style="margin: auto;">
+                <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 head_ad_banner_img">
+                    <img alt="Border" type="image/png" src="./assets/images/head_ad_banner.jpg" class="" />
+                </div>
+            </div>
+            <div class="container-fluid" style="margin: auto;">
+                <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 head_ad_banner_img">
+                    <img alt="Border" type="image/png" src="./assets/images/head_ad_banner.jpg" class="" />
+                </div>
+            </div>
+            <div class="container-fluid" style="margin: auto;">
+                <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 head_ad_banner_img">
+                    <img alt="Border" type="image/png" src="./assets/images/head_ad_banner.jpg" class="" />
+                </div>
+            </div>
+        </section>
+        <!-- end -->
+
+
         <br />
         <section>
             <!-- csk_match center -->
@@ -232,48 +254,96 @@
                                 </div>
                             </div>
                             <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 colm">
-                                <div class="match_card">
-                                    <div class="title">
-                                        <p>Results <span></span></p>
-                                        <div></div>
-                                    </div>
-                                    <div class="match_details">
-                                        <p class="year">10 APRIL, 2021</p>
-                                        <div class="score_board">
-                                            <span class="team_logo">
-                                                <img style="padding-right: 2px;" src="./assets/images/csk_logo.png" />
-                                            </span>
-                                            <span class="scores">
-                                                <div class="team_details">
-                                                    <p class="team_name">223/4</p>
-                                                    <p class="current_score">12&nbsp;overs</p>
+                                <div class="height">
+                                    <div class="match_card">
+                                        <div class="row m-0 tops">
+                                            <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 p-0">
+                                                <div style="margin-top: 11px;">
+
+
+                                                    <div class="row m-0">
+
+                                                        <img src="./assets/images/Match Countdown.svg" alt="count" />
+                                                        <span class="match"> Next Match </br>
+                                                            Countdown &nbsp;&nbsp;</span>
+                                                    </div>
                                                 </div>
-                                            </span>
-                                            <span class="match_vs">
-                                                <div>
-                                                    <p>
-                                                        vs
-                                                    </p>
+                                            </div>
+                                            <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6  p-0">
+                                                <div class="row count">
+
+                                                    <div class="num_div">
+                                                        <p class="num">
+                                                            20
+                                                        </p>
+                                                        <p class="text">DAY</p>
+                                                    </div>
+                                                    <P class="dot">:</P>
+                                                    <div class="num_div">
+                                                        <p class="num">
+                                                            20
+                                                        </p>
+                                                        <p class="text">HR</p>
+                                                    </div>
+                                                    <P class="dot">:</P>
+                                                    <div class="num_div">
+                                                        <p class="num">
+                                                            20
+                                                        </p>
+                                                        <p class="text">MIN</p>
+                                                    </div>
+                                                    <P class="dot">:</P>
+                                                    <div class="num_div">
+                                                        <p class="num">
+                                                            20
+                                                        </p>
+                                                        <p class="text">SEC</p>
+                                                    </div>
                                                 </div>
-                                            </span>
-                                            <span class="scores">
-                                                <div class="team_details">
-                                                    <p class="team_name">123/4</p>
-                                                    <p class="current_score">12&nbsp;overs</p>
-                                                </div>
-                                            </span>
-                                            <span class="team_logo"><img style="padding-left: 10px;"
-                                                    src="./assets/images/Mumbai_logo.png" /></span>
+                                            </div>
+
                                         </div>
-                                        <p class="disc">Narendra Modi Stadium, Ahmedabad</p>
-                                        <div class="running_commentary">
-                                            <span>▸ Watch live</span>
+                                        <div class="lines">
+                                            <span></span>
                                         </div>
-                                    </div>
-                                    <div class="footer">
-                                        <span class="dr">View all result
-                                        </span>
-                                        <span>View Fixtures</span>
+                                        <div class="match_details">
+                                            <p class="year">10 APRIL, 2021</p>
+                                            <div class="score_board">
+                                                <span class="team_logo">
+                                                    <img src="./assets/images/csk_logo.png" class="lo" />
+                                                </span>
+                                                <span class="scores">
+                                                    <div class="team_details">
+                                                        <p class="team_name">223/4</p>
+                                                        <p class="current_score">12&nbsp;overs</p>
+                                                    </div>
+                                                </span>
+                                                <span class="match_vs">
+                                                    <div>
+                                                        <p>
+                                                            vs
+                                                        </p>
+                                                    </div>
+                                                </span>
+                                                <span class="scores">
+                                                    <div class="team_details">
+                                                        <p class="team_name">123/4</p>
+                                                        <p class="current_score">12&nbsp;overs</p>
+                                                    </div>
+                                                </span>
+                                                <span class="team_logo"><img style="padding-left: 10px;"
+                                                        src="./assets/images/Mumbai_logo.png" /></span>
+                                            </div>
+                                            <p class="disc">Narendra Modi Stadium, Ahmedabad</p>
+                                            <div class="running_commentary">
+                                                <span>▸ Watch live</span>
+                                            </div>
+                                        </div>
+                                        <div class="footer">
+                                            <span class="dr">View all Result
+                                            </span>
+                                            <span>View Fixtures</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -293,7 +363,7 @@
 
 
                             <div class="row">
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 colm colms">
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-5 colm colms">
                                     <div class="post_img">
 
                                         <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="csk" />
@@ -303,52 +373,7 @@
                                     </span>
 
                                 </div>
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-8 ">
-                                    <div class="title">
-                                        <div class="progress">
-                                            <div class="progress-bar" role="progressbar" style="width: 100%"
-                                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                                        </div>
-                                        <p>2021 IPL: CSK can fill up to six slots
-                                            at auction</p>
-                                    </div>
-                                    <div class="timing">
-                                        <div class="flex">
-
-
-                                            <div class="text">
-                                                <p>12 March 2021 | CSK TV</p>
-                                            </div>
-                                            <div class="share">
-                                                <img src="./assets/images/Share Button.svg" alt="" />
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4  colm">
-                        <div class="card">
-
-
-                            <div class="row">
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 colm colms">
-                                    <div class="post_img">
-
-                                        <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="csk" />
-                                    </div>
-                                    <span class="news">
-                                        NEWS
-                                    </span>
-
-                                </div>
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-8">
-
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-7 ">
                                     <div class="title">
                                         <div class="progress">
                                             <div class="progress-bar" role="progressbar" style="width: 100%"
@@ -382,7 +407,52 @@
 
 
                             <div class="row">
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-4 colm colms">
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-5 colm colms">
+                                    <div class="post_img">
+
+                                        <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="csk" />
+                                    </div>
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+
+                                </div>
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-7">
+
+                                    <div class="title">
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" style="width: 100%"
+                                                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                        <p>2021 IPL: CSK can fill up to six slots
+                                            at auction</p>
+                                    </div>
+                                    <div class="timing">
+                                        <div class="flex">
+
+
+                                            <div class="text">
+                                                <p>12 March 2021 | CSK&nbsp;TV</p>
+                                            </div>
+                                            <div class="share">
+                                                <img src="./assets/images/Share Button.svg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4  colm">
+                        <div class="card">
+
+
+                            <div class="row">
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-5 colm colms">
                                     <div class="post_img">
 
                                         <video
@@ -401,7 +471,7 @@
                                     </p>
 
                                 </div>
-                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-8">
+                                <div class="col-6 col-xs-6 col-sm-6 col-md-6 col-lg-7">
 
                                     <div class="title">
                                         <div class="progress">
@@ -416,15 +486,13 @@
 
 
                                             <div class="text">
-                                                <p>12 March 2021 | CSK TV</p>
+                                                <p>12 March 2021 | CSK&nbsp;TV</p>
                                             </div>
                                             <div class="share">
                                                 <img src="./assets/images/Share Button.svg" alt="" />
                                             </div>
                                         </div>
                                     </div>
-
-
 
                                 </div>
 
@@ -437,422 +505,659 @@
         </section>
         <!-- end -->
 
-<!-- new card section sqaure -->
-<section class="new_card_section container-fluid">
-    <div class="row m-0">
+        <!-- new card section sqaure -->
+        <section class="new_card_section container-fluid">
+            <div class="row m-0">
 
 
 
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
 
-            <div class="news_slider">
+                    <div class="news_slider" style="margin: 0px;">
 
-                <!-- loop this section with image-->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
-                            <span class="news">
-                                NEWS
-                            </span>
+                        <!-- loop this section with image-->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
+
+
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK&nbsp;TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
+                        <!-- end -->
 
 
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+
+
+                    </div>
                 </div>
-                <!-- end -->
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with image -->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
 
 
-
-
-            </div>
-        </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with image -->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
-                            <span class="news">
-                                NEWS
-                            </span>
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK&nbsp;TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
+                        <!-- end -->
 
 
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+
+
+                    </div>
                 </div>
-                <!-- end -->
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with video -->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <video
+                                        poster="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID_THUMB20190305113652640159.jpg"
+                                        controlslist="nodownload">
+                                        <source
+                                            src="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID20190305113652640159.mp4"
+                                            type="video/mp4">
+                                    </video>
+                                    <span class="news">
+                                        CSK&nbsp;TV
+                                    </span>
+                                    <p class="play_button">
+                                        <span><i class="fa fa-play-circle" aria-hidden="true"></i></span>
+                                    </p>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
 
 
-
-
-            </div>
-        </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with video -->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <video controls=""
-                                poster="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID_THUMB20190305113652640159.jpg"
-                                controlslist="nodownload">
-                                <source
-                                    src="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID20190305113652640159.mp4"
-                                    type="video/mp4">
-                            </video>
-                            <span class="news">
-                                CSK TV
-                            </span>
-                            <p class="play_button">
-                                <span><i class="fa fa-play-circle" aria-hidden="true"></i></span>
-                            </p>
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
-
-
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- end -->
+                        <!-- end -->
 
 
 
 
-            </div>
-        </div>
-
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-            <div class="table_card">
-                <div class="table_head">
-                    <p>POINT TABLE</p>
+                    </div>
                 </div>
 
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+                    <div class="table_card">
+                        <div class="table_head">
+                            <p>POINT TABLE</p>
+                        </div>
 
 
-                <div class="container-fluid point_board">
-                    <div class="row">
-                        <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 match_details">
-                            <table>
-                                <tr class="head">
+
+                        <div class="container-fluid point_board">
+                            <div class="row">
+                                <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 match_details">
+                                    <table>
+                                        <tr class="head">
 
 
-                                    <th>Team</th>
-                                    <th>Played</th>
+                                            <th>Team</th>
+                                            <th>Played</th>
 
-                                    <th>Net RR</th>
-                                    <th>Pts</th>
+                                            <th>Net RR</th>
+                                            <th>Pts</th>
 
 
-                                </tr>
-                                <tr>
+                                        </tr>
+                                        <tr>
 
-                                    <td class="team-name">
-                                        <img src="./assets/images/CSK.svg" alt="" />
-                                    </td>
-                                    <td>5</td>
+                                            <td class="team-name">
+                                                <img src="./assets/images/CSK.svg" alt="" />
+                                            </td>
+                                            <td>5</td>
 
-                                    <td>+0.62</td>
-                                    <td>6</td>
+                                            <td>+0.62</td>
+                                            <td>6</td>
 
-                                </tr>
+                                        </tr>
 
-                                <tr>
+                                        <tr>
 
-                                    <td class="team-name">
-                                        <img src="./assets/images/KKR.svg" alt="" />
-                                    </td>
-                                    <td>5</td>
+                                            <td class="team-name">
+                                                <img src="./assets/images/KKR.svg" alt="" />
+                                            </td>
+                                            <td>5</td>
 
-                                    <td>+0.62</td>
-                                    <td>6</td>
+                                            <td>+0.62</td>
+                                            <td>6</td>
 
-                                </tr>
-                                <tr>
-                                    <td class="team-name">
-                                        <img src="./assets/images/SRH.svg" alt="" />
-                                    </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="team-name">
+                                                <img src="./assets/images/SRH.svg" alt="" />
+                                            </td>
 
-                                    <td>2</td>
-                                    <td>+0.62</td>
-                                    <td>6</td>
+                                            <td>2</td>
+                                            <td>+0.62</td>
+                                            <td>6</td>
 
-                                </tr>
-                                <tr class="active_tr">
+                                        </tr>
+                                        <tr class="active_tr">
 
-                                    <td class="team-name">
-                                        <img src="./assets/images/MI.svg" alt="" />
-                                    </td>
-                                    <td>5</td>
+                                            <td class="team-name">
+                                                <img src="./assets/images/MI.svg" alt="" />
+                                            </td>
+                                            <td>5</td>
 
-                                    <td>+0.62</td>
-                                    <td>6</td>
+                                            <td>+0.62</td>
+                                            <td>6</td>
 
-                                </tr>
+                                        </tr>
 
-                            </table>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="view_div">
+                            <div class="view">
+
+
+                                <p>VIEW FULL TABLE</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="view_div">
-                    <div class="view">
+            </div>
+            <br />
 
-                    
-                    <p>VIEW FULL TABLE</p>
+
+            <!-- square new card second row -->
+            <div class="row m-0">
+
+
+
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with image-->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
+
+
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with image -->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
+
+
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with video -->
+                        <div class="item horizontal">
+                            <div class="post_img">
+                                <video
+                                    poster="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID_THUMB20190305113652640159.jpg"
+                                    controlslist="nodownload">
+                                    <source
+                                        src="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID20190305113652640159.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <span class="news">
+                                    CSK&nbsp;TV
+                                </span>
+                                <p class="play_button">
+                                    <span><i class="fa fa-play-circle" aria-hidden="true"></i></span>
+                                </p>
+                            </div>
+                            <div class="inner">
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <p class="description">2021 IPL: CSK can fill up to
+                                    six slots at auction</p>
+                                <p class="date_time">Three-time champions Chennai Super</p>
+                            </div>
+                            <div class="flex">
+
+
+                                <div class="text">
+                                    <p>12 March 2021 | CSK TV</p>
+                                </div>
+                                <div class="share">
+                                    <img src="./assets/images/Share Button.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
+
+                    <div class="news_slider">
+
+                        <!-- loop this section with image -->
+                        <div class="item horizontal">
+                            <a href="./newsdetails.html" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                                    <span class="news">
+                                        NEWS
+                                    </span>
+                                </div>
+                                <div class="inner">
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 100%"
+                                            aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <p class="description">2021 IPL: CSK can fill up to
+                                        six slots at auction</p>
+                                    <p class="date_time">Three-time champions Chennai Super</p>
+                                </div>
+                                <div class="flex">
+
+
+                                    <div class="text">
+                                        <p>12 March 2021 | CSK TV</p>
+                                    </div>
+                                    <div class="share">
+                                        <img src="./assets/images/Share Button.svg" alt="" />
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+
+
+
+
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-<br/>
+            <!-- end -->
+
+        </section>
+        <!-- end -->
 
 
-    <!-- square new card second row -->
-    <div class="row m-0">
+        <section class="carousel_main">
+            <span class="title">
+                <p>CSK EXCLUSIVES</p>
+            </span>
+            </div>
+            <div class="container-fluid">
+                <div class="item video_open">
+                    <!-- <a href="#"> -->
+                    <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
+                    <div class="inner">
+                        <p class="image_title">Lions To Commence 2021 </p>
+                        <div class="image_title">Preparatory Camp From Monday</div>
+                        <p class="description">12 March 2021 | CSK TV
+                        </p>
+                        <livetag>
+                            <p><i class="fa fa-play-circle"></i> Play Now</p>
+                        </livetag>
+                        <p class="play_button">
+                            <span><i class="fa fa-play-circle" aria-hidden="true"></i></span>
+                        </p>
+                    </div>
+                    <!-- </a> -->
+                </div>
+            </div>
+        </section>
+        <section class="recomended_protects">
 
+            <div class="recomended_protects_list owl-carousel owl-theme container-fluid">
 
-
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with image-->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
-                            <span class="news">
-                                NEWS
-                            </span>
-                        </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
-
-
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+                <!-- loop this section use only images and  all slider images for same size  -->
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="The Last of us">
+                    </div>
                 </div>
                 <!-- end -->
 
 
-
-
-            </div>
-        </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with image -->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
-                            <span class="news">
-                                NEWS
-                            </span>
-                        </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
-
-
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+                <div class="container" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/csk-game.jpg" alt="GTA V"></div>
                 </div>
-                <!-- end -->
-
-
-
-
-            </div>
-        </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with video -->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <video controls=""
-                                poster="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID_THUMB20190305113652640159.jpg"
-                                controlslist="nodownload">
-                                <source
-                                    src="https://gallery.chennaisuperkings.com/UAT/CSKTV_CONTENT/CSKTV_VID20190305113652640159.mp4"
-                                    type="video/mp4">
-                            </video>
-                            <span class="news">
-                                CSK TV
-                            </span>
-                            <p class="play_button">
-                                <span><i class="fa fa-play-circle" aria-hidden="true"></i></span>
-                            </p>
-                        </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
-
-
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="GTA V">
+                    </div>
                 </div>
-                <!-- end -->
-
-
-
-
-            </div>
-        </div>
-        <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 colm">
-
-            <div class="news_slider">
-
-                <!-- loop this section with image -->
-                <div class="item horizontal">
-                    <a href="./newsdetails.html" style="text-decoration: none;">
-                        <div class="post_img">
-                            <img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="" />
-                            <span class="news">
-                                NEWS
-                            </span>
-                        </div>
-                        <div class="inner">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="10"
-                                    aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <p class="description">2021 IPL: CSK can fill up to
-                                six slots at auction</p>
-                            <p class="date_time">Three-time champions Chennai Super</p>
-                        </div>
-                        <div class="flex">
-
-
-                            <div class="text">
-                                <p>12 March 2021 | CSK TV</p>
-                            </div>
-                            <div class="share">
-                                <img src="./assets/images/Share Button.svg" alt="" />
-                            </div>
-                        </div>
-                    </a>
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/csk-game.jpg" alt="GTA V"></div>
                 </div>
-                <!-- end -->
-
-
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="GTA V">
+                    </div>
+                </div>
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/csk-game.jpg" alt="GTA V"></div>
+                </div>
+                <div class="" style="margin: auto;">
+                    <div class="item"><img src="./assets/images/Chennai-Super-Kings-top-image.jpg" alt="GTA V">
+                    </div>
+                </div>
 
 
             </div>
-        </div>
-    </div>
-    <!-- end -->
+        </section>
+        <!-- end -->
+        <!-- social media section -->
+        <section class="social_media_section container-fluid">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="title_div">
 
-</section>
-<!-- end -->
+
+                    <span class="title">
+                        <p>SOCIAL MEDIA</p>
+                    </span>
+                </div>
+
+            </div>
+            <div class="row m-0">
+                <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 colm">
+                    <div class="social">
+
+
+                        <!-- loop this section with image, max length 10 -->
+                        <div class="item horizontal">
+                            <div class="post_img">
+                                <twittertag>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16.76" height="13.617"
+                                        viewBox="0 0 16.76 13.617">
+                                        <defs>
+                                            <style>
+                                                .cls-1 {
+                                                    fill: #03a9f4
+                                                }
+                                            </style>
+                                        </defs>
+                                        <path id="twitter"
+                                            d="M16.76 49.612a7.164 7.164 0 0 1-1.98.543 3.417 3.417 0 0 0 1.512-1.9 6.867 6.867 0 0 1-2.179.832 3.436 3.436 0 0 0-5.944 2.35 3.538 3.538 0 0 0 .08.784 9.725 9.725 0 0 1-7.082-3.594 3.437 3.437 0 0 0 1.056 4.592A3.393 3.393 0 0 1 .67 52.8v.038a3.452 3.452 0 0 0 2.753 3.376 3.43 3.43 0 0 1-.9.113 3.038 3.038 0 0 1-.65-.059 3.469 3.469 0 0 0 3.211 2.394 6.9 6.9 0 0 1-4.26 1.465A6.434 6.434 0 0 1 0 60.076a9.673 9.673 0 0 0 5.271 1.542 9.712 9.712 0 0 0 9.779-9.778c0-.152-.005-.3-.013-.444a6.855 6.855 0 0 0 1.723-1.784z"
+                                            class="cls-1" transform="translate(0 -48)" />
+                                    </svg>
+                                </twittertag>
+                                <img src="./assets/images/Ewv80f7UYAAjcGF.jpg" alt="" />
+                            </div>
+                            <div class="inner">
+                                <p class="description">
+                                    Running raut with the 🏏💯!
+                                    Take a bow Punam!!
+
+
+                                    in <span>#RanjiTrophy</span> <span>#Yellove</span> 🦁 💛 📸 - @BCCI</p>
+                            </div>
+                        </div>
+                        <!-- end -->
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 colm">
+                    <div class="social">
+
+
+                        <!-- loop this section with image, max length 10 -->
+                        <div class="item horizontal">
+                            <a href="#" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <twittertag>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.76" height="13.617"
+                                            viewBox="0 0 16.76 13.617">
+                                            <defs>
+                                                <style>
+                                                    .cls-1 {
+                                                        fill: #03a9f4
+                                                    }
+                                                </style>
+                                            </defs>
+                                            <path id="twitter"
+                                                d="M16.76 49.612a7.164 7.164 0 0 1-1.98.543 3.417 3.417 0 0 0 1.512-1.9 6.867 6.867 0 0 1-2.179.832 3.436 3.436 0 0 0-5.944 2.35 3.538 3.538 0 0 0 .08.784 9.725 9.725 0 0 1-7.082-3.594 3.437 3.437 0 0 0 1.056 4.592A3.393 3.393 0 0 1 .67 52.8v.038a3.452 3.452 0 0 0 2.753 3.376 3.43 3.43 0 0 1-.9.113 3.038 3.038 0 0 1-.65-.059 3.469 3.469 0 0 0 3.211 2.394 6.9 6.9 0 0 1-4.26 1.465A6.434 6.434 0 0 1 0 60.076a9.673 9.673 0 0 0 5.271 1.542 9.712 9.712 0 0 0 9.779-9.778c0-.152-.005-.3-.013-.444a6.855 6.855 0 0 0 1.723-1.784z"
+                                                class="cls-1" transform="translate(0 -48)" />
+                                        </svg>
+                                    </twittertag>
+                                    <img src="./assets/images/Ewv80f7UYAAjcGF.jpg" alt="" />
+                                </div>
+                                <div class="inner">
+                                    <p class="description">
+                                        Running raut with the 🏏💯!
+                                        Take a bow Punam!!
+
+
+                                        in <span>#RanjiTrophy</span> <span>#Yellove</span> 🦁 💛 📸 - @BCCI</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 colm">
+                    <div class="social">
+
+
+                        <!-- loop this section with image, max length 10 -->
+                        <div class="item horizontal">
+                            <a href="#" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <twittertag>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.76" height="13.617"
+                                            viewBox="0 0 16.76 13.617">
+                                            <defs>
+                                                <style>
+                                                    .cls-1 {
+                                                        fill: #03a9f4
+                                                    }
+                                                </style>
+                                            </defs>
+                                            <path id="twitter"
+                                                d="M16.76 49.612a7.164 7.164 0 0 1-1.98.543 3.417 3.417 0 0 0 1.512-1.9 6.867 6.867 0 0 1-2.179.832 3.436 3.436 0 0 0-5.944 2.35 3.538 3.538 0 0 0 .08.784 9.725 9.725 0 0 1-7.082-3.594 3.437 3.437 0 0 0 1.056 4.592A3.393 3.393 0 0 1 .67 52.8v.038a3.452 3.452 0 0 0 2.753 3.376 3.43 3.43 0 0 1-.9.113 3.038 3.038 0 0 1-.65-.059 3.469 3.469 0 0 0 3.211 2.394 6.9 6.9 0 0 1-4.26 1.465A6.434 6.434 0 0 1 0 60.076a9.673 9.673 0 0 0 5.271 1.542 9.712 9.712 0 0 0 9.779-9.778c0-.152-.005-.3-.013-.444a6.855 6.855 0 0 0 1.723-1.784z"
+                                                class="cls-1" transform="translate(0 -48)" />
+                                        </svg>
+                                    </twittertag>
+                                    <img src="./assets/images/Ewv80f7UYAAjcGF.jpg" alt="" />
+                                </div>
+                                <div class="inner">
+                                    <p class="description">
+                                        Running raut with the 🏏💯!
+                                        Take a bow Punam!!
+
+
+                                        in <span>#RanjiTrophy</span> <span>#Yellove</span> 🦁 💛 📸 - @BCCI</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 colm">
+                    <div class="social">
+
+
+                        <!-- loop this section with image, max length 10 -->
+                        <div class="item horizontal">
+                            <a href="#" style="text-decoration: none;">
+                                <div class="post_img">
+                                    <twittertag>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16.76" height="13.617"
+                                            viewBox="0 0 16.76 13.617">
+                                            <defs>
+                                                <style>
+                                                    .cls-1 {
+                                                        fill: #03a9f4
+                                                    }
+                                                </style>
+                                            </defs>
+                                            <path id="twitter"
+                                                d="M16.76 49.612a7.164 7.164 0 0 1-1.98.543 3.417 3.417 0 0 0 1.512-1.9 6.867 6.867 0 0 1-2.179.832 3.436 3.436 0 0 0-5.944 2.35 3.538 3.538 0 0 0 .08.784 9.725 9.725 0 0 1-7.082-3.594 3.437 3.437 0 0 0 1.056 4.592A3.393 3.393 0 0 1 .67 52.8v.038a3.452 3.452 0 0 0 2.753 3.376 3.43 3.43 0 0 1-.9.113 3.038 3.038 0 0 1-.65-.059 3.469 3.469 0 0 0 3.211 2.394 6.9 6.9 0 0 1-4.26 1.465A6.434 6.434 0 0 1 0 60.076a9.673 9.673 0 0 0 5.271 1.542 9.712 9.712 0 0 0 9.779-9.778c0-.152-.005-.3-.013-.444a6.855 6.855 0 0 0 1.723-1.784z"
+                                                class="cls-1" transform="translate(0 -48)" />
+                                        </svg>
+                                    </twittertag>
+                                    <img src="./assets/images/Ewv80f7UYAAjcGF.jpg" alt="" />
+                                </div>
+                                <div class="inner">
+                                    <p class="description">
+                                        Running raut with the 🏏💯!
+                                        Take a bow Punam!!
+
+
+                                        in <span>#RanjiTrophy</span> <span>#Yellove</span> 🦁 💛 📸 - @BCCI</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- end -->
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- end -->
 
         <!-- csk_sponsors section -->
         <section class="csk_sponsors">
             <div class="container-fluid" style="margin: auto;">
                 <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
                     <p class="title_lable">Sponsors</p>
-                    <div class="row csk_sponsors_div" style="border: solid 1px #ededed;">
+                    <div class="row csk_sponsors_div">
                         <div class="col-6 col-xs-6 col-ms-6 col-md-4 col-lg-3 col-xl-3 csk_sponsors_img">
                             <img class="img-fluid" src="./assets/images/Image 8.png" />
+                        </div>
+                        <div class="col-6 col-xs-6 col-ms-6 col-md-4 col-lg-3 col-xl-3 csk_sponsors_img">
+                            <img class="img-fluid" src="./assets/images/Image 8.png" />
+
                         </div>
                         <div class="col-6 col-xs-6 col-ms-6 col-md-4 col-lg-3 col-xl-3 csk_sponsors_img">
                             <img class="img-fluid" src="./assets/images/Image 8.png" />
@@ -905,5 +1210,78 @@
 <script src="./plugin/jquery.min.js"></script>
 <script src="./plugin/bootstrap.min.js"></script>
 <script src="./assets/comman/comman.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js"></script>
+
+<script>
+    function myFunction() {
+        if (document.getElementById('mobile-nav').style.transform === 'translate(0px, 0px)') {
+            document.getElementById('mobile-nav').style.transform = 'translate(-100%, 0)';
+        } else {
+            document.getElementById('mobile-nav').style.transform = 'translate(0px, 0px)';
+        }
+    }
+    $(document).ready(function () {
+        $('.recomended_protects_list').owlCarousel({
+            // stagePadding: 200,
+            // autoWidth:true,
+            loop: true,
+            // merge:true,
+            center: true,
+            // autoplay:true,
+            // autoplayTimeout:3000,
+            margin: 20,
+            nav: true,
+            items: 4,
+            lazyLoad: true,
+            startPosition: 0,
+            dots: true,
+            smartSpeed: 2000,
+            responsive: {
+                0: {
+                    items: 2,
+                    autoHeight: 5,
+                    nav: true,
+                    // autoWidth:true
+                },
+                600: {
+                    items: 3,
+                    nav: false,
+                    autoWidth: false,
+                },
+                1000: {
+                    items: 4,
+                    // autoWidth:true,
+                }
+            }
+        })
+        $('.top_ad_banners').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplaySpeed: 1000,
+            merge: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 1,
+                    nav: false
+                },
+                1000: {
+                    items: 1,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+        $(".owl-prev").html('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
+        $(".owl-next").html('<i class="fa fa-chevron-right" aria-hidden="true"></i>');
+    })
+
+</script>
 
 </html>
