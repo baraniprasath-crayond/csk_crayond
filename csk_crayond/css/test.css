@@ -866,6 +866,180 @@ input:checked + .slider {
   color: #111111;
 }
 
+.top_section_card .match_card {
+  width: 100%;
+  height: 491px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.top_section_card .match_card .head {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.top_section_card .match_card .head .match {
+  padding-left: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.top_section_card .match_card .count {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+
+.top_section_card .match_card .count .dot {
+  font-size: 30px;
+  color: #ffcd01;
+}
+
+.top_section_card .match_card .count .num_div .num {
+  font-size: 34px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.top_section_card .match_card .count .num_div .text {
+  font-size: 13px;
+  text-align: center;
+  color: #707070;
+}
+
+.top_section_card .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top_section_card .lines span {
+  width: 245px;
+  height: 2px;
+  background-color: #707070;
+}
+
+.top_section_card .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top_section_card .date p {
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.top_section_card .venue {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top_section_card .venue p {
+  font-size: 18px;
+  padding-top: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.top_section_card .center_div {
+  padding-top: 20px;
+}
+
+.top_section_card .center_div .score_div .score {
+  padding: 3px;
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.top_section_card .center_div .score_div .over {
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top_section_card .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15px;
+}
+
+.top_section_card .button .btn {
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.top_section_card .footer {
+  padding: 13px;
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #ffcd01;
+  border-radius: 7px;
+}
+
+.top_section_card .footer .view p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.top_section_card .footer .fix p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
 .news_card_section .card {
   width: 100%;
   height: 180px;
@@ -1373,6 +1547,7 @@ input:checked + .slider {
 .social_media_section .social .horizontal {
   width: 100%;
   height: 300px;
+  background-color: #ffffff;
 }
 
 .social_media_section .social .horizontal .inner {
