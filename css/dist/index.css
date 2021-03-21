@@ -699,7 +699,21 @@ input:checked + .slider {
   padding: 14px 60px;
   margin-top: -200px;
 }
+.recomended_protects .item {
+  width: 100%;
+}
+.recomended_protects .item .inner {
+  padding: 0px 14px;
+  position: absolute;
+  color: #fff;
+  font-weight: 500;
+  margin-top: -19%;
+}
+.recomended_protects .item .inner span {
+  margin: auto;
+}
 .recomended_protects .item img {
+  opacity: 0.9;
   height: 160px;
   border-radius: 4px;
 }
@@ -2145,6 +2159,19 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 426px) {
+  .head_ad_banner .head_ad_banner_img {
+    padding: 0px;
+  }
+
+  .recomended_protects .item .inner {
+    margin-top: -22%;
+  }
+  .recomended_protects .item .inner span {
+    font-size: 10px;
+  }
+  .recomended_protects .item .inner span i {
+    font-size: 8px;
+  }
   .recomended_protects .owl-nav .owl-next i {
     top: -11px;
   }

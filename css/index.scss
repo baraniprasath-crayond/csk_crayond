@@ -825,9 +825,25 @@ input:checked+.slider {
     margin-top: -200px;
 
     .item {
+        width: 100%;
+
+        .inner {
+            padding: 0px 14px;
+            position: absolute;
+            color: #fff;
+            font-weight: 500;
+            margin-top: -19%;
+
+            span {
+                margin: auto;
+            }
+        }
+
         img {
+            opacity: 0.9;
             height: 160px;
             border-radius: 4px;
+            // position: absolute;
         }
     }
 
@@ -2790,7 +2806,24 @@ input:checked+.slider {
 }
 
 @media only screen and (max-width: 426px) {
+    .head_ad_banner {
+        .head_ad_banner_img {
+            padding: 0px;
+        }
+    }
+
     .recomended_protects {
+        .item{
+            .inner{
+                margin-top: -22%;
+                span{
+                    font-size: 10px;
+                    i{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
         .owl-nav {
             .owl-next {
                 i {
