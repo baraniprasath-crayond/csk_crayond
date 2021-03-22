@@ -777,7 +777,7 @@ input:checked + .slider {
   position: absolute;
   color: #fff;
   font-size: 46px;
-  left: 4px;
+  left: 10px;
 }
 .fan_card .cards .fan .owl-controls .owl-next .fa-chevron-right:before {
   content: "";
@@ -787,7 +787,7 @@ input:checked + .slider {
   position: absolute;
   color: #fff;
   font-size: 46px;
-  right: 4px;
+  right: 10px;
 }
 .fan_card .cards .fan .content {
   padding-top: 20px;
@@ -803,9 +803,11 @@ input:checked + .slider {
   letter-spacing: normal;
 }
 .fan_card .cards .fan .content .msg {
+  margin-top: 6px;
   color: #000;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
+  opacity: 0.8;
   font-weight: 600;
   font-stretch: normal;
   font-style: italic;
