@@ -619,7 +619,7 @@ input:checked + .slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #f9cf01;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   color: #1d1d1d;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -803,8 +803,43 @@ input:checked + .slider {
   background-color: #ffffff;
 }
 
+.super_kings_section .card {
+  -webkit-box-shadow: 0 5px 11px 0 #0000001c;
+          box-shadow: 0 5px 11px 0 #0000001c;
+  border-radius: 10px;
+  background: url("../assets/images/Player BG1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.super_kings_section img {
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(23%, rgba(17, 17, 17, 0)), color-stop(79%, #111111cf));
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0) 23%, #111111cf 79%);
+}
+
+.super_kings_section .inner {
+  text-align: center;
+  margin-top: -46px;
+}
+
+.super_kings_section .inner h5 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+
+.super_kings_section .inner span {
+  font-size: 14px;
+  color: #ffcd01;
+}
+
 .recomended_protects {
-  padding: 14px 60px;
+  padding: 14px 100px;
   margin-top: -200px;
 }
 
@@ -820,8 +855,9 @@ input:checked + .slider {
   margin-top: -19%;
 }
 
-.recomended_protects .item .inner span {
+.recomended_protects .item .inner div {
   margin: auto;
+  font-size: 12px;
 }
 
 .recomended_protects .item img {
@@ -869,6 +905,8 @@ input:checked + .slider {
   top: 3px;
   cursor: pointer;
   color: #fff;
+  left: -54px;
+  position: absolute;
 }
 
 .recomended_protects .owl-nav .owl-prev .fa-chevron-left:before {
@@ -898,6 +936,8 @@ input:checked + .slider {
   position: relative;
   top: 3px;
   cursor: pointer;
+  right: -54px;
+  position: absolute;
 }
 
 .recomended_protects .owl-nav .owl-next .fa-chevron-right:before {
@@ -947,7 +987,7 @@ input:checked + .slider {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 4px;
-  background: #ffcd01;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -1028,9 +1068,10 @@ input:checked + .slider {
 }
 
 .main_footer {
-  border-top: 1px solid #040f63;
+  border-top: 2px solid #040f63;
   background-color: var(--footerbg);
   padding: 30px;
+  margin-top: 30px;
 }
 
 .main_footer .logo_text {
@@ -1059,10 +1100,6 @@ input:checked + .slider {
   font-size: 14px;
   font-weight: 600;
   padding: 0px 24px;
-}
-
-.main_footer .footer_list_menu .divider {
-  border-right: 1px solid #ced4da7d;
 }
 
 .blue {
@@ -1122,7 +1159,7 @@ input:checked + .slider {
   top: 7%;
   left: 75%;
   padding: 5px 15px 5px 15px;
-  background-color: #ffc107;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
 
 .top_section_card .card .play_button {
@@ -1263,7 +1300,7 @@ input:checked + .slider {
   top: 7%;
   left: 64%;
   padding: 2px 10px 2px 10px;
-  background-color: #ffc107;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   cursor: pointer;
 }
 
@@ -1549,7 +1586,7 @@ input:checked + .slider {
   top: 4%;
   left: 76%;
   padding: 3px 10px 4px 10px;
-  background-color: #ffc107;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
 
 .new_card_section .news_slider .item .post_img .play_button {
@@ -1609,7 +1646,7 @@ input:checked + .slider {
 
 .new_card_section .table_card {
   height: 410px;
-  background-color: #ffc107;
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -2367,14 +2404,14 @@ input:checked + .slider {
   }
   .recomended_protects {
     margin-top: -100px;
-    padding: 6px 50px;
+    padding: 6px 20px;
   }
   .recomended_protects .item img {
     width: 60px;
     height: 60px;
   }
   .carousel_main .inner {
-    padding: 8px;
+    padding: 16px 10px;
   }
   .carousel_main .inner .image_title {
     font-size: 12px;
@@ -2416,6 +2453,15 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 967px) {
+  .recomended_protects .item .inner {
+    margin-top: -20%;
+  }
+  .recomended_protects .item .inner div {
+    font-size: 11px;
+  }
+  .recomended_protects .item .inner div i {
+    font-size: 8px;
+  }
   .news_card_section .card .news {
     left: 66%;
     font-size: 9px;
@@ -2561,23 +2607,34 @@ input:checked + .slider {
     padding: 0px;
   }
   .recomended_protects .item .inner {
-    margin-top: -22%;
+    margin-top: -20%;
   }
-  .recomended_protects .item .inner span {
+  .recomended_protects .item .inner div {
     font-size: 10px;
   }
-  .recomended_protects .item .inner span i {
+  .recomended_protects .item .inner div i {
     font-size: 8px;
   }
   .recomended_protects .owl-nav .owl-next i {
-    top: -11px;
+    top: -4px;
+    right: 24px;
   }
   .recomended_protects .owl-nav .owl-prev i {
-    top: -11px;
+    left: 24px;
+    top: -4px;
   }
 }
 
 @media only screen and (max-width: 376px) {
+  .recomended_protects .item .inner {
+    margin-top: -26%;
+  }
+  .recomended_protects .item .inner div {
+    font-size: 10px;
+  }
+  .recomended_protects .item .inner div i {
+    font-size: 8px;
+  }
   .csk_sponsors .title_lable {
     margin: 0px 0px 14px;
     font-size: 20px;
