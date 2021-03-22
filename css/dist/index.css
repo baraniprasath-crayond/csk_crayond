@@ -668,7 +668,7 @@ input:checked + .slider {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 30px 0px;
+  margin: 0px 0px 30px;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -688,6 +688,210 @@ input:checked + .slider {
   padding: 30px 10px;
   background-color: #ffffff;
   border-radius: 10px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img {
+  text-align: center;
+  margin: 0px 0px 16px 0px;
+  background-color: #ffffff;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid0 {
+  width: 80%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid01 {
+  width: 50%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid02 {
+  width: 40%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid {
+  width: 70%;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid1 {
+  width: 40%;
+}
+
+.fan_card {
+  padding: 25px;
+}
+.fan_card .cards {
+  background-color: #ffffff;
+  width: 100%;
+  height: 188px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+}
+.fan_card .cards .whistle {
+  position: absolute;
+  top: -103px;
+  width: 345px;
+}
+.fan_card .cards .whistle img {
+  width: 80%;
+  margin-top: 28px;
+}
+.fan_card .cards .card_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+.fan_card .cards .card_div .super_card img {
+  width: 75%;
+}
+.fan_card .cards .view_div .view {
+  text-align: center;
+  background-color: #ffcd01;
+  padding: 6px 14px;
+  width: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.fan_card .cards .view_div .view p {
+  padding: 1px 6px;
+  font-size: 14px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111111;
+  margin-bottom: 0px;
+}
+.fan_card .cards .fan {
+  background-image: url("../assets/images/Yellove wall.png");
+  width: 100%;
+  height: 188px;
+  border-radius: 10px;
+  background-repeat: round;
+}
+.fan_card .cards .fan .owl-controls .owl-prev .fa-chevron-left:before {
+  content: "";
+}
+.fan_card .cards .fan .owl-controls .owl-prev i {
+  top: 45%;
+  position: absolute;
+  color: #fff;
+  font-size: 46px;
+  left: 4px;
+}
+.fan_card .cards .fan .owl-controls .owl-next .fa-chevron-right:before {
+  content: "";
+}
+.fan_card .cards .fan .owl-controls .owl-next i {
+  top: 45%;
+  position: absolute;
+  color: #fff;
+  font-size: 46px;
+  right: 4px;
+}
+.fan_card .cards .fan .content {
+  padding-top: 20px;
+}
+.fan_card .cards .fan .content .tag {
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.63;
+  letter-spacing: normal;
+}
+.fan_card .cards .fan .content .msg {
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.63;
+  letter-spacing: normal;
+}
+.fan_card .cards .fan .content .detail {
+  padding-top: 10px;
+}
+.fan_card .cards .fan .content .detail .name {
+  color: #ffffff;
+  margin-right: 30px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.fan_card .cards .fan .content .detail .count {
+  border-radius: 10px;
+  margin-left: 35px;
+  font-size: 14px;
+  margin-top: 1.5px;
+}
+.fan_card .cards .fan .content .detail .count .num {
+  color: #000;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 6px 26px;
+  text-align: center;
+  border-radius: 20px;
+  width: fit-content;
+}
+.fan_card .cards .fan .content .detail img {
+  position: absolute;
+  top: -26px;
+  left: 10px;
+  width: 90px;
+}
+
+.csk_sponsors {
+  margin-bottom: 60px;
+}
+.csk_sponsors .title_lable {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 0px 0px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.csk_sponsors .title_lable span {
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  padding: 14px 20px;
+  background-color: #0081e9;
+  border-radius: 4px;
+}
+.csk_sponsors .csk_sponsors_div {
+  padding: 30px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+.csk_sponsors .csk_sponsors_div .design {
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+  height: 136px;
+  width: 14px;
+  position: absolute;
+  left: -1px;
+  bottom: 26px;
+  z-index: 10;
+}
+.csk_sponsors .csk_sponsors_div .design1 {
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+  height: 136px;
+  width: 14px;
+  position: absolute;
+  right: -1px;
+  top: 26px;
+  z-index: 10;
 }
 .csk_sponsors .csk_sponsors_div .csk_sponsors_img {
   text-align: center;
@@ -1003,6 +1207,16 @@ input:checked + .slider {
   background-color: var(--footerbg);
   padding: 30px;
   margin-top: 30px;
+  position: relative;
+}
+.main_footer .footer_bottom_line {
+  width: 100%;
+  height: 10px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-image: linear-gradient(to left, #ff9100 102%, #ffcd01 -1%);
 }
 .main_footer .logo_text {
   text-align: center;
@@ -2188,6 +2402,10 @@ input:checked + .slider {
   }
 }
 @media only screen and (min-width: 600px) {
+  .colmms {
+    padding: 0px;
+  }
+
   .carousel_main {
     margin: 0px 13px;
   }
@@ -2477,6 +2695,32 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 426px) {
+  .fan_card {
+    padding: 16px;
+    height: auto;
+  }
+  .fan_card .mr {
+    margin-bottom: 30px;
+  }
+  .fan_card .cards {
+    height: auto;
+  }
+  .fan_card .cards .view_div .view {
+    margin: auto;
+  }
+  .fan_card .cards .card_div .super_card img {
+    width: 38%;
+    margin-left: 160px;
+  }
+  .fan_card .cards .whistle {
+    width: 100%;
+  }
+  .fan_card .cards .whistle img {
+    width: 58%;
+    margin-top: 48px;
+    margin-left: -14px;
+  }
+
   .head_ad_banner .head_ad_banner_img {
     padding: 0px;
   }
@@ -2500,6 +2744,11 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 376px) {
+  .csk_sponsors .title_lable {
+    margin: 0px 0px 14px;
+    font-size: 20px;
+  }
+
   .recomended_protects .item .inner {
     margin-top: -26%;
   }
