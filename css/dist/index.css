@@ -668,7 +668,7 @@ input:checked + .slider {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 30px 0px;
+  margin: 0px 0px 30px;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -694,39 +694,339 @@ input:checked + .slider {
   margin: 0px 0px 16px 0px;
   background-color: #ffffff;
 }
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid0 {
+  width: 80%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid01 {
+  width: 50%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid02 {
+  width: 40%;
+  margin-top: 30px;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid {
+  width: 70%;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img .img-fluid1 {
+  width: 40%;
+}
 
-.super_kings_section .card {
-  box-shadow: 0 5px 11px 0 #0000001c;
+.fan_card {
+  padding: 25px;
+}
+.fan_card .cards {
+  background-color: #ffffff;
+  width: 100%;
+  height: 188px;
+  position: relative;
   border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+}
+.fan_card .cards .whistle {
+  position: absolute;
+  top: -103px;
+  width: 345px;
+}
+.fan_card .cards .whistle img {
+  width: 80%;
+  margin-top: 28px;
+}
+.fan_card .cards .card_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 7px;
+}
+.fan_card .cards .card_div .super_card img {
+  width: 75%;
+}
+.fan_card .cards .view_div .view {
+  text-align: center;
+  background-color: #ffcd01;
+  padding: 6px 14px;
+  width: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.fan_card .cards .view_div .view p {
+  padding: 1px 6px;
+  font-size: 14px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111111;
+  margin-bottom: 0px;
+}
+.fan_card .cards .fan {
+  background-image: url("../assets/images/Yellove wall.png");
+  width: 100%;
+  height: 188px;
+  border-radius: 10px;
+  background-repeat: round;
+}
+.fan_card .cards .fan .owl-controls .owl-prev .fa-chevron-left:before {
+  content: "";
+}
+.fan_card .cards .fan .owl-controls .owl-prev i {
+  top: 45%;
+  position: absolute;
+  color: #fff;
+  font-size: 46px;
+  left: 10px;
+}
+.fan_card .cards .fan .owl-controls .owl-next .fa-chevron-right:before {
+  content: "";
+}
+.fan_card .cards .fan .owl-controls .owl-next i {
+  top: 45%;
+  position: absolute;
+  color: #fff;
+  font-size: 46px;
+  right: 10px;
+}
+.fan_card .cards .fan .content {
+  padding-top: 20px;
+}
+.fan_card .cards .fan .content .tag {
+  color: #ffffff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.63;
+  letter-spacing: normal;
+}
+.fan_card .cards .fan .content .msg {
+  margin-top: 6px;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  opacity: 0.8;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: 0.63;
+  letter-spacing: normal;
+}
+.fan_card .cards .fan .content .detail {
+  padding-top: 10px;
+}
+.fan_card .cards .fan .content .detail .name {
+  color: #ffffff;
+  margin-right: 30px;
+  font-weight: bold;
+  margin-top: 6px;
+}
+.fan_card .cards .fan .content .detail .count {
+  border-radius: 10px;
+  margin-left: 35px;
+  font-size: 14px;
+  margin-top: 1.5px;
+}
+.fan_card .cards .fan .content .detail .count .num {
+  color: #000;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 6px 26px;
+  text-align: center;
+  border-radius: 20px;
+  width: fit-content;
+}
+.fan_card .cards .fan .content .detail img {
+  position: absolute;
+  top: -26px;
+  left: 10px;
+  width: 90px;
+}
+
+.csk_sponsors {
+  margin-bottom: 60px;
+}
+.csk_sponsors .title_lable {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 0px 0px 30px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+.csk_sponsors .title_lable span {
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  padding: 14px 20px;
+  background-color: #0081e9;
+  border-radius: 4px;
+}
+.csk_sponsors .csk_sponsors_div {
+  padding: 30px 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  position: relative;
+}
+.csk_sponsors .csk_sponsors_div .design {
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+  height: 136px;
+  width: 14px;
+  position: absolute;
+  left: -1px;
+  bottom: 26px;
+  z-index: 10;
+}
+.csk_sponsors .csk_sponsors_div .design1 {
+  background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+  height: 136px;
+  width: 14px;
+  position: absolute;
+  right: -1px;
+  top: 26px;
+  z-index: 10;
+}
+.csk_sponsors .csk_sponsors_div .csk_sponsors_img {
+  text-align: center;
+  margin: 0px 0px 16px 0px;
+  background-color: #ffffff;
+}
+
+.super_kings_section .super_kings_section_ {
+  padding: 10px 80px;
+}
+.super_kings_section .owl-controls .owl-dots {
+  text-align: center;
+  margin-top: 18px;
+}
+.super_kings_section .owl-controls .owl-prev {
+  top: 50%;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0 white;
+  padding: 8px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  left: 20px;
+  color: #ffcd01;
+}
+.super_kings_section .owl-controls .owl-next {
+  top: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 10px 0 white;
+  background-color: #ffffff;
+  padding: 8px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  right: 20px;
+  color: #ffcd01;
+}
+.super_kings_section .title p {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 8px 0px 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.super_kings_section .newsCard {
+  cursor: pointer;
+  position: relative;
+  width: 250px;
+  border-radius: 10px;
+  height: 300px;
+  background-color: #fff;
+  color: #fff;
+  overflow: hidden;
   background: url("../assets/images/Player BG1.png");
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.super_kings_section .newsCaption {
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  height: 300px;
+  height: 100%;
+  padding: 15px;
+  -webkit-transform: translateY(80%);
+  transform: translateY(80%);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+.super_kings_section .newsCaption-title {
+  margin: 0px;
+  font-size: 16px;
+  text-align: center;
+}
+.super_kings_section .newsCaption-content {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #ffcd01;
+}
+.super_kings_section .newsCaption-link {
+  color: #fff;
+  transition-property: opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+  margin-bottom: 10px;
+}
+.super_kings_section .newsCaption-num {
+  color: #ffcd01;
+  font-size: 22px;
+  font-weight: 700;
+  transition-property: opacity;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.super_kings_section .newsCaption:hover {
+  background-color: #00000060;
+  height: 100%;
+}
+.super_kings_section .news-Slide-up:hover .newsCaption {
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  transition: transform 0.4s, opacity 0.1s;
 }
 .super_kings_section img {
   border-radius: 10px;
-  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0) 23%, #111111cf 79%);
-}
-.super_kings_section .inner {
-  text-align: center;
-  margin-top: -46px;
-}
-.super_kings_section .inner h5 {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
-  margin: 0px;
-  letter-spacing: 1px;
-}
-.super_kings_section .inner span {
-  font-size: 14px;
-  color: #ffcd01;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0) 23%, #111111d1 79%);
 }
 
 .recomended_protects {
   padding: 14px 100px;
   margin-top: -200px;
+}
+.recomended_protects .more_videos {
+  cursor: pointer;
+  z-index: 10000;
+  position: absolute;
+  height: 40px;
+  color: #fff;
+  margin-top: -34px;
+  font-size: 15px;
+  right: 120px;
+  letter-spacing: 1px;
 }
 .recomended_protects .item {
   width: 100%;
@@ -920,6 +1220,16 @@ input:checked + .slider {
   background-color: var(--footerbg);
   padding: 30px;
   margin-top: 30px;
+  position: relative;
+}
+.main_footer .footer_bottom_line {
+  width: 100%;
+  height: 10px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  background-image: linear-gradient(to left, #ff9100 102%, #ffcd01 -1%);
 }
 .main_footer .logo_text {
   text-align: center;
@@ -1598,6 +1908,9 @@ input:checked + .slider {
   margin-bottom: 0px;
 }
 .new_card_section .table_card .point_board {
+  background-image: url("../assets/images/Group 116.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
   margin-bottom: 30px;
   border-radius: 10px;
   position: relative;
@@ -1674,7 +1987,7 @@ input:checked + .slider {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 20px 0px;
+  margin: 0px 0px 20px;
   color: #fff;
 }
 .social_media_section .title_lable {
@@ -1951,6 +2264,9 @@ input:checked + .slider {
   justify-content: center;
   margin: auto;
 }
+.match_center .match_card .match_details .score_board .match_vs div {
+  margin-top: -26px;
+}
 .match_center .match_card .match_details .score_board .match_vs p {
   color: #000;
   padding: 6px 10px;
@@ -2102,6 +2418,10 @@ input:checked + .slider {
   }
 }
 @media only screen and (min-width: 600px) {
+  .colmms {
+    padding: 0px;
+  }
+
   .carousel_main {
     margin: 0px 13px;
   }
@@ -2163,6 +2483,23 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 767px) {
+  .recomended_protects {
+    display: none;
+  }
+
+  .super_kings_section .owl-controls .owl-prev {
+    padding: 1px 8px;
+  }
+  .super_kings_section .owl-controls .owl-next {
+    padding: 1px 8px;
+  }
+  .super_kings_section .newsCard {
+    width: 100%;
+  }
+  .super_kings_section .super_kings_section_ {
+    padding: 10px 30px;
+  }
+
   .carousel_main .item {
     height: 250px;
   }
@@ -2181,7 +2518,7 @@ input:checked + .slider {
   }
 
   .carousel_main .inner {
-    padding: 16px 10px;
+    padding: 36px 22px;
   }
   .carousel_main .inner .image_title {
     font-size: 12px;
@@ -2320,7 +2657,7 @@ input:checked + .slider {
   }
   .match_center .match_card .match_details .score_board .match_vs p {
     padding: 3px 6px;
-    font-size: 11px;
+    font-size: 16px;
   }
   .match_center .match_card .match_details .disc {
     font-size: 14px;
@@ -2378,6 +2715,32 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 426px) {
+  .fan_card {
+    padding: 16px;
+    height: auto;
+  }
+  .fan_card .mr {
+    margin-bottom: 30px;
+  }
+  .fan_card .cards {
+    height: auto;
+  }
+  .fan_card .cards .view_div .view {
+    margin: auto;
+  }
+  .fan_card .cards .card_div .super_card img {
+    width: 38%;
+    margin-left: 160px;
+  }
+  .fan_card .cards .whistle {
+    width: 100%;
+  }
+  .fan_card .cards .whistle img {
+    width: 58%;
+    margin-top: 48px;
+    margin-left: -14px;
+  }
+
   .head_ad_banner .head_ad_banner_img {
     padding: 0px;
   }
@@ -2401,6 +2764,11 @@ input:checked + .slider {
   }
 }
 @media only screen and (max-width: 376px) {
+  .csk_sponsors .title_lable {
+    margin: 0px 0px 14px;
+    font-size: 20px;
+  }
+
   .recomended_protects .item .inner {
     margin-top: -26%;
   }
@@ -2530,5 +2898,13 @@ input:checked + .slider {
 
   .show_tab {
     display: block;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .match_center .match_card .match_details .score_board .match_vs p {
+    font-size: 16px;
+  }
+  .match_center .count .num_div .num {
+    font-size: 22px;
   }
 }
