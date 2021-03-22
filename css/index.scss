@@ -1016,7 +1016,7 @@ input:checked+.slider {
         font-style: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        margin:0px 0px 30px;
+        margin: 0px 0px 30px;
         color: #fff;
         text-transform: uppercase;
         text-align: center;
@@ -1135,7 +1135,7 @@ input:checked+.slider {
             font-style: normal;
             line-height: 1.5;
             letter-spacing: normal;
-            margin: 20px 0px;
+            margin: 8px 0px 16px;
             color: #fff;
             text-align: center;
             text-transform: uppercase;
@@ -1231,6 +1231,19 @@ input:checked+.slider {
 .recomended_protects {
     padding: 14px 100px;
     margin-top: -200px;
+
+    .more_videos {
+        cursor: pointer;
+        z-index: 10000;
+        position: absolute;
+        height: 40px;
+        color: #fff;
+        margin-top: -34px;
+        font-size: 15px;
+        right: 120px;
+        letter-spacing: 1px;
+
+    }
 
     .item {
         width: 100%;
@@ -2393,6 +2406,10 @@ input:checked+.slider {
         }
 
         .point_board {
+            background-image: url('../assets/images/Group\ 116.png');
+            background-repeat: no-repeat;
+            background-size: 60%;
+
             .match_details {
                 padding: 0px;
             }
@@ -2493,7 +2510,7 @@ input:checked+.slider {
                 font-style: normal;
                 line-height: 1.5;
                 letter-spacing: normal;
-                margin: 20px 0px;
+                margin: 0px 0px 20px;
                 color: #fff;
             }
         }
@@ -3163,6 +3180,10 @@ input:checked+.slider {
 }
 
 @media only screen and (max-width: 767px) {
+    .recomended_protects {
+        display: none;
+    }
+
     .super_kings_section {
         .owl-controls {
             .owl-prev {
@@ -3211,7 +3232,7 @@ input:checked+.slider {
 
     .carousel_main {
         .inner {
-            padding: 16px 10px;
+            padding: 36px 22px;
 
             .image_title {
                 font-size: 12px;
