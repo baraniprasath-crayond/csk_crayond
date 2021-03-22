@@ -623,9 +623,7 @@ input:checked+.slider {
                 border: solid 1px rgba(255, 255, 255, 0.13);
                 background-color: rgba(255, 255, 255, 0.1);
                 display: flex;
-                background-image: linear-gradient( 
-130deg
- , #ffcd01 3%, #ff9100 99%);
+                background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
                 color: #1d1d1d;
 
                 width: max-content;
@@ -823,38 +821,160 @@ input:checked+.slider {
 }
 
 .super_kings_section {
-    .card {
-        box-shadow: 0 5px 11px 0 #0000001c;
+    .super_kings_section_ {
+        padding: 10px 80px;
+    }
+
+    .owl-controls {
+        .owl-dots {
+            text-align: center;
+            margin-top: 18px;
+
+            // .owl-dot {
+            //     span {
+            //         left: 47%;
+            //         background: #fff;
+            //         width: 56px;
+            //         height: 8px;
+            //         position: absolute;
+            //         border-radius: 20px;
+            //     }
+            // }
+
+            // .active {
+            //     span {
+            //         background: yellow !important;
+            //         width: 56px;
+            //         height: 8px;
+            //         border-radius: 10px;
+            //         position: absol2te;
+            //     }
+            // }
+        }
+
+        .owl-prev {
+            top: 50%;
+            position: absolute;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
+            padding: 8px 14px;
+            border-radius: 50%;
+            font-size: 18px;
+            left: 20px;
+            color: #ffcd01;
+        }
+
+        .owl-next {
+            top: 50%;
+            position: absolute;
+            box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
+            background-color: #ffffff;
+            padding: 8px 14px;
+            border-radius: 50%;
+            font-size: 18px;
+            right: 20px;
+            color: #ffcd01;
+        }
+    }
+
+    .title {
+        p {
+            font-size: 30px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            margin: 20px 0px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .newsCard {
+        cursor: pointer;
+        position: relative;
+        width: 250px;
         border-radius: 10px;
+        height: 300px;
+        background-color: #fff;
+        color: #fff;
+        overflow: hidden;
         background: url('../assets/images/Player BG1.png');
         background-size: cover;
         background-repeat: no-repeat;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .newsCaption {
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 0;
         width: 100%;
-        height: 300px;
+        height: 100%;
+        padding: 15px;
+        -webkit-transform: translateY(80%);
+        transform: translateY(80%);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transition: transform 0.4s, opacity 0.1s 0.3s;
+    }
+
+    .newsCaption-title {
+        margin: 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .newsCaption-content {
+        margin: 0;
+        font-size: 14px;
+        text-align: center;
+        color: #ffcd01;
+    }
+
+    .newsCaption-link {
+        color: #fff;
+        transition-property: opacity;
+        transition-duration: 0.15s;
+        transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+        margin-bottom: 10px;
+    }
+
+
+    .newsCaption-num {
+        color: #ffcd01;
+        font-size: 22px;
+        font-weight: 700;
+        transition-property: opacity;
+        transition-duration: 0.15s;
+        transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+    }
+
+    .newsCaption:hover {
+        background-color: #00000060;
+        height: 100%;
+        // opacity: 0.65;
+    }
+
+    .news-Slide-up:hover .newsCaption {
+        // opacity: .6;
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+        transition: transform 0.4s, opacity 0.1s;
     }
 
     img {
         border-radius: 10px;
-        background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0) 23%, #111111cf 79%);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        background-image:linear-gradient(to bottom, rgba(17, 17, 17, 0) 23%, #111111d1 79%);
     }
 
-    .inner {
-        text-align: center;
-        margin-top: -46px;
 
-        h5 {
-            font-size: 18px;
-            color: #fff;
-            font-weight: 600;
-            margin: 0px;
-            letter-spacing: 1px;
-        }
-
-        span {
-            font-size: 14px;
-            color: #ffcd01;
-        }
-    }
 }
 
 
@@ -1474,6 +1594,7 @@ input:checked+.slider {
 }
 
 .new_card_section {
+
     // margin-bottom: 30px;
     // .news_slider {
     //     .item{
@@ -1485,214 +1606,248 @@ input:checked+.slider {
     .photo {
         .news_slider {
             .horizontal {
-                .inner{
+                .inner {
                     padding: 6px 16px;
                 }
-                .flex{
+
+                .flex {
                     .share {
                         img {
-                          width: 18px;
-                          object-fit: contain;
-                          margin-top: -8px;
+                            width: 18px;
+                            object-fit: contain;
+                            margin-top: -8px;
                         }
-                      }
-                 }
-            }
-      
-          .detail_view {
-            padding: 10px;
-          }
-          .news_card {
-            padding: 0;
-          }
-          .vertical {
-            margin: 14px 10px;
-            width: 190px;
-            height: 254px;
-            .inner {
-              // padding: 10px 0px 20px 0px;
-              // display: flex;
-              span {
-                margin: auto;
-              }
-            }
-          }
-          .horizontal {
-            // margin: 14px 10px;
-            height: 410px;
-            background: #fff;
-            // background-image: url("/csk_crayond/assets/images/CSKNEWS_IMG20210316012749179318.jpg");
-            // background-repeat: no-repeat;
-            .flex {
-              display: flex;
-              justify-content: space-between;
-              padding: 23px 26px;
-              bottom: -15px;
-              position: absolute;
-              width: 100%;
-              p {
-                font-size: 11px;
-                font-weight: 500;
-                font-stretch: normal;
-                font-style: normal;
-                line-height: 1.67;
-                letter-spacing: normal;
-                text-align: left;
-                color: #FFFFFF;
-              }
-              .share {
-                // margin-top: -7px;
-                // width: 35px;
-                // height: 30px;
-                img {
-                //   width: 28px;
-                  filter: contrast(1.5);
+                    }
                 }
-              }
             }
-            .inner {
-              padding: 23px 17px;
-              // display: flex;
-              span {
-                margin: auto;
-              }
+
+            .detail_view {
+                padding: 10px;
             }
-          }
-          .grid_column {
-            margin: 7px;
-            width: fit-content;
-            height: 283px;
-            .inner {
-              padding: 16px 26px;
-              // display: flex;
-              span {
-                margin: auto;
-              }
+
+            .news_card {
+                padding: 0;
             }
-          }
-          .item {
-            box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
-            position: relative;
-            overflow: hidden;
-            border-radius: 10px;
-            .post_img {
-              width: 100%;
-              height: 100%;
-              border-top-right-radius: 10px;
-              border-top-left-radius: 10px;
-              background-color: #00000013;
-              overflow: hidden;
-              img {
-                width: 100%;
-                height: 100%;
-                filter: brightness(0.5);
-                border-top-right-radius: 10px;
-                border-top-left-radius: 10px;
-                object-fit: cover;
-                transition-property: transform;
-                transition-duration: 0.5s;
-                &:hover {
-                  transform: scale(1.1);
+
+            .vertical {
+                margin: 14px 10px;
+                width: 190px;
+                height: 254px;
+
+                .inner {
+
+                    // padding: 10px 0px 20px 0px;
+                    // display: flex;
+                    span {
+                        margin: auto;
+                    }
                 }
-              }
-              video {
-                width: 100%;
-                height: 100%;
-                transition-duration: 0.5s;
-                object-fit: cover;
-                cursor: pointer;
-              }
-              video:hover {
-                transform: scale(1.1);
-              }
-              .news {
-                background-image: unset !important;
-                position: absolute;
-                border-radius: 6px;
-                font-size: 10px;
-                color: #FFFFFF;
-                top: 62%;
-                left: 0%;
-              }
-              .play_button {
-                position: absolute;
-                right: 46%;
-                top: 21%;
-                margin: 0;
-                cursor: pointer;
-                // background-color: #FFC107;
-                // padding: 20px 23px 20px 26px;
-                // border-radius: 50%;
-                i {
-                  // color: #fff;
-                  // font-size: 17px;
-                  color: #FFC107;
-                  background-color: #fff;
-                  border-radius: 50%;
-                  font-size: 3.5rem;
-                  line-height: 0.5;
-                }
-              }
             }
-            .inner {
-              .progress {
-                width: 90px;
-                height: 4px;
-                .progress-bar {
-                  background-color: #FFCD01;
+
+            .horizontal {
+                // margin: 14px 10px;
+                height: 410px;
+                background: #fff;
+
+                // background-image: url("/csk_crayond/assets/images/CSKNEWS_IMG20210316012749179318.jpg");
+                // background-repeat: no-repeat;
+                .flex {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 23px 26px;
+                    bottom: -15px;
+                    position: absolute;
+                    width: 100%;
+
+                    p {
+                        font-size: 11px;
+                        font-weight: 500;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 1.67;
+                        letter-spacing: normal;
+                        text-align: left;
+                        color: #FFFFFF;
+                    }
+
+                    .share {
+
+                        // margin-top: -7px;
+                        // width: 35px;
+                        // height: 30px;
+                        img {
+                            //   width: 28px;
+                            filter: contrast(1.5);
+                        }
+                    }
                 }
-              }
-              .description {
-                font-size: 17px;
-                font-weight: 600;
-                color: #FFFFFF;
-                margin-top: 10px;
-                margin-bottom: 10px;
-              }
-              .view_div {
-                display: flex;
-                .view {
-                  text-align: center;
-                  background-color: #FFCD01;
-                  padding: 6px 14px;
-                  width: fit-content;
-                  border-radius: 6px;
-                  p {
-                    font-size: 12px;
-                    font-weight: 700;
-                    font-stretch: normal;
-                    font-style: normal;
-                    line-height: 1.5;
-                    letter-spacing: normal;
-                    text-align: left;
-                    color: #111111;
-                    margin-bottom: 0px;
-                  }
+
+                .inner {
+                    padding: 23px 17px;
+
+                    // display: flex;
+                    span {
+                        margin: auto;
+                    }
                 }
-              }
-              .date_time {
+            }
+
+            .grid_column {
+                margin: 7px;
+                width: fit-content;
+                height: 283px;
+
+                .inner {
+                    padding: 16px 26px;
+
+                    // display: flex;
+                    span {
+                        margin: auto;
+                    }
+                }
+            }
+
+            .item {
+                box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
+                position: relative;
+                overflow: hidden;
+                border-radius: 10px;
+
+                .post_img {
+                    width: 100%;
+                    height: 100%;
+                    border-top-right-radius: 10px;
+                    border-top-left-radius: 10px;
+                    background-color: #00000013;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        filter: brightness(0.5);
+                        border-top-right-radius: 10px;
+                        border-top-left-radius: 10px;
+                        object-fit: cover;
+                        transition-property: transform;
+                        transition-duration: 0.5s;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+
+                    video {
+                        width: 100%;
+                        height: 100%;
+                        transition-duration: 0.5s;
+                        object-fit: cover;
+                        cursor: pointer;
+                    }
+
+                    video:hover {
+                        transform: scale(1.1);
+                    }
+
+                    .news {
+                        background-image: unset !important;
+                        position: absolute;
+                        border-radius: 6px;
+                        font-size: 10px;
+                        color: #FFFFFF;
+                        top: 62%;
+                        left: 0%;
+                    }
+
+                    .play_button {
+                        position: absolute;
+                        right: 46%;
+                        top: 21%;
+                        margin: 0;
+                        cursor: pointer;
+
+                        // background-color: #FFC107;
+                        // padding: 20px 23px 20px 26px;
+                        // border-radius: 50%;
+                        i {
+                            // color: #fff;
+                            // font-size: 17px;
+                            color: #FFC107;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            font-size: 3.5rem;
+                            line-height: 0.5;
+                        }
+                    }
+                }
+
+                .inner {
+                    .progress {
+                        width: 90px;
+                        height: 4px;
+
+                        .progress-bar {
+                            background-color: #FFCD01;
+                        }
+                    }
+
+                    .description {
+                        font-size: 17px;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+
+                    .view_div {
+                        display: flex;
+
+                        .view {
+                            text-align: center;
+                            background-color: #FFCD01;
+                            padding: 6px 14px;
+                            width: fit-content;
+                            border-radius: 6px;
+
+                            p {
+                                font-size: 12px;
+                                font-weight: 700;
+                                font-stretch: normal;
+                                font-style: normal;
+                                line-height: 1.5;
+                                letter-spacing: normal;
+                                text-align: left;
+                                color: #111111;
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+
+                    .date_time {
+                        font-size: 14px;
+                        color: #848484;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+            .owl-prev {
+                color: gray;
                 font-size: 14px;
-                color: #848484;
-                margin-bottom: 0;
-              }
+                position: absolute;
+                top: -30px;
+                right: 35px;
             }
-          }
-          .owl-prev {
-            color: gray;
-            font-size: 14px;
-            position: absolute;
-            top: -30px;
-            right: 35px;
-          }
-          .owl-next {
-            color: gray;
-            font-size: 14px;
-            position: absolute;
-            top: -30px;
-            right: 0;
-          }
+
+            .owl-next {
+                color: gray;
+                font-size: 14px;
+                position: absolute;
+                top: -30px;
+                right: 0;
+            }
         }
-      }
+    }
+
     .title_lable {
         font-size: 20px;
         margin-bottom: 8px;
@@ -2423,6 +2578,9 @@ input:checked+.slider {
                     justify-content: center;
                     margin: auto;
 
+                    div{
+                        margin-top: -26px;
+                    }
                     p {
                         color: #000;
                         padding: 6px 10px;
@@ -2708,6 +2866,7 @@ input:checked+.slider {
 }
 
 @media only screen and (min-width: 767px) {
+
     .top_section_card {
         .timing {
             .flex {
@@ -2738,6 +2897,26 @@ input:checked+.slider {
 }
 
 @media only screen and (max-width: 767px) {
+    .super_kings_section {
+        .owl-controls {
+            .owl-prev {
+                padding: 1px 8px;
+            }
+
+            .owl-next {
+                padding: 1px 8px;
+            }
+        }
+
+        .newsCard {
+            width: 100%;
+        }
+
+        .super_kings_section_ {
+            padding: 10px 30px;
+        }
+    }
+
     .carousel_main {
         .item {
             height: 250px;
@@ -2989,7 +3168,7 @@ input:checked+.slider {
                     .match_vs {
                         p {
                             padding: 3px 6px;
-                            font-size: 11px;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -3311,5 +3490,28 @@ input:checked+.slider {
 
     .show_tab {
         display: block;
+    }
+}
+@media only screen and (max-width: 321px) {
+    
+    .match_center {
+        .match_card {
+            .match_details {
+                .score_board {
+                    .match_vs {
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        .count {
+            .num_div {
+                .num{
+                    font-size: 22px;
+                }
+            }
+        }
     }
 }
