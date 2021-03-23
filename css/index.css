@@ -1157,6 +1157,12 @@ input:checked + .slider {
   width: 90px;
 }
 
+.fan_card .cards .fan .content .detail img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .csk_sponsors {
   margin-bottom: 60px;
 }
