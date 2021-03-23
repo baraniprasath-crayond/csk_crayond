@@ -843,6 +843,179 @@ input:checked+.slider {
     }
 }
 
+// store card
+.store_card {
+    padding: 0px 25px 20px;
+
+    .title {
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        margin: 8px 0px 16px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .cards {
+        background-color: #ffffff;
+        width: 100%;
+        height: 240px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        border: none;
+
+        .left {
+            background-color: #ffcd01;
+            height: 100%;
+            border-radius: 10px;
+
+            .whistle {
+                position: absolute;
+                //   bottom: -90px;
+                top: -55px;
+
+                width: 345px;
+
+                img {
+                    height: 294px;
+                }
+            }
+
+            .shirt {
+                width: fit-content;
+                transform: rotate(90deg);
+                position: absolute;
+                top: 89px;
+                left: 147px;
+                color: #ffcd01;
+                font-size: 54px;
+                text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
+                    1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
+                    -1px 0 0 #000;
+            }
+
+            .card_div {
+                // display: flex;
+                // justify-content: center;
+                margin-top: 7px;
+                padding-top: 20px;
+
+                .super_card {
+                    .no {
+                        font-size: 56px;
+                        font-weight: bold;
+                        line-height: 1.2;
+
+                        span {
+                            text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff,
+                                1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff,
+                                0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+                            font-size: 56px;
+                            color: #ffcd01;
+                        }
+                    }
+
+                    img {
+                        width: 75%;
+                    }
+                }
+            }
+        }
+
+        .view_div {
+            .view {
+                text-align: center;
+                background-color: #ffffff;
+                padding: 10px 55px;
+                width: fit-content;
+                border-radius: 8px;
+                cursor: pointer;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 700;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.5;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #111111;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+
+        .fan {
+            padding: 10px 30px;
+            background-color: #ffffff;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+
+            .content {
+                padding-top: 20px;
+
+                .titile {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 25px;
+
+                    .tag {
+                        color: #000;
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 600;
+                        line-height: 0.63;
+                    }
+
+                    .msg {
+                        color: #0081e9;
+                        text-align: center;
+                        font-size: 14px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        line-height: 0.63;
+                    }
+                }
+
+                .detail {
+                    .box_div {
+                        width: 100%;
+                        height: 110px;
+                        border-radius: 5px;
+                        background-color: #ffcd01;
+                        box-shadow: 0 3px 6px 0 #00000029;
+
+                        .box {
+                            padding: 5px;
+                            height: 100%;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+                        }
+
+                        .name {
+                            margin-top: 10px;
+                            color: #000;
+                            text-align: center;
+                            font-weight: bold;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // fan card
 .fan_card {
     padding: 25px;
@@ -1578,6 +1751,12 @@ input:checked+.slider {
 
 // top card section css
 .top_section_card {
+    .card:hover{
+        .progress {
+            width: 150px;
+        }
+    }
+
     .card {
         width: 100%;
         height: 160px;
@@ -1702,7 +1881,7 @@ input:checked+.slider {
         }
 
         p {
-            font-size: 17px;
+            font-size: 18px;
             font-weight: 600;
             font-stretch: normal;
             font-style: normal;
@@ -1755,7 +1934,7 @@ input:checked+.slider {
 
         .play_button {
             position: absolute;
-            right: 38%;
+            right: 33%;
             top: 38%;
             margin: 0;
             cursor: pointer;
@@ -3005,6 +3184,32 @@ input:checked+.slider {
     }
 }
 
+@media only screen and (max-width: 769px) {
+    .store_card {
+        .cards {
+            .view_div {
+                .view {
+                    padding: 6px 14px;
+                }
+            }
+
+            .left {
+                .shirt {
+                    font-size: 34px;
+                }
+
+                .card_div {
+                    .super_card {
+                        .no {
+                            font-size: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .recomended_protects {
@@ -3162,7 +3367,7 @@ input:checked+.slider {
                 .text {
                     p {
                         margin: 0px;
-                        font-size: 12px;
+                        font-size: 14px;
                     }
                 }
 
@@ -3170,7 +3375,7 @@ input:checked+.slider {
                     margin-top: -7px;
 
                     img {
-                        width: 14px;
+                        width: 16px;
                     }
                 }
             }
@@ -3323,15 +3528,15 @@ input:checked+.slider {
 
         .card {
             .news {
-                left: 66%;
-                font-size: 9px;
+                left: 50%;
+                font-size: 13px;
                 padding: 3px 11px 2px 8px;
             }
         }
 
         .title {
             p {
-                font-size: 13px;
+                font-size: 14px;
             }
         }
     }
@@ -3360,14 +3565,14 @@ input:checked+.slider {
 
             .play_button {
                 i {
-                    font-size: 2rem;
+                    font-size: 4rem;
                 }
             }
 
             .card {
                 .news {
                     left: 66%;
-                    font-size: 9px;
+                    font-size: 13px;
                     padding: 3px 11px 2px 8px;
                 }
 
@@ -3378,7 +3583,7 @@ input:checked+.slider {
 
             .title {
                 p {
-                    font-size: 17px;
+                    font-size: 20px;
                 }
             }
 
@@ -3389,7 +3594,7 @@ input:checked+.slider {
                     position: absolute;
 
                     .share {
-                        margin-top: -7px;
+                        margin-top: -2px;
 
                         img {
                             width: 14px;
@@ -3554,7 +3759,80 @@ input:checked+.slider {
 
 }
 
+@media only screen and (min-width: 426px) {
+    .header {
+        .users {
+            display: none !important;
+        }
+    }
+}
+
 @media only screen and (max-width: 426px) {
+    .header {
+        background: #001156 !important;
+        box-shadow: unset !important;
+
+        .login_btn {
+            display: none !important;
+            background-image: none !important;
+            padding: 0px 10px !important;
+            width: 44px;
+        }
+
+        .users {
+            background-image: none !important;
+            display: block !important;
+        }
+    }
+
+    .store_card {
+        .cards {
+            background: transparent;
+
+            .left {
+                .shirt {
+                    width: max-content;
+                    font-size: 22px;
+                    left: 76px;
+                }
+
+                margin-bottom: 20px;
+
+                .card_div {
+                    padding: 20px;
+
+                    .super_card {
+                        .no {
+                            font-size: 22px;
+                        }
+                    }
+                }
+
+                .whistle {
+                    top: unset;
+                    width: 100%;
+                    height: 100%;
+
+                    img {
+                        height: 150px;
+                    }
+                }
+            }
+
+            .fan {
+                .content {
+                    .detail {
+                        .box_div {
+                            height: 76%;
+                        }
+                    }
+                }
+            }
+
+            height: auto;
+        }
+    }
+
     .fan_card {
         padding: 16px;
         height: auto;
@@ -3631,6 +3909,31 @@ input:checked+.slider {
             }
         }
     }
+
+    .top_section_card {
+        .timing {
+            .flex {
+                width: 88% !important;
+
+                .text {
+                    padding: 14px 0px 4px 11px !important;
+                }
+            }
+        }
+
+        .title {
+            padding: 12px !important;
+        }
+
+        .card {
+            height: auto;
+
+            .snd {
+                height: 130px;
+                padding: 0px 18px 12px;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 376px) {
@@ -3695,7 +3998,7 @@ input:checked+.slider {
         .top_section_card {
             .title {
                 p {
-                    font-size: 13px;
+                    font-size: 16px;
                 }
             }
 

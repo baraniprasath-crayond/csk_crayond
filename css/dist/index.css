@@ -713,6 +713,143 @@ input:checked + .slider {
   width: 40%;
 }
 
+.store_card {
+  padding: 0px 25px 20px;
+}
+.store_card .title {
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin: 8px 0px 16px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.store_card .cards {
+  background-color: #ffffff;
+  width: 100%;
+  height: 240px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border: none;
+}
+.store_card .cards .left {
+  background-color: #ffcd01;
+  height: 100%;
+  border-radius: 10px;
+}
+.store_card .cards .left .whistle {
+  position: absolute;
+  top: -55px;
+  width: 345px;
+}
+.store_card .cards .left .whistle img {
+  height: 294px;
+}
+.store_card .cards .left .shirt {
+  width: fit-content;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 89px;
+  left: 147px;
+  color: #ffcd01;
+  font-size: 54px;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+}
+.store_card .cards .left .card_div {
+  margin-top: 7px;
+  padding-top: 20px;
+}
+.store_card .cards .left .card_div .super_card .no {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.store_card .cards .left .card_div .super_card .no span {
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  font-size: 56px;
+  color: #ffcd01;
+}
+.store_card .cards .left .card_div .super_card img {
+  width: 75%;
+}
+.store_card .cards .view_div .view {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px 55px;
+  width: fit-content;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.store_card .cards .view_div .view p {
+  font-size: 16px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #111111;
+  margin-bottom: 0px;
+}
+.store_card .cards .fan {
+  padding: 10px 30px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.store_card .cards .fan .content {
+  padding-top: 20px;
+}
+.store_card .cards .fan .content .titile {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.store_card .cards .fan .content .titile .tag {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0.63;
+}
+.store_card .cards .fan .content .titile .msg {
+  color: #0081e9;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  line-height: 0.63;
+}
+.store_card .cards .fan .content .detail .box_div {
+  width: 100%;
+  height: 110px;
+  border-radius: 5px;
+  background-color: #ffcd01;
+  box-shadow: 0 3px 6px 0 #00000029;
+}
+.store_card .cards .fan .content .detail .box_div .box {
+  padding: 5px;
+  height: 100%;
+}
+.store_card .cards .fan .content .detail .box_div .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.store_card .cards .fan .content .detail .box_div .name {
+  margin-top: 10px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+
 .fan_card {
   padding: 25px;
 }
@@ -1283,6 +1420,9 @@ input:checked + .slider {
   margin-top: 54px;
 }
 
+.top_section_card .card:hover .progress {
+  width: 150px;
+}
 .top_section_card .card {
   width: 100%;
   height: 160px;
@@ -1381,7 +1521,7 @@ input:checked + .slider {
   background-color: #ffcd01;
 }
 .top_section_card .title p {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -1424,7 +1564,7 @@ input:checked + .slider {
 }
 .news_card_section .card .play_button {
   position: absolute;
-  right: 38%;
+  right: 33%;
   top: 38%;
   margin: 0;
   cursor: pointer;
@@ -2377,6 +2517,17 @@ input:checked + .slider {
     font-size: 3rem;
   }
 }
+@media only screen and (max-width: 769px) {
+  .store_card .cards .view_div .view {
+    padding: 6px 14px;
+  }
+  .store_card .cards .left .shirt {
+    font-size: 34px;
+  }
+  .store_card .cards .left .card_div .super_card .no {
+    font-size: 40px;
+  }
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .recomended_protects .item img {
     width: 140px;
@@ -2473,13 +2624,13 @@ input:checked + .slider {
   }
   .top_section_card .timing .flex .text p {
     margin: 0px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .top_section_card .timing .flex .share {
     margin-top: -7px;
   }
   .top_section_card .timing .flex .share img {
-    width: 14px;
+    width: 16px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -2573,12 +2724,12 @@ input:checked + .slider {
   }
 
   .news_card_section .card .news {
-    left: 66%;
-    font-size: 9px;
+    left: 50%;
+    font-size: 13px;
     padding: 3px 11px 2px 8px;
   }
   .news_card_section .title p {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .match_center .colmm {
@@ -2594,18 +2745,18 @@ input:checked + .slider {
     width: 18px;
   }
   .match_center .top_section_card .play_button i {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .match_center .top_section_card .card .news {
     left: 66%;
-    font-size: 9px;
+    font-size: 13px;
     padding: 3px 11px 2px 8px;
   }
   .match_center .top_section_card .card .title {
     padding: 16px 16px 5px 8px;
   }
   .match_center .top_section_card .title p {
-    font-size: 17px;
+    font-size: 20px;
   }
   .match_center .top_section_card .timing .flex {
     bottom: 0px;
@@ -2613,7 +2764,7 @@ input:checked + .slider {
     position: absolute;
   }
   .match_center .top_section_card .timing .flex .share {
-    margin-top: -7px;
+    margin-top: -2px;
   }
   .match_center .top_section_card .timing .flex .share img {
     width: 14px;
@@ -2714,7 +2865,57 @@ input:checked + .slider {
     padding: 0px 6px;
   }
 }
+@media only screen and (min-width: 426px) {
+  .header .users {
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 426px) {
+  .header {
+    background: #001156 !important;
+    box-shadow: unset !important;
+  }
+  .header .login_btn {
+    display: none !important;
+    background-image: none !important;
+    padding: 0px 10px !important;
+    width: 44px;
+  }
+  .header .users {
+    background-image: none !important;
+    display: block !important;
+  }
+
+  .store_card .cards {
+    background: transparent;
+    height: auto;
+  }
+  .store_card .cards .left {
+    margin-bottom: 20px;
+  }
+  .store_card .cards .left .shirt {
+    width: max-content;
+    font-size: 22px;
+    left: 76px;
+  }
+  .store_card .cards .left .card_div {
+    padding: 20px;
+  }
+  .store_card .cards .left .card_div .super_card .no {
+    font-size: 22px;
+  }
+  .store_card .cards .left .whistle {
+    top: unset;
+    width: 100%;
+    height: 100%;
+  }
+  .store_card .cards .left .whistle img {
+    height: 150px;
+  }
+  .store_card .cards .fan .content .detail .box_div {
+    height: 76%;
+  }
+
   .fan_card {
     padding: 16px;
     height: auto;
@@ -2762,6 +2963,23 @@ input:checked + .slider {
     left: 24px;
     top: -4px;
   }
+
+  .top_section_card .timing .flex {
+    width: 88% !important;
+  }
+  .top_section_card .timing .flex .text {
+    padding: 14px 0px 4px 11px !important;
+  }
+  .top_section_card .title {
+    padding: 12px !important;
+  }
+  .top_section_card .card {
+    height: auto;
+  }
+  .top_section_card .card .snd {
+    height: 130px;
+    padding: 0px 18px 12px;
+  }
 }
 @media only screen and (max-width: 376px) {
   .csk_sponsors .title_lable {
@@ -2799,7 +3017,7 @@ input:checked + .slider {
   }
 
   .match_center .top_section_card .title p {
-    font-size: 13px;
+    font-size: 16px;
   }
   .match_center .top_section_card .timing .flex .text p {
     font-size: 11px;
