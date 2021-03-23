@@ -833,6 +833,348 @@ input:checked + .slider {
   width: 40%;
 }
 
+.mobileview {
+  padding: 2px 14px;
+  display: none;
+}
+
+.mobileview .vertical_line .line {
+  width: 1px;
+  background-color: #70707045;
+  height: 34px;
+}
+
+.mobileview .count {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mobileview .count .dot {
+  font-size: 30px;
+  color: #ffcd01;
+  margin-top: -6px;
+}
+
+.mobileview .count .num_div .num {
+  font-size: 24px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: center;
+  color: #111111;
+}
+
+.mobileview .count .num_div .text {
+  font-size: 10px;
+  text-align: center;
+  color: #707070;
+  font-weight: 500;
+}
+
+.mobileview .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mobileview .lines span {
+  width: 70%;
+  height: 1.3px;
+  background-color: #70707045;
+}
+
+.mobileview .tops {
+  height: 66px;
+  padding: 4px 20px;
+}
+
+.mobileview .tops img {
+  width: 26px;
+  margin-right: 8px;
+}
+
+.mobileview .match {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mobileview .match_card {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
+          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.mobileview .match_card .line_br {
+  width: 100%;
+  height: 1px;
+  margin: 3px;
+  background-color: #d8d8d8c7;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobileview .match_card .title {
+  height: 50px;
+}
+
+.mobileview .match_card .title p {
+  font-size: 15px;
+  background-color: #fff;
+  color: #000;
+  margin: 0px 16px;
+  font-weight: 600;
+  width: 160px;
+}
+
+.mobileview .match_card .title p span {
+  border-left: 1.5px solid #70707026;
+  margin-left: 10px;
+  top: 8px;
+  position: absolute;
+  height: 40px;
+}
+
+.mobileview .match_card .title div {
+  background: #70707026;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0px 32px;
+  height: 1px;
+}
+
+.mobileview .match_card .match_details {
+  height: 100%;
+}
+
+.mobileview .match_card .match_details .arr {
+  text-align: end;
+  border: 2px solid #081157;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom: -1px;
+  right: -2px;
+  border-radius: 50%;
+  font-size: 15px;
+  padding-right: 4px;
+}
+
+.mobileview .match_card .match_details .disc {
+  font-size: 16px;
+  color: #000;
+  padding: 12px 0px;
+  margin: 6px 2px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.mobileview .match_card .match_details p {
+  margin: 0;
+  color: black;
+}
+
+.mobileview .match_card .match_details .year {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.mobileview .match_card .match_details .score_board {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+  height: 88px;
+}
+
+.mobileview .match_card .match_details .score_board .team_logo {
+  width: 100px;
+  height: auto;
+}
+
+.mobileview .match_card .match_details .score_board .team_logo img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 70px;
+  margin-top: 6px;
+}
+
+.mobileview .match_card .match_details .score_board .team_logo .lo {
+  width: 70px;
+  margin-top: 5px;
+}
+
+.mobileview .match_card .match_details .score_board .scores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.mobileview .match_card .match_details .score_board .scores .team_details .team_name {
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 6px 9px;
+  border-radius: 8px;
+}
+
+.mobileview .match_card .match_details .score_board .scores .team_details .current_score {
+  margin-top: 4px;
+  font-size: 13px;
+  color: black;
+}
+
+.mobileview .match_card .match_details .score_board .match_vs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.mobileview .match_card .match_details .score_board .match_vs p {
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 50%;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.mobileview .match_card .match_details .running_commentary {
+  text-align: center;
+}
+
+.mobileview .match_card .match_details .running_commentary span {
+  font-size: 13px;
+  padding: 8px 14px;
+  font-weight: 600;
+  border-radius: 4px;
+  background: #ff0000;
+  color: #fff;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.mobileview .match_card .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #ffcd01;
+  color: #000;
+  padding: 12px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.mobileview .match_card .footer span {
+  width: 50%;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.mobileview .match_card .footer .dr {
+  border-right: 2px solid #fff;
+}
+
+.mobileview .fixtures_card {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
+          box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.11);
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.mobileview .fixtures_card .title p {
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  padding: 12px 36px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.mobileview .fixtures_card .match_details {
+  text-align: center;
+  height: 100%;
+  padding: 20px 0px;
+}
+
+.mobileview .fixtures_card .match_details p {
+  margin: 0;
+}
+
+.mobileview .fixtures_card .match_details .score_board {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.mobileview .fixtures_card .match_details .score_board .team_logo {
+  width: 170px;
+  height: auto;
+}
+
+.mobileview .fixtures_card .match_details .score_board .team_logo img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.mobileview .fixtures_card .match_details .score_board .match_vs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+}
+
+.mobileview .fixtures_card .match_details .score_board .match_vs .vs {
+  font-size: 26px;
+  color: #6c757d;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.mobileview .fixtures_card .match_details .date_of_match {
+  margin-bottom: 6px;
+}
+
+.mobileview .fixtures_card .match_details .date_of_match span {
+  font-size: 20px;
+  padding: 6px 14px;
+  font-weight: 600;
+}
+
 .store_card {
   padding: 0px 25px 20px;
 }
@@ -1359,7 +1701,7 @@ input:checked + .slider {
   width: 30px !important;
   height: 30px;
   position: absolute;
-  right: 0px;
+  right: 8px;
   border: 1px solid;
   text-align: center;
   border-radius: 50%;
@@ -1402,8 +1744,8 @@ input:checked + .slider {
   width: 30px !important;
   height: 30px;
   position: absolute;
-  right: 0px;
-  top: 2px;
+  right: 8px;
+  top: 8px;
   border: 1px solid;
   text-align: center;
   border-radius: 50%;
@@ -1439,8 +1781,8 @@ input:checked + .slider {
   width: 30px !important;
   height: 30px;
   position: absolute;
-  right: 0px;
-  top: 2px;
+  right: 8px;
+  top: 8px;
   border: 1px solid;
   text-align: center;
   border-radius: 50%;
@@ -2075,6 +2417,10 @@ input:checked + .slider {
   color: #111111;
 }
 
+.new_card_section .news_slider:hover .inner .progress {
+  width: 130px !important;
+}
+
 .new_card_section .photo .news_slider .horizontal .inner {
   padding: 6px 16px;
 }
@@ -2328,10 +2674,6 @@ input:checked + .slider {
 
 .new_card_section .title_lable span i {
   font-size: 14px;
-}
-
-.new_card_section .owl-item {
-  margin: 0 !important;
 }
 
 .new_card_section .news_slider .share img {
@@ -3197,6 +3539,45 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 769px) {
+  .mbl_carousel {
+    position: relative;
+  }
+  .mbl_carousel .owl-controls {
+    margin-top: -28px;
+    margin-bottom: 20px;
+  }
+  .mbl_carousel .owl-controls .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .mbl_carousel .owl-controls .owl-dots .owl-dot {
+    width: 30px;
+    height: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .mbl_carousel .owl-controls .owl-dots .owl-dot.active {
+    background-color: #FFCD01;
+  }
+  .mbl_carousel .owl-controls .owl-dots .owl-dot:focus {
+    outline: none;
+  }
+  .mbl_carousel .owl-controls span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+  }
+  .mbl_carousel .owl-controls .owl-nav :focus {
+    outline: none;
+  }
+  .mbl_carousel .owl-controls .owl-prev {
+    display: none !important;
+  }
+  .mbl_carousel .owl-controls .owl-next {
+    display: none !important;
+  }
   .store_card .cards .view_div .view {
     padding: 6px 14px;
   }
@@ -3291,6 +3672,9 @@ input:checked + .slider {
 }
 
 @media only screen and (min-width: 767px) {
+  .colm_b {
+    padding: 0px 4px;
+  }
   .top_section_card .timing .flex {
     bottom: 15px;
     position: absolute;
@@ -3345,18 +3729,19 @@ input:checked + .slider {
     padding: 36px 22px;
   }
   .carousel_main .inner .image_title {
-    font-size: 12px;
+    font-size: 15px !important;
   }
   .carousel_main .inner .play_button i {
     font-size: 2rem;
   }
   .carousel_main .inner livetag p {
+    background: #00000040;
     margin: 0px;
     padding: 5px 12px;
-    font-size: 10px;
+    font-size: 14px;
   }
   .carousel_main .inner .description {
-    font-size: 10px;
+    font-size: 14px;
   }
   .carousel_main .title p {
     font-size: 30px;
@@ -3384,6 +3769,9 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 967px) {
+  .new_card_section .news_slider .item .post_img .news {
+    font-size: 13px !important;
+  }
   .recomended_protects .item .inner {
     margin-top: -20%;
   }
@@ -3399,7 +3787,7 @@ input:checked + .slider {
     padding: 3px 11px 2px 8px;
   }
   .news_card_section .title p {
-    font-size: 14px;
+    font-size: 15px;
   }
   .match_center .colmm {
     padding: 0px;
@@ -3540,6 +3928,12 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 426px) {
+  .mobileview {
+    display: block;
+  }
+  .match_center .height {
+    display: none;
+  }
   .header {
     background: #001156 !important;
     -webkit-box-shadow: unset !important;
@@ -3650,6 +4044,9 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 376px) {
+  .news_card_section .timing .flex .text p {
+    font-size: 12px;
+  }
   .csk_sponsors .title_lable {
     margin: 0px 0px 14px;
     font-size: 20px;
@@ -3682,7 +4079,7 @@ input:checked + .slider {
     font-size: 16px;
   }
   .match_center .top_section_card .timing .flex .text p {
-    font-size: 11px;
+    font-size: 12px;
   }
   .header .row .header_menu {
     display: none;
