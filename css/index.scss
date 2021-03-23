@@ -522,6 +522,7 @@ input:checked + .slider {
   .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 
     a {
       float: left;
@@ -635,6 +636,9 @@ input:checked + .slider {
         img {
           margin: auto;
         }
+      }
+      .users {
+        background-color: #001156;
       }
     }
   }
@@ -2133,6 +2137,7 @@ input:checked + .slider {
   //         }
   //     }
   // }
+
   .photo {
     .news_slider {
       .horizontal {
