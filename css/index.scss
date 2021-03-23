@@ -1,17 +1,17 @@
 html {
     --bg: #fff;
-    --headbg: #056fc5;
+    --headbg: #23459d;
     --footerbg: #001156;
     --whitetoligthwhite: #fff;
     --blacktowhite: #000;
-    --primarytosecondary: #056fc5;
+    --primarytosecondary: #23459d;
     --blacktoligthgray: #000;
     --bg-panel: #ebebeb;
     --color-headings: #0077ff;
     --color-text: #333333;
     --text: #000;
     --matchcenter-card: #ffcb0524;
-    --show-more-color: #056fc5;
+    --show-more-color: #23459d;
 }
 
 html[data-theme="dark"] {
@@ -436,7 +436,7 @@ input:checked+.slider {
     }
 
     .dropbtn {
-        background-color: #056fc5;
+        background-color: #23459d;
         color: white;
         padding: 18px 14px 18px 14px;
         font-size: 16px;
@@ -499,7 +499,7 @@ input:checked+.slider {
     }
 
     .dropdown:hover .dropbtn {
-        background-color: #056fc5;
+        background-color: #23459d;
         color: #ffcb05;
         border-bottom: 3px solid #ffcb05;
     }
@@ -2300,7 +2300,7 @@ input:checked+.slider {
 
     .title {
         padding: 16px 0px;
-
+      
         .progress {
             width: 110px;
             height: 5px;
@@ -3061,7 +3061,8 @@ input:checked+.slider {
                         width: 20%;
 
                         img {
-                            width: 40px;
+                            width: 55px;
+                            margin: -8px;
                         }
 
                         p {
