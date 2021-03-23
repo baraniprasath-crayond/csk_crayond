@@ -1,17 +1,17 @@
 html {
   --bg: #fff;
-  --headbg: #0081e9;
+  --headbg: #056fc5;
   --footerbg: #001156;
   --whitetoligthwhite: #fff;
   --blacktowhite: #000;
-  --primarytosecondary: #0081e9;
+  --primarytosecondary: #056fc5;
   --blacktoligthgray: #000;
   --bg-panel: #ebebeb;
   --color-headings: #0077ff;
   --color-text: #333333;
   --text: #000;
   --matchcenter-card: #ffcb0524;
-  --show-more-color: #0081e9;
+  --show-more-color: #056fc5;
 }
 
 html[data-theme="dark"] {
@@ -433,7 +433,7 @@ input:checked + .slider {
 }
 
 .header .dropbtn {
-  background-color: #0081e9;
+  background-color: #056fc5;
   color: white;
   padding: 18px 14px 18px 14px;
   font-size: 16px;
@@ -501,7 +501,7 @@ input:checked + .slider {
 }
 
 .header .dropdown:hover .dropbtn {
-  background-color: #0081e9;
+  background-color: #056fc5;
   color: #ffcb05;
   border-bottom: 3px solid #ffcb05;
 }
@@ -1244,7 +1244,14 @@ input:checked + .slider {
   line-height: 1.2;
 }
 
+.store_card .cards .left .card_div .super_card .no label {
+  position: relative;
+}
+
 .store_card .cards .left .card_div .super_card .no span {
+  font-size: 140px !important;
+  position: absolute;
+  top: 0;
   text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
@@ -1837,7 +1844,7 @@ input:checked + .slider {
 
 .recomended_protects .item .inner div {
   margin: auto;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .recomended_protects .item img {
@@ -3695,8 +3702,23 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 767px) {
-  .recomended_protects {
-    display: none;
+  .store_card {
+    padding: 0px;
+  }
+  .store_card .cards .left {
+    background: none;
+  }
+  .store_card .cards .mbl_thala {
+    margin: 4px 23px;
+    background: #ffcd01;
+    border-radius: 10px !important;
+  }
+  .store_card .cards .fan {
+    border-radius: 0px;
+  }
+  .recomended_protects .more_videos {
+    font-size: 12px;
+    right: 20px;
   }
   .super_kings_section .owl-controls .owl-prev {
     padding: 1px 8px;
@@ -3928,6 +3950,48 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 426px) {
+  .fan_card .cards .fan .content .msg {
+    font-size: 17px !important;
+  }
+  .super_kings_section .super_kings_section_ {
+    padding: 10px;
+  }
+  .super_kings_section .owl-controls {
+    margin-top: -28px;
+    margin-bottom: 20px;
+  }
+  .super_kings_section .owl-controls .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot {
+    width: 30px;
+    height: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot.active {
+    background-color: #FFCD01;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot:focus {
+    outline: none;
+  }
+  .super_kings_section .owl-controls span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+  }
+  .super_kings_section .owl-controls .owl-nav :focus {
+    outline: none;
+  }
+  .super_kings_section .owl-controls .owl-prev {
+    display: none !important;
+  }
+  .super_kings_section .owl-controls .owl-next {
+    display: none !important;
+  }
   .mobileview {
     display: block;
   }
@@ -3949,12 +4013,15 @@ input:checked + .slider {
     background-image: none !important;
     display: block !important;
   }
+  .social_media_section .title_div .title p {
+    margin-top: 16px !important;
+  }
   .store_card .cards {
     background: transparent;
     height: auto;
   }
   .store_card .cards .left {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
   .store_card .cards .left .shirt {
     width: -webkit-max-content;
@@ -3966,8 +4033,14 @@ input:checked + .slider {
   .store_card .cards .left .card_div {
     padding: 20px;
   }
+  .store_card .cards .left .card_div .view p {
+    font-size: 14px;
+  }
   .store_card .cards .left .card_div .super_card .no {
     font-size: 22px;
+  }
+  .store_card .cards .left .card_div .super_card .no span {
+    font-size: 88px !important;
   }
   .store_card .cards .left .whistle {
     top: unset;
@@ -3975,7 +4048,7 @@ input:checked + .slider {
     height: 100%;
   }
   .store_card .cards .left .whistle img {
-    height: 150px;
+    height: 146px;
   }
   .store_card .cards .fan .content .detail .box_div {
     height: 76%;
@@ -3986,9 +4059,13 @@ input:checked + .slider {
   }
   .fan_card .mr {
     margin-bottom: 30px;
+    background: #ffffff;
+    padding: 11px;
+    border-radius: 10px;
   }
   .fan_card .cards {
     height: auto;
+    background-color: unset !important;
   }
   .fan_card .cards .view_div .view {
     margin: auto;
