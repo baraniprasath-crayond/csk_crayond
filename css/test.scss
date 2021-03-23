@@ -1438,6 +1438,46 @@ input:checked + .slider {
           width: 14px;
         }
       }
+      .sidepanel {
+        width: 0;
+        height: 100px;
+        position: absolute;
+        display: flex;
+        z-index: 1;
+        // height: 250px;
+        // top: 0;
+        bottom: 0;
+        right: -18px;
+        background-color: #ffffff;
+        justify-content: space-between;
+        overflow-x: hidden;
+        transition: 0.3s;
+
+        div {
+          color: #000000;
+        }
+        .close {
+          width: 30px;
+          height: 30px;
+          border: 1px solid #ffffff;
+          border-radius: 50%;
+          text-align: center;
+          padding: 6px;
+          &:hover {
+            background-color: #6d6e71;
+            p {
+              color: #ffffff;
+              font-size: 15px;
+              margin: 0px;
+            }
+          }
+          p {
+            font-size: 15px;
+            margin: 0px;
+            color: #000;
+          }
+        }
+      }
 
       .text {
         p {

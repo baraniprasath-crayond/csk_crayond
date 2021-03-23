@@ -1399,6 +1399,54 @@ input:checked + .slider {
   width: 14px;
 }
 
+.news_card_section .timing .flex .sidepanel {
+  width: 0;
+  height: 100px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 1;
+  bottom: 0;
+  right: -18px;
+  background-color: #ffffff;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow-x: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.news_card_section .timing .flex .sidepanel div {
+  color: #000000;
+}
+
+.news_card_section .timing .flex .sidepanel .close {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 6px;
+}
+
+.news_card_section .timing .flex .sidepanel .close:hover {
+  background-color: #6d6e71;
+}
+
+.news_card_section .timing .flex .sidepanel .close:hover p {
+  color: #ffffff;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.news_card_section .timing .flex .sidepanel .close p {
+  font-size: 15px;
+  margin: 0px;
+  color: #000;
+}
+
 .news_card_section .timing .flex .text p {
   font-size: 11px;
   font-weight: 500;
