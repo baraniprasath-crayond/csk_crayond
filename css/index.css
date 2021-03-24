@@ -435,7 +435,7 @@ input:checked + .slider {
 .header .dropbtn {
   background-color: #056fc5;
   color: white;
-  padding: 4px 14px 7px 14px;
+  padding: 15px 14px 7px 14px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -526,7 +526,7 @@ input:checked + .slider {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 0px;
+  line-height: 20px;
 }
 
 .header .row .logo_area {
@@ -544,9 +544,9 @@ input:checked + .slider {
 }
 
 .header .row .logo_area .logo img {
-  width: 100px;
+  width: 50px;
   border-radius: 10px;
-  height: 100px;
+  height: 50px;
 }
 
 .header .row .header_menu {
@@ -561,7 +561,7 @@ input:checked + .slider {
 .header .row .header_menu span {
   color: #ffffff;
   font-size: 1rem;
-  margin: auto;
+  margin: 0px 14px 0px 0px;
   cursor: pointer;
 }
 
@@ -1926,6 +1926,8 @@ input:checked + .slider {
   opacity: 0.9;
   height: 160px;
   border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0)), to(#111111));
+  background-image: linear-gradient(to bottom, rgba(17, 17, 17, 0), #111111);
 }
 
 .recomended_protects .title_lable {
@@ -3983,8 +3985,8 @@ input:checked + .slider {
     display: block;
   }
   .header .row .logo_area .logo img {
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     margin: 10px;
   }
 }
@@ -4327,8 +4329,8 @@ input:checked + .slider {
     display: block;
   }
   .header .row .logo_area .logo img {
-    width: 65px;
-    height: 65px;
+    width: 50px;
+    height: 50px;
     margin: 10px 0px;
   }
   .header .row .sign_btn .contact_num {
@@ -4418,7 +4420,6 @@ input:checked + .slider {
             box-shadow: unset !important;
   }
   .header .login_btn {
-    display: none !important;
     background-image: none !important;
     padding: 0px 10px !important;
     width: 44px;
