@@ -1606,7 +1606,7 @@ input:checked + .slider {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 10px 0 white;
           box-shadow: 0px 0px 10px 0 white;
-  padding: 16px 14px;
+  padding: 16px 21px;
   border-radius: 50%;
   font-size: 18px;
   left: 20px;
@@ -1626,7 +1626,7 @@ input:checked + .slider {
   -webkit-box-shadow: 0px 0px 10px 0 white;
           box-shadow: 0px 0px 10px 0 white;
   background-color: #ffffff;
-  padding: 16px 14px;
+  padding: 16px 25px;
   border-radius: 50%;
   font-size: 18px;
   right: 20px;
