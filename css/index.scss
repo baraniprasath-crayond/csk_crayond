@@ -1637,13 +1637,12 @@ input:checked + .slider {
       position: absolute;
       background-color: #ffffff;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
-      padding: 14px 12px;
+      padding: 8px 14px;
       border-radius: 50%;
       font-size: 18px;
       left: 20px;
       color: #ffcd01;
-      width: 60px;
-      height: 60px;
+
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
       }
@@ -1654,13 +1653,11 @@ input:checked + .slider {
       position: absolute;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
       background-color: #ffffff;
-      padding: 14px 12px;
+      padding: 8px 14px;
       border-radius: 50%;
       font-size: 18px;
       right: 20px;
       color: #ffcd01;
-      width: 60px;
-      height: 60px;
 
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
@@ -4147,6 +4144,12 @@ input:checked + .slider {
 }
 
 @media only screen and (min-width: 767px) {
+  .csktv_bml_section {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
   .colm_b {
     padding: 0px 4px;
   }
@@ -4180,6 +4183,66 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 767px) {
+  .csktv_bml_section {
+    .owl-controls {
+      margin-top: -28px;
+      margin-bottom: 20px;
+      .owl-dots {
+        text-align: center;
+        padding-top: 15px;
+      }
+      .owl-dots {
+        .owl-dot {
+          width: 30px;
+          height: 6px;
+          border-radius: 6px;
+          display: inline-block;
+          background: #ccc;
+          margin: 0 3px;
+        }
+      }
+      .owl-dots {
+        .owl-dot.active {
+          background-color: #ffcd01;
+        }
+      }
+      .owl-dots {
+        .owl-dot:focus {
+          outline: none;
+        }
+      }
+      span {
+        font-size: 70px;
+        position: relative;
+        top: -5px;
+      }
+      .owl-nav :focus {
+        outline: none;
+      }
+      .owl-prev {
+        display: none !important;
+      }
+      .owl-next {
+        display: none !important;
+      }
+    }
+    .title {
+      p {
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        margin: 20px 0px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+  .csktv_dk_section {
+    display: none !important;
+  }
   .store_card {
     padding: 0px;
 
