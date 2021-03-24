@@ -769,6 +769,13 @@ input:checked + .slider {
   display: none;
 }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1350px;
+    padding: 0px;
+  }
+}
+
 .csk_sponsors {
   margin-bottom: 30px;
 }
@@ -891,12 +898,11 @@ input:checked + .slider {
 
 .mobileview .tops {
   height: 66px;
-  padding: 4px 20px;
+  padding: 4px 10px;
 }
 
 .mobileview .tops img {
   width: 26px;
-  margin-right: 8px;
 }
 
 .mobileview .match {
@@ -1655,6 +1661,25 @@ input:checked + .slider {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.super_kings_section .newsCard .cap {
+  width: 30px !important;
+  height: 30px;
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 50%;
+  padding: 1.5px;
+  background-color: #ffff;
+}
+
+.super_kings_section .newsCard .cap p {
+  background: #001156;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
 .super_kings_section .newsCaption {
   position: absolute;
   top: auto;
@@ -1815,7 +1840,7 @@ input:checked + .slider {
 
 .recomended_protects {
   padding: 14px 100px;
-  margin-top: -200px;
+  margin-top: -222px;
 }
 
 .recomended_protects .more_videos {
@@ -1885,7 +1910,7 @@ input:checked + .slider {
 
 .recomended_protects .owl-nav .owl-prev i {
   margin: auto;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 0.5;
   padding-bottom: 6px;
   position: relative;
@@ -1917,7 +1942,7 @@ input:checked + .slider {
 
 .recomended_protects .owl-nav .owl-next i {
   margin: auto;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 0.5;
   padding-bottom: 6px;
   position: relative;
@@ -1938,7 +1963,7 @@ input:checked + .slider {
 .head_ad_banner .head_ad_banner_img img {
   width: 100%;
   border-radius: 7px;
-  height: 80px;
+  height: 110px;
 }
 
 .carousel_main {
@@ -2132,6 +2157,8 @@ input:checked + .slider {
 
 .top_section_card .card:hover .progress {
   width: 150px;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .top_section_card .card {
@@ -2281,6 +2308,8 @@ input:checked + .slider {
 
 .news_card_section .card:hover .progress {
   width: 120px;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .news_card_section .card {
@@ -2426,6 +2455,8 @@ input:checked + .slider {
 
 .new_card_section .news_slider:hover .inner .progress {
   width: 130px !important;
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .new_card_section .photo .news_slider .horizontal .inner {
@@ -3270,7 +3301,6 @@ input:checked + .slider {
 
 .match_center .tops img {
   width: 26px;
-  margin-right: 10px;
 }
 
 .match_center .match {
@@ -3567,7 +3597,7 @@ input:checked + .slider {
     margin: 0 3px;
   }
   .mbl_carousel .owl-controls .owl-dots .owl-dot.active {
-    background-color: #FFCD01;
+    background-color: #ffcd01;
   }
   .mbl_carousel .owl-controls .owl-dots .owl-dot:focus {
     outline: none;
@@ -3639,9 +3669,6 @@ input:checked + .slider {
 @media only screen and (min-width: 600px) {
   .colmms {
     padding: 0px;
-  }
-  .carousel_main {
-    margin: 0px 13px;
   }
   .carousel_main .item {
     height: 600px;
@@ -4016,6 +4043,35 @@ input:checked + .slider {
     margin-top: -28px;
     margin-bottom: 20px;
   }
+<<<<<<< HEAD
+=======
+  .super_kings_section .owl-controls .owl-dots {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot {
+    width: 30px;
+    height: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot.active {
+    background-color: #ffcd01;
+  }
+  .super_kings_section .owl-controls .owl-dots .owl-dot:focus {
+    outline: none;
+  }
+  .super_kings_section .owl-controls span {
+    font-size: 70px;
+    position: relative;
+    top: -5px;
+  }
+  .super_kings_section .owl-controls .owl-nav :focus {
+    outline: none;
+  }
+>>>>>>> d5832f839d714234b2e04c4183bb96055fc1d42f
   .super_kings_section .owl-controls .owl-prev {
     display: none !important;
   }
