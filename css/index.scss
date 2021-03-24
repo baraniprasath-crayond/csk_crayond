@@ -1,6 +1,6 @@
 html {
   --bg: #fff;
-  --headbg: #056fc5;
+  --headbg: #23459d;
   --footerbg: #001156;
   --whitetoligthwhite: #fff;
   --blacktowhite: #000;
@@ -435,9 +435,9 @@ input:checked + .slider {
   }
 
   .dropbtn {
-    background-color: #056fc5;
+    background-color: #23459d;
     color: white;
-    padding: 4px 14px 7px 14px;
+    padding: 15px 14px 7px 14px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -498,7 +498,7 @@ input:checked + .slider {
   }
 
   .dropdown:hover .dropbtn {
-    background-color: #056fc5;
+    background-color: #23459d;
     color: #ffcb05;
     border-bottom: 3px solid #ffcb05;
   }
@@ -532,7 +532,7 @@ input:checked + .slider {
       text-decoration: none;
       font-size: 14px;
       font-weight: 500;
-      line-height: 0px;
+      line-height: 20px;
     }
 
     .logo_area {
@@ -544,9 +544,9 @@ input:checked + .slider {
         cursor: pointer;
 
         img {
-          width: 100px;
+          width: 50px;
           border-radius: 10px;
-          height: 100px;
+          height: 50px;
         }
       }
     }
@@ -559,7 +559,7 @@ input:checked + .slider {
       span {
         color: #ffffff;
         font-size: 1rem;
-        margin: auto;
+        margin: 0px 14px 0px 0px;
         cursor: pointer;
 
         // border-bottom: 2px solid transparent;
@@ -707,7 +707,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 85px;
+  top: 55px;
   z-index: 9;
   text-align: center;
   // max-width: 200px;
@@ -1637,7 +1637,7 @@ input:checked + .slider {
       position: absolute;
       background-color: #ffffff;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
-      padding: 16px 14px;
+      padding: 16px 21px;
       border-radius: 50%;
       font-size: 18px;
       left: 20px;
@@ -1655,7 +1655,7 @@ input:checked + .slider {
       position: absolute;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
       background-color: #ffffff;
-      padding: 16px 14px;
+      padding: 16px 25px;
       border-radius: 50%;
       font-size: 18px;
       right: 20px;
@@ -1938,7 +1938,7 @@ input:checked + .slider {
 
       div {
         margin: auto;
-        font-size: 13px;
+        font-size: 14px;
       }
     }
 
@@ -1946,6 +1946,11 @@ input:checked + .slider {
       opacity: 0.9;
       height: 160px;
       border-radius: 10px;
+      background-image: linear-gradient(
+        to bottom,
+        rgba(17, 17, 17, 0),
+        #111111
+      );
       // position: absolute;
     }
   }
@@ -2250,7 +2255,7 @@ input:checked + .slider {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 59px;
 }
 
 // top card section css
@@ -4004,13 +4009,6 @@ input:checked + .slider {
 
 // Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .main_section_bk_img {
-    background: url("../assets/Group 142.png") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 85px;
-  }
   .recomended_protects {
     .item {
       img {
@@ -4076,8 +4074,8 @@ input:checked + .slider {
 
         .logo {
           img {
-            width: 65px;
-            height: 65px;
+            width: 50px;
+            height: 50px;
             margin: 10px;
           }
         }
@@ -4388,13 +4386,6 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 967px) {
-  .main_section_bk_img {
-    background: url("../assets/Group 142.png") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 85px;
-  }
   .new_card_section {
     .news_slider {
       .item {
@@ -4609,8 +4600,8 @@ input:checked + .slider {
 
         .logo {
           img {
-            width: 65px;
-            height: 65px;
+            width: 50px;
+            height: 50px;
             margin: 10px 0px;
           }
         }
@@ -4688,6 +4679,7 @@ input:checked + .slider {
       .owl-dots {
         text-align: center;
         padding-top: 15px;
+        display: none !important;
       }
 
       .owl-dots {
@@ -4744,11 +4736,11 @@ input:checked + .slider {
   }
 
   .header {
-    background: #001156 !important;
+    background: #23459d !important;
     box-shadow: unset !important;
 
     .login_btn {
-      display: none !important;
+      // display: none !important;
       background-image: none !important;
       padding: 0px 10px !important;
       width: 44px;
@@ -5140,7 +5132,7 @@ input:checked + .slider {
             }
           }
         }
-      }
+      }   
     }
 
     .count {
