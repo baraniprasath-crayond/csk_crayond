@@ -435,7 +435,7 @@ input:checked + .slider {
 .header .dropbtn {
   background-color: #056fc5;
   color: white;
-  padding: 4px 14px 18px 14px;
+  padding: 4px 14px 7px 14px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -561,7 +561,7 @@ input:checked + .slider {
 .header .row .header_menu span {
   color: #ffffff;
   font-size: 1rem;
-  margin: 0 14px 0 0;
+  margin: auto;
   cursor: pointer;
 }
 
@@ -702,7 +702,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 55px;
+  top: 106px;
   z-index: 9;
   text-align: center;
   width: 100%;
