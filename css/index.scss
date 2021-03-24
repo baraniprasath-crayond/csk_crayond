@@ -553,7 +553,7 @@ input:checked + .slider {
 
     .header_menu {
       display: flex;
-      padding-left: 150px;
+      padding-left: 100px;
       margin-top: auto;
       margin-bottom: auto;
       span {
@@ -1637,11 +1637,13 @@ input:checked + .slider {
       position: absolute;
       background-color: #ffffff;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
-      padding: 8px 14px;
+      padding: 16px 14px;
       border-radius: 50%;
       font-size: 18px;
       left: 20px;
       color: #ffcd01;
+      width: 60px;
+      height: 60px;
 
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
@@ -1653,11 +1655,13 @@ input:checked + .slider {
       position: absolute;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
       background-color: #ffffff;
-      padding: 8px 14px;
+      padding: 16px 14px;
       border-radius: 50%;
       font-size: 18px;
       right: 20px;
       color: #ffcd01;
+      width: 60px;
+      height: 60px;
 
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
@@ -1908,6 +1912,7 @@ input:checked + .slider {
 .recomended_protects {
   padding: 14px 100px;
   margin-top: -222px;
+  position: relative;
 
   .more_videos {
     cursor: pointer;
@@ -2105,6 +2110,7 @@ input:checked + .slider {
         border-radius: 6px;
         margin-top: 85px;
         color: #fff;
+        cursor: pointer;
       }
     }
 
