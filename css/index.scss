@@ -437,7 +437,7 @@ input:checked + .slider {
   .dropbtn {
     background-color: #056fc5;
     color: white;
-    padding: 4px 14px 9px 14px;
+    padding: 4px 14px 7px 14px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -553,13 +553,13 @@ input:checked + .slider {
 
     .header_menu {
       display: flex;
-      padding-left: 150px;
+      padding-left: 100px;
       margin-top: auto;
       margin-bottom: auto;
       span {
         color: #ffffff;
         font-size: 1rem;
-        margin: 0 14px 0 0;
+        margin: auto;
         cursor: pointer;
 
         // border-bottom: 2px solid transparent;
@@ -707,7 +707,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 55px;
+  top: 85px;
   z-index: 9;
   text-align: center;
   // max-width: 200px;
@@ -1637,11 +1637,13 @@ input:checked + .slider {
       position: absolute;
       background-color: #ffffff;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
-      padding: 8px 14px;
+      padding: 16px 14px;
       border-radius: 50%;
       font-size: 18px;
       left: 20px;
       color: #ffcd01;
+      width: 60px;
+      height: 60px;
 
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
@@ -1653,11 +1655,13 @@ input:checked + .slider {
       position: absolute;
       box-shadow: 0px 0px 10px 0 rgb(255, 255, 255);
       background-color: #ffffff;
-      padding: 8px 14px;
+      padding: 16px 14px;
       border-radius: 50%;
       font-size: 18px;
       right: 20px;
       color: #ffcd01;
+      width: 60px;
+      height: 60px;
 
       &:hover {
         box-shadow: 0px 0px 30px 0 rgb(255, 255, 255);
@@ -1908,6 +1912,7 @@ input:checked + .slider {
 .recomended_protects {
   padding: 14px 100px;
   margin-top: -222px;
+  position: relative;
 
   .more_videos {
     cursor: pointer;
@@ -2105,6 +2110,7 @@ input:checked + .slider {
         border-radius: 6px;
         margin-top: 85px;
         color: #fff;
+        cursor: pointer;
       }
     }
 
@@ -4144,6 +4150,12 @@ input:checked + .slider {
 }
 
 @media only screen and (min-width: 767px) {
+  .csktv_bml_section {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 767px) {
   .colm_b {
     padding: 0px 4px;
   }
@@ -4177,6 +4189,66 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 767px) {
+  .csktv_bml_section {
+    .owl-controls {
+      margin-top: -28px;
+      margin-bottom: 20px;
+      .owl-dots {
+        text-align: center;
+        padding-top: 15px;
+      }
+      .owl-dots {
+        .owl-dot {
+          width: 30px;
+          height: 6px;
+          border-radius: 6px;
+          display: inline-block;
+          background: #ccc;
+          margin: 0 3px;
+        }
+      }
+      .owl-dots {
+        .owl-dot.active {
+          background-color: #ffcd01;
+        }
+      }
+      .owl-dots {
+        .owl-dot:focus {
+          outline: none;
+        }
+      }
+      span {
+        font-size: 70px;
+        position: relative;
+        top: -5px;
+      }
+      .owl-nav :focus {
+        outline: none;
+      }
+      .owl-prev {
+        display: none !important;
+      }
+      .owl-next {
+        display: none !important;
+      }
+    }
+    .title {
+      p {
+        font-size: 30px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        margin: 20px 0px;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+  .csktv_dk_section {
+    display: none !important;
+  }
   .store_card {
     padding: 0px;
 
