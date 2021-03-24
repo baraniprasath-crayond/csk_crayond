@@ -702,7 +702,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 106px;
+  top: 85px;
   z-index: 9;
   text-align: center;
   width: 100%;
@@ -1606,11 +1606,13 @@ input:checked + .slider {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 10px 0 white;
           box-shadow: 0px 0px 10px 0 white;
-  padding: 8px 14px;
+  padding: 14px 12px;
   border-radius: 50%;
   font-size: 18px;
   left: 20px;
   color: #ffcd01;
+  width: 60px;
+  height: 60px;
 }
 
 .super_kings_section .owl-controls .owl-prev:hover {
@@ -1624,11 +1626,13 @@ input:checked + .slider {
   -webkit-box-shadow: 0px 0px 10px 0 white;
           box-shadow: 0px 0px 10px 0 white;
   background-color: #ffffff;
-  padding: 8px 14px;
+  padding: 14px 12px;
   border-radius: 50%;
   font-size: 18px;
   right: 20px;
   color: #ffcd01;
+  width: 60px;
+  height: 60px;
 }
 
 .super_kings_section .owl-controls .owl-next:hover {
