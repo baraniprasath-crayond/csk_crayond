@@ -702,7 +702,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 85px;
+  top: 55px;
   z-index: 9;
   text-align: center;
   width: 100%;
@@ -1919,7 +1919,7 @@ input:checked + .slider {
 
 .recomended_protects .item .inner div {
   margin: auto;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .recomended_protects .item img {
@@ -2204,7 +2204,7 @@ input:checked + .slider {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 100px;
+  margin-top: 59px;
 }
 
 .top_section_card .card:hover .progress {
@@ -3946,13 +3946,6 @@ input:checked + .slider {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .main_section_bk_img {
-    background: url("../assets/Group 142.png") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 85px;
-  }
   .recomended_protects .item img {
     width: 140px;
     height: 140px;
@@ -4200,13 +4193,6 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 967px) {
-  .main_section_bk_img {
-    background: url("../assets/Group 142.png") !important;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    margin-top: 85px;
-  }
   .new_card_section .news_slider .item .post_img .news {
     font-size: 13px !important;
   }
@@ -4379,6 +4365,7 @@ input:checked + .slider {
   .super_kings_section .owl-controls .owl-dots {
     text-align: center;
     padding-top: 15px;
+    display: none !important;
   }
   .super_kings_section .owl-controls .owl-dots .owl-dot {
     width: 30px;
