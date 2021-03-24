@@ -702,7 +702,7 @@ input:checked + .slider {
 .mobile-nav {
   background-color: #0081e9;
   position: fixed;
-  top: 85px;
+  top: 55px;
   z-index: 9;
   text-align: center;
   width: 100%;
