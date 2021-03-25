@@ -31,7 +31,7 @@ html[data-theme="dark"] {
 }
 
 @font-face {
-  font-family: 'oswald';
+  font-family: "oswald";
   src: url("/fonts/Gotham-Font/Gotham-Light.otf");
 }
 
@@ -4090,9 +4090,6 @@ input:checked + .slider {
   .header .row a {
     padding: 18px 11px 18px 11px;
   }
-  .header .sign_btn {
-    padding-right: 49px;
-  }
 }
 
 @media only screen and (min-width: 767px) {
@@ -4137,7 +4134,6 @@ input:checked + .slider {
   }
   .header {
     z-index: 1000;
-    height: 119px !important;
   }
   .header .row a {
     font-size: 14px !important;
