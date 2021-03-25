@@ -31,15 +31,29 @@ html[data-theme="dark"] {
 }
 
 @font-face {
-  font-family: "oswald";
-  src: url("/fonts/Gotham-Font/Gotham-Light.otf");
+  font-family: "GothamBold";
+  src: url("/fonts/Gotham-Font/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/fonts/Gotham-Font/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "GothamBook";
+  src: url("/fonts/Gotham-Font/GothamBook.ttf");
+}
+
+@font-face {
+  font-family: "GothamItalic";
+  src: url("/fonts/Gotham-Font/GothamBoldItalic.ttf");
 }
 
 html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  font-family: oswald;
   -webkit-transition: all 750ms !important;
   transition: all 750ms !important;
   -webkit-transition-delay: 0 !important;
@@ -47,7 +61,6 @@ html.transition *:after {
 }
 
 body {
-  font-family: oswald;
   background-color: var(--bg) !important;
 }
 
@@ -531,9 +544,10 @@ input:checked + .slider {
   text-align: center;
   padding: 18px 14px 18px 14px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 500;
   line-height: 20px;
+  font-family: "GothamMedium";
 }
 
 .header .row .logo_area {
@@ -571,6 +585,7 @@ input:checked + .slider {
   font-size: 1rem;
   margin: 0px 14px 0px 0px;
   cursor: pointer;
+  font-family: "GothamMedium";
 }
 
 .header .row .header_menu span:hover {
@@ -636,6 +651,7 @@ input:checked + .slider {
   display: flex;
   background-color: #f9cf01;
   color: #1d1d1d;
+  font-family: "GothamMedium";
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -734,6 +750,7 @@ input:checked + .slider {
   color: #fff;
   display: block;
   padding: 15px 20px;
+  font-family: "GothamMedium";
 }
 
 .mobile-nav li a:hover {
@@ -748,12 +765,14 @@ input:checked + .slider {
   color: #fff;
   border-left: 3px solid #ffc107;
   text-decoration: none;
+  font-family: "GothamMedium";
 }
 
 .sub_menu_show a {
   color: #fff;
   display: block;
   padding: 15px 20px;
+  font-family: "GothamMedium";
 }
 
 .sub_menu_show a:hover {
@@ -900,6 +919,8 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: center;
   color: #111111;
+  font-family: "GothamBold";
+  font-family: "GothamBold";
 }
 
 .mobileview .count .num_div .text {
@@ -907,6 +928,7 @@ input:checked + .slider {
   text-align: center;
   color: #707070;
   font-weight: 500;
+  font-family: "GothamMedium";
 }
 
 .mobileview .lines {
@@ -934,8 +956,9 @@ input:checked + .slider {
 }
 
 .mobileview .match {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
+  font-family: "GothamBold";
 }
 
 .mobileview .match_card {
@@ -1011,6 +1034,7 @@ input:checked + .slider {
   margin: 6px 2px;
   font-weight: 500;
   text-align: center;
+  font-family: "GothamBook";
 }
 
 .mobileview .match_card .match_details p {
@@ -1023,6 +1047,7 @@ input:checked + .slider {
   font-weight: 600;
   margin-top: 15px;
   text-align: center;
+  font-family: "GothamBold";
 }
 
 .mobileview .match_card .match_details .score_board {
@@ -1069,12 +1094,14 @@ input:checked + .slider {
   color: #000;
   padding: 6px 9px;
   border-radius: 8px;
+  font-family: "GothamBold";
 }
 
 .mobileview .match_card .match_details .score_board .scores .team_details .current_score {
   margin-top: 4px;
   font-size: 13px;
   color: black;
+  font-family: "GothamMedium";
 }
 
 .mobileview .match_card .match_details .score_board .match_vs {
@@ -1108,6 +1135,7 @@ input:checked + .slider {
   color: #fff;
   margin-bottom: 20px;
   cursor: pointer;
+  font-family: "GothamBold";
 }
 
 .mobileview .match_card .footer {
@@ -1129,6 +1157,7 @@ input:checked + .slider {
   text-align: center;
   font-weight: 700;
   cursor: pointer;
+  font-family: "GothamBold";
 }
 
 .mobileview .match_card .footer .dr {
@@ -1223,6 +1252,7 @@ input:checked + .slider {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
+  font-family: "GothamBold";
 }
 
 .store_card .cards {
@@ -1262,6 +1292,7 @@ input:checked + .slider {
   top: 89px;
   left: 147px;
   color: #ffcd01;
+  font-family: "GothamBold";
   font-size: 54px;
   text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
@@ -1275,6 +1306,7 @@ input:checked + .slider {
   font-size: 56px;
   font-weight: bold;
   line-height: 1.2;
+  font-family: "GothamBold";
 }
 
 .store_card .cards .left .card_div .super_card .no label {
@@ -1283,6 +1315,7 @@ input:checked + .slider {
 
 .store_card .cards .left .card_div .super_card .no span {
   font-size: 140px !important;
+  font-family: "GothamBold";
   position: absolute;
   top: 0;
   text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
@@ -1315,6 +1348,7 @@ input:checked + .slider {
   text-align: left;
   color: #111111;
   margin-bottom: 0px;
+  font-family: "GothamBold";
 }
 
 .store_card .cards .fan {
@@ -1345,6 +1379,7 @@ input:checked + .slider {
   font-size: 20px;
   font-weight: 600;
   line-height: 0.63;
+  font-family: "GothamBold";
 }
 
 .store_card .cards .fan .content .titile .msg {
@@ -1354,6 +1389,7 @@ input:checked + .slider {
   font-weight: 600;
   cursor: pointer;
   line-height: 0.63;
+  font-family: "GothamBold";
 }
 
 .store_card .cards .fan .content .detail .box_div {
@@ -1384,6 +1420,7 @@ input:checked + .slider {
   text-align: center;
   font-weight: bold;
   font-size: 13px;
+  font-family: "GothamMedium";
 }
 
 .fan_card {
@@ -1448,6 +1485,7 @@ input:checked + .slider {
   text-align: left;
   color: #111111;
   margin-bottom: 0px;
+  font-family: "GothamBold";
 }
 
 .fan_card .cards .fan {
@@ -1469,6 +1507,7 @@ input:checked + .slider {
   letter-spacing: normal;
   margin-bottom: 0px;
   padding-top: 15px;
+  font-family: "GothamItalic";
 }
 
 .fan_card .cards .fan .owl-controls .owl-prev .fa-chevron-left:before {
@@ -1505,11 +1544,11 @@ input:checked + .slider {
   text-align: center;
   font-size: 20px;
   opacity: 0.8;
-  font-weight: 600;
+  font-weight: 500;
   font-stretch: normal;
-  font-style: italic;
   line-height: 0.63;
   letter-spacing: normal;
+  font-family: "GothamMedium";
 }
 
 .fan_card .cards .fan .content .detail {
@@ -1521,6 +1560,7 @@ input:checked + .slider {
   margin-right: 30px;
   font-weight: bold;
   margin-top: 6px;
+  font-family: "GothamBold";
 }
 
 .fan_card .cards .fan .content .detail .count {
@@ -1540,6 +1580,7 @@ input:checked + .slider {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  font-family: "GothamBold";
 }
 
 .fan_card .cards .fan .content .detail img {
@@ -1570,6 +1611,7 @@ input:checked + .slider {
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  font-family: "GothamBold";
 }
 
 .csk_sponsors .title_lable span {
@@ -1668,6 +1710,7 @@ input:checked + .slider {
 
 .super_kings_section .title p {
   font-size: 30px;
+  font-family: "GothamBold";
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -1925,9 +1968,10 @@ input:checked + .slider {
   height: 40px;
   color: #fff;
   margin-top: -34px;
-  font-size: 15px;
+  font-size: 16px;
   right: 120px;
   letter-spacing: 1px;
+  font-family: "GothamBold";
 }
 
 .recomended_protects .item {
@@ -1946,6 +1990,7 @@ input:checked + .slider {
 .recomended_protects .item .inner div {
   margin: auto;
   font-size: 14px;
+  font-family: "GothamBold";
 }
 
 .recomended_protects .item img {
@@ -2077,6 +2122,7 @@ input:checked + .slider {
   font-weight: 600;
   margin-bottom: 4px;
   background-color: #ffcd01;
+  font-family: "GothamBold";
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -2095,6 +2141,7 @@ input:checked + .slider {
   color: #ced4da;
   font-weight: 500;
   padding-left: 2px;
+  font-family: "GothamBold";
 }
 
 .carousel_main .inner livetag p {
@@ -2109,6 +2156,7 @@ input:checked + .slider {
   border-radius: 6px;
   margin-top: 85px;
   color: #fff;
+  font-family: "GothamBold";
   cursor: pointer;
 }
 
@@ -2191,6 +2239,7 @@ input:checked + .slider {
   font-size: 14px;
   font-weight: 600;
   color: #ffffff;
+  font-family: "GothamMedium";
 }
 
 .main_footer .footer_list_menu {
@@ -2202,6 +2251,7 @@ input:checked + .slider {
   font-size: 14px;
   font-weight: 600;
   padding: 0px 24px;
+  font-family: "GothamMedium";
 }
 
 .blue {
@@ -2275,6 +2325,7 @@ input:checked + .slider {
   position: absolute;
   border-radius: 6px;
   font-size: 11px;
+  font-family: "GothamMedium";
   color: #ffffff;
   top: 7%;
   left: 75%;
@@ -2354,6 +2405,7 @@ input:checked + .slider {
 .top_section_card .timing .flex .text p {
   font-size: 14px;
   font-weight: 500;
+  font-family: "GothamMedium";
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;
@@ -2379,8 +2431,9 @@ input:checked + .slider {
 }
 
 .top_section_card .title p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: "GothamBold";
   font-stretch: normal;
   font-style: normal;
   line-height: 1.69;
@@ -2513,6 +2566,7 @@ input:checked + .slider {
   position: absolute;
   border-radius: 6px;
   font-size: 10px;
+  font-family: "GothamMedium";
   color: #ffffff;
   top: 7%;
   left: 64%;
@@ -2705,6 +2759,7 @@ input:checked + .slider {
 .news_card_section .timing .flex .text p {
   font-size: 11px;
   font-weight: 500;
+  font-family: "GothamMedium";
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;
@@ -2733,6 +2788,7 @@ input:checked + .slider {
 .news_card_section .title p {
   font-size: 16px;
   font-weight: 600;
+  font-family: "GothamBold";
   font-stretch: normal;
   font-style: normal;
   line-height: 1.69;
@@ -2815,6 +2871,8 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  font-family: "GothamMedium";
+  margin-bottom: 10px;
 }
 
 .new_card_section .photo .news_slider .horizontal .flex .share img {
@@ -2905,6 +2963,7 @@ input:checked + .slider {
   position: absolute;
   border-radius: 6px;
   font-size: 10px;
+  font-family: "GothamMedium";
   color: #ffffff;
   top: 62%;
   left: 0%;
@@ -2941,6 +3000,7 @@ input:checked + .slider {
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "GothamBold";
 }
 
 .new_card_section .photo .news_slider .item .inner .view_div {
@@ -2960,12 +3020,13 @@ input:checked + .slider {
 }
 
 .new_card_section .photo .news_slider .item .inner .view_div .view p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
+  font-family: "GothamBold";
   text-align: left;
   color: #111111;
   margin-bottom: 0px;
@@ -2975,6 +3036,7 @@ input:checked + .slider {
   font-size: 14px;
   color: #848484;
   margin-bottom: 0;
+  font-family: "GothamMedium";
 }
 
 .new_card_section .photo .news_slider .owl-prev {
@@ -3064,6 +3126,7 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: left;
   color: #6f6f6f;
+  font-family: "GothamMedium";
 }
 
 .new_card_section .news_slider .horizontal .flex .share {
@@ -3235,6 +3298,7 @@ input:checked + .slider {
   left: 76%;
   padding: 3px 10px 4px 10px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+  font-family: "GothamMedium";
 }
 
 .new_card_section .news_slider .item .post_img .play_button {
@@ -3265,17 +3329,19 @@ input:checked + .slider {
 }
 
 .new_card_section .news_slider .item .inner .description {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 600;
   color: #191710;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "GothamBold";
 }
 
 .new_card_section .news_slider .item .inner .date_time {
-  font-size: 14px;
+  font-size: 13px;
   color: #848484;
   margin-bottom: 0;
+  font-family: "GothamMedium";
 }
 
 .new_card_section .news_slider .owl-prev {
@@ -3315,6 +3381,7 @@ input:checked + .slider {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
+  font-family: "GothamBold";
   color: #111111;
 }
 
@@ -3343,7 +3410,7 @@ input:checked + .slider {
 }
 
 .new_card_section .table_card .view_div .view p {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
@@ -3352,6 +3419,7 @@ input:checked + .slider {
   text-align: left;
   color: #111111;
   margin-bottom: 0px;
+  font-family: "GothamBold";
 }
 
 .new_card_section .table_card .point_board {
@@ -3405,6 +3473,7 @@ input:checked + .slider {
   padding: 8px 8px;
   font-size: 12px;
   color: #111111;
+  font-family: "GothamMedium";
 }
 
 .new_card_section .table_card .point_board table .active_tr td {
@@ -3429,8 +3498,9 @@ input:checked + .slider {
 
 .new_card_section .table_card .point_board table .head th {
   padding: 8px 8px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
+  font-family: "GothamBold";
 }
 
 .new_card_section .table_card .point_board table .head th .fa {
@@ -3455,6 +3525,7 @@ input:checked + .slider {
   letter-spacing: normal;
   margin: 0px 0px 20px;
   color: #fff;
+  font-family: "GothamBold";
 }
 
 .social_media_section .title_lable {
@@ -3591,10 +3662,10 @@ input:checked + .slider {
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 15px;
   color: #191710;
   margin-bottom: 0px;
+  font-family: "GothamMedium";
 }
 
 .social_media_section .social .item .inner .description span {
@@ -3643,6 +3714,7 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: center;
   color: #111111;
+  font-family: "GothamBold";
 }
 
 .match_center .count .num_div .text {
@@ -3650,6 +3722,7 @@ input:checked + .slider {
   text-align: center;
   color: #707070;
   font-weight: 500;
+  font-family: "GothamBold";
 }
 
 .match_center .lines {
@@ -3683,8 +3756,9 @@ input:checked + .slider {
 }
 
 .match_center .match {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
+  font-family: "GothamBold";
 }
 
 .match_center .match_card {
@@ -3740,6 +3814,7 @@ input:checked + .slider {
   padding: 12px 0px;
   margin: 6px 2px;
   font-weight: 500;
+  font-family: "GothamBook";
 }
 
 .match_center .match_card .match_details p {
@@ -3750,6 +3825,7 @@ input:checked + .slider {
 .match_center .match_card .match_details .year {
   font-size: 14px;
   font-weight: 600;
+  font-family: "GothamBold";
 }
 
 .match_center .match_card .match_details .score_board {
@@ -3795,12 +3871,14 @@ input:checked + .slider {
   color: #000;
   padding: 6px 9px;
   border-radius: 8px;
+  font-family: "GothamBold";
 }
 
 .match_center .match_card .match_details .score_board .scores .team_details .current_score {
   margin-top: 4px;
   font-size: 13px;
   color: black;
+  font-family: "GothamMedium";
 }
 
 .match_center .match_card .match_details .score_board .match_vs {
@@ -3826,7 +3904,7 @@ input:checked + .slider {
 }
 
 .match_center .match_card .match_details .running_commentary span {
-  font-size: 13px;
+  font-size: 14px;
   padding: 8px 14px;
   font-weight: 600;
   border-radius: 4px;
@@ -3834,6 +3912,7 @@ input:checked + .slider {
   color: #fff;
   margin-bottom: 20px;
   cursor: pointer;
+  font-family: "GothamBold";
 }
 
 .match_center .match_card .footer {
@@ -3854,6 +3933,7 @@ input:checked + .slider {
   text-align: center;
   font-weight: 700;
   cursor: pointer;
+  font-family: "GothamBold";
 }
 
 .match_center .match_card .footer .dr {
@@ -4071,6 +4151,7 @@ input:checked + .slider {
     text-align: center;
     margin-bottom: 0px;
     padding: 0px;
+    font-family: "GothamBold";
   }
   .carousel_main .title p {
     margin: 0px;
@@ -4125,7 +4206,7 @@ input:checked + .slider {
     max-width: 100% !important;
   }
   .news_card_section .title p {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   .top_section_card .title p {
     font-size: 17px !important;

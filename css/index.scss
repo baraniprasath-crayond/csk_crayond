@@ -30,20 +30,31 @@ html[data-theme="dark"] {
   --show-more-color: #fff;
 }
 @font-face {
-  font-family: "oswald";
-  src: url("/fonts/Gotham-Font/Gotham-Light.otf");
+  font-family: "GothamBold";
+  src: url("/fonts/Gotham-Font/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/fonts/Gotham-Font/GothamMedium.ttf");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url("/fonts/Gotham-Font/GothamBook.ttf");
+}
+@font-face {
+  font-family: "GothamItalic";
+  src: url("/fonts/Gotham-Font/GothamBoldItalic.ttf");
 }
 html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  font-family: oswald;
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
 
 body {
-  font-family: oswald;
   background-color: var(--bg) !important;
   // font-family: 'Liu Jian Mao Cao', cursive;
   // font-family: 'Roboto Condensed', sans-serif;
@@ -535,9 +546,10 @@ input:checked + .slider {
       text-align: center;
       padding: 18px 14px 18px 14px;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 500;
       line-height: 20px;
+      font-family: "GothamMedium";
     }
 
     .logo_area {
@@ -568,7 +580,7 @@ input:checked + .slider {
         font-size: 1rem;
         margin: 0px 14px 0px 0px;
         cursor: pointer;
-
+        font-family: "GothamMedium";
         // border-bottom: 2px solid transparent;
         &:hover {
           // border-bottom: 2px solid red;
@@ -634,7 +646,7 @@ input:checked + .slider {
         background-color: #f9cf01;
         // background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
         color: #1d1d1d;
-
+        font-family: "GothamMedium";
         width: max-content;
         height: 36px;
         padding: 0px 16px;
@@ -739,6 +751,7 @@ input:checked + .slider {
   color: #fff;
   display: block;
   padding: 15px 20px;
+  font-family: "GothamMedium";
 }
 
 .mobile-nav li a:hover {
@@ -753,12 +766,14 @@ input:checked + .slider {
   color: #fff;
   border-left: 3px solid #ffc107;
   text-decoration: none;
+  font-family: "GothamMedium";
 }
 
 .sub_menu_show a {
   color: #fff;
   display: block;
   padding: 15px 20px;
+  font-family: "GothamMedium";
 }
 
 .sub_menu_show a:hover {
@@ -910,6 +925,8 @@ input:checked + .slider {
         letter-spacing: normal;
         text-align: center;
         color: #111111;
+        font-family: "GothamBold";
+        font-family: "GothamBold";
       }
 
       .text {
@@ -917,6 +934,7 @@ input:checked + .slider {
         text-align: center;
         color: #707070;
         font-weight: 500;
+        font-family: "GothamMedium";
       }
     }
   }
@@ -948,8 +966,9 @@ input:checked + .slider {
   }
 
   .match {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
+    font-family: "GothamBold";
   }
 
   .match_card {
@@ -1023,6 +1042,7 @@ input:checked + .slider {
         margin: 6px 2px;
         font-weight: 500;
         text-align: center;
+        font-family: "GothamBook";
       }
 
       p {
@@ -1035,6 +1055,7 @@ input:checked + .slider {
         font-weight: 600;
         margin-top: 15px;
         text-align: center;
+        font-family: "GothamBold";
       }
 
       .score_board {
@@ -1074,12 +1095,14 @@ input:checked + .slider {
               color: #000;
               padding: 6px 9px;
               border-radius: 8px;
+              font-family: "GothamBold";
             }
 
             .current_score {
               margin-top: 4px;
               font-size: 13px;
               color: black;
+              font-family: "GothamMedium";
             }
           }
         }
@@ -1111,6 +1134,7 @@ input:checked + .slider {
           color: #fff;
           margin-bottom: 20px;
           cursor: pointer;
+          font-family: "GothamBold";
         }
       }
     }
@@ -1129,6 +1153,7 @@ input:checked + .slider {
         text-align: center;
         font-weight: 700;
         cursor: pointer;
+        font-family: "GothamBold";
       }
 
       .dr {
@@ -1220,6 +1245,7 @@ input:checked + .slider {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    font-family: "GothamBold";
   }
 
   .cards {
@@ -1255,6 +1281,7 @@ input:checked + .slider {
         top: 89px;
         left: 147px;
         color: #ffcd01;
+        font-family: "GothamBold";
         font-size: 54px;
         text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000,
           1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000,
@@ -1272,6 +1299,7 @@ input:checked + .slider {
             font-size: 56px;
             font-weight: bold;
             line-height: 1.2;
+            font-family: "GothamBold";
 
             label {
               position: relative;
@@ -1279,6 +1307,7 @@ input:checked + .slider {
 
             span {
               font-size: 140px !important;
+              font-family: "GothamBold";
               position: absolute;
               top: 0;
               text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff,
@@ -1315,6 +1344,7 @@ input:checked + .slider {
           text-align: left;
           color: #111111;
           margin-bottom: 0px;
+          font-family: "GothamBold";
         }
       }
     }
@@ -1340,6 +1370,7 @@ input:checked + .slider {
             font-size: 20px;
             font-weight: 600;
             line-height: 0.63;
+            font-family: "GothamBold";
           }
 
           .msg {
@@ -1349,6 +1380,7 @@ input:checked + .slider {
             font-weight: 600;
             cursor: pointer;
             line-height: 0.63;
+            font-family: "GothamBold";
           }
         }
 
@@ -1379,6 +1411,7 @@ input:checked + .slider {
               text-align: center;
               font-weight: bold;
               font-size: 13px;
+              font-family: "GothamMedium";
             }
           }
         }
@@ -1443,6 +1476,7 @@ input:checked + .slider {
           text-align: left;
           color: #111111;
           margin-bottom: 0px;
+          font-family: "GothamBold";
         }
       }
     }
@@ -1465,6 +1499,7 @@ input:checked + .slider {
         letter-spacing: normal;
         margin-bottom: 0px;
         padding-top: 15px;
+        font-family: "GothamItalic";
       }
 
       .owl-controls {
@@ -1506,11 +1541,12 @@ input:checked + .slider {
           text-align: center;
           font-size: 20px;
           opacity: 0.8;
-          font-weight: 600;
+          font-weight: 500;
           font-stretch: normal;
-          font-style: italic;
+          // font-style: italic;
           line-height: 0.63;
           letter-spacing: normal;
+          font-family: "GothamMedium";
         }
 
         .detail {
@@ -1521,6 +1557,7 @@ input:checked + .slider {
             margin-right: 30px;
             font-weight: bold;
             margin-top: 6px;
+            font-family: "GothamBold";
           }
 
           .count {
@@ -1537,6 +1574,7 @@ input:checked + .slider {
               text-align: center;
               border-radius: 20px;
               width: fit-content;
+              font-family: "GothamBold";
             }
           }
 
@@ -1571,6 +1609,7 @@ input:checked + .slider {
     color: #fff;
     text-transform: uppercase;
     text-align: center;
+    font-family: "GothamBold";
 
     span {
       bottom: 0;
@@ -1693,6 +1732,7 @@ input:checked + .slider {
   .title {
     p {
       font-size: 30px;
+      font-family: "GothamBold";
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;
@@ -1949,9 +1989,10 @@ input:checked + .slider {
     height: 40px;
     color: #fff;
     margin-top: -34px;
-    font-size: 15px;
+    font-size: 16px;
     right: 120px;
     letter-spacing: 1px;
+    font-family: "GothamBold";
   }
 
   .item {
@@ -1968,6 +2009,7 @@ input:checked + .slider {
       div {
         margin: auto;
         font-size: 14px;
+        font-family: "GothamBold";
       }
     }
 
@@ -2114,6 +2156,7 @@ input:checked + .slider {
       font-weight: 600;
       margin-bottom: 4px;
       background-color: #ffcd01;
+      font-family: "GothamBold";
       //   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
       width: fit-content;
       padding: 4px 10px;
@@ -2131,6 +2174,7 @@ input:checked + .slider {
       color: #ced4da;
       font-weight: 500;
       padding-left: 2px;
+      font-family: "GothamBold";
     }
 
     livetag {
@@ -2144,6 +2188,7 @@ input:checked + .slider {
         border-radius: 6px;
         margin-top: 85px;
         color: #fff;
+        font-family: "GothamBold";
         cursor: pointer;
       }
     }
@@ -2233,6 +2278,7 @@ input:checked + .slider {
       font-size: 14px;
       font-weight: 600;
       color: #ffffff;
+      font-family: "GothamMedium";
     }
   }
 
@@ -2244,6 +2290,7 @@ input:checked + .slider {
       font-size: 14px;
       font-weight: 600;
       padding: 0px 24px;
+      font-family: "GothamMedium";
     }
 
     .divider {
@@ -2330,6 +2377,8 @@ input:checked + .slider {
       position: absolute;
       border-radius: 6px;
       font-size: 11px;
+
+      font-family: "GothamMedium";
       color: #ffffff;
       top: 7%;
       left: 75%;
@@ -2407,6 +2456,7 @@ input:checked + .slider {
         p {
           font-size: 14px;
           font-weight: 500;
+          font-family: "GothamMedium";
           font-stretch: normal;
           font-style: normal;
           line-height: 1.67;
@@ -2433,8 +2483,9 @@ input:checked + .slider {
     }
 
     p {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 600;
+      font-family: "GothamBold";
       font-stretch: normal;
       font-style: normal;
       line-height: 1.69;
@@ -2568,6 +2619,7 @@ input:checked + .slider {
       position: absolute;
       border-radius: 6px;
       font-size: 10px;
+      font-family: "GothamMedium";
       color: #ffffff;
       top: 7%;
       left: 64%;
@@ -2751,6 +2803,7 @@ input:checked + .slider {
         p {
           font-size: 11px;
           font-weight: 500;
+          font-family: "GothamMedium";
           font-stretch: normal;
           font-style: normal;
           line-height: 1.67;
@@ -2780,6 +2833,7 @@ input:checked + .slider {
     p {
       font-size: 16px;
       font-weight: 600;
+      font-family: "GothamBold";
       font-stretch: normal;
       font-style: normal;
       line-height: 1.69;
@@ -2884,6 +2938,8 @@ input:checked + .slider {
             letter-spacing: normal;
             text-align: left;
             color: #ffffff;
+            font-family: "GothamMedium";
+            margin-bottom: 10px;
           }
 
           .share {
@@ -2968,6 +3024,7 @@ input:checked + .slider {
             position: absolute;
             border-radius: 6px;
             font-size: 10px;
+            font-family: "GothamMedium";
             color: #ffffff;
             top: 62%;
             left: 0%;
@@ -3011,6 +3068,7 @@ input:checked + .slider {
             color: #ffffff;
             margin-top: 10px;
             margin-bottom: 10px;
+            font-family: "GothamBold";
           }
 
           .view_div {
@@ -3024,12 +3082,13 @@ input:checked + .slider {
               border-radius: 6px;
 
               p {
-                font-size: 12px;
+                font-size: 15px;
                 font-weight: 700;
                 font-stretch: normal;
                 font-style: normal;
                 line-height: 1.5;
                 letter-spacing: normal;
+                font-family: "GothamBold";
                 text-align: left;
                 color: #111111;
                 margin-bottom: 0px;
@@ -3041,6 +3100,7 @@ input:checked + .slider {
             font-size: 14px;
             color: #848484;
             margin-bottom: 0;
+            font-family: "GothamMedium";
           }
         }
       }
@@ -3140,6 +3200,7 @@ input:checked + .slider {
           letter-spacing: normal;
           text-align: left;
           color: #6f6f6f;
+          font-family: "GothamMedium";
         }
 
         .share {
@@ -3295,6 +3356,7 @@ input:checked + .slider {
           left: 76%;
           padding: 3px 10px 4px 10px;
           background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
+          font-family: "GothamMedium";
         }
 
         .play_button {
@@ -3331,17 +3393,19 @@ input:checked + .slider {
         }
 
         .description {
-          font-size: 17px;
+          font-size: 16px;
           font-weight: 600;
           color: #191710;
           margin-top: 10px;
           margin-bottom: 10px;
+          font-family: "GothamBold";
         }
 
         .date_time {
-          font-size: 14px;
+          font-size: 13px;
           color: #848484;
           margin-bottom: 0;
+          font-family: "GothamMedium";
         }
       }
     }
@@ -3379,7 +3443,7 @@ input:checked + .slider {
       font-style: normal;
       line-height: 1.5;
       letter-spacing: normal;
-
+      font-family: "GothamBold";
       color: #111111;
 
       p {
@@ -3400,7 +3464,7 @@ input:checked + .slider {
         cursor: pointer;
 
         p {
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 700;
           font-stretch: normal;
           font-style: normal;
@@ -3409,6 +3473,7 @@ input:checked + .slider {
           text-align: left;
           color: #111111;
           margin-bottom: 0px;
+          font-family: "GothamBold";
         }
       }
     }
@@ -3461,6 +3526,7 @@ input:checked + .slider {
             padding: 8px 8px;
             font-size: 12px;
             color: #111111;
+            font-family: "GothamMedium";
           }
         }
 
@@ -3489,8 +3555,9 @@ input:checked + .slider {
 
           th {
             padding: 8px 8px;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 600;
+            font-family: "GothamBold";
 
             .fa {
               font-size: 10px;
@@ -3520,6 +3587,7 @@ input:checked + .slider {
         letter-spacing: normal;
         margin: 0px 0px 20px;
         color: #fff;
+        font-family: "GothamBold";
       }
     }
   }
@@ -3651,10 +3719,11 @@ input:checked + .slider {
           display: -webkit-box;
           -webkit-line-clamp: 3;
           -webkit-box-orient: vertical;
-          font-size: 16px;
-          font-weight: 600;
+          font-size: 15px;
+          // font-weight: 600;
           color: #191710;
           margin-bottom: 0px;
+          font-family: "GothamMedium";
 
           span {
             color: #27a2ff;
@@ -3709,6 +3778,7 @@ input:checked + .slider {
         letter-spacing: normal;
         text-align: center;
         color: #111111;
+        font-family: "GothamBold";
       }
 
       .text {
@@ -3716,6 +3786,7 @@ input:checked + .slider {
         text-align: center;
         color: #707070;
         font-weight: 500;
+        font-family: "GothamBold";
       }
     }
   }
@@ -3758,8 +3829,9 @@ input:checked + .slider {
   }
 
   .match {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
+    font-family: "GothamBold";
   }
 
   .match_card {
@@ -3811,6 +3883,7 @@ input:checked + .slider {
         padding: 12px 0px;
         margin: 6px 2px;
         font-weight: 500;
+        font-family: "GothamBook";
       }
 
       p {
@@ -3821,6 +3894,7 @@ input:checked + .slider {
       .year {
         font-size: 14px;
         font-weight: 600;
+        font-family: "GothamBold";
       }
 
       .score_board {
@@ -3859,12 +3933,14 @@ input:checked + .slider {
               color: #000;
               padding: 6px 9px;
               border-radius: 8px;
+              font-family: "GothamBold";
             }
 
             .current_score {
               margin-top: 4px;
               font-size: 13px;
               color: black;
+              font-family: "GothamMedium";
             }
           }
         }
@@ -3890,7 +3966,7 @@ input:checked + .slider {
 
       .running_commentary {
         span {
-          font-size: 13px;
+          font-size: 14px;
           padding: 8px 14px;
           font-weight: 600;
           border-radius: 4px;
@@ -3898,6 +3974,7 @@ input:checked + .slider {
           color: #fff;
           margin-bottom: 20px;
           cursor: pointer;
+          font-family: "GothamBold";
         }
       }
     }
@@ -3915,6 +3992,7 @@ input:checked + .slider {
         text-align: center;
         font-weight: 700;
         cursor: pointer;
+        font-family: "GothamBold";
       }
 
       .dr {
@@ -4218,6 +4296,7 @@ input:checked + .slider {
       text-align: center;
       margin-bottom: 0px;
       padding: 0px;
+      font-family: "GothamBold";
 
       p {
         margin: 0px;
@@ -4304,7 +4383,7 @@ input:checked + .slider {
 
   .news_card_section {
     .title p {
-      font-size: 12px !important;
+      font-size: 14px !important;
     }
   }
 
