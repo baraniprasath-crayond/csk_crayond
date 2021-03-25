@@ -2212,7 +2212,7 @@ input:checked + .slider {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 59px;
+  margin-top: 80px;
 }
 
 .top_section_card .card:hover .progress {
