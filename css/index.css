@@ -2585,9 +2585,7 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  bottom: 0;
-  position: absolute;
-  width: 80%;
+  width: 100%;
 }
 
 .news_card_section .timing .flex .share {
