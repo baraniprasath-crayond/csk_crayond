@@ -542,6 +542,7 @@ input:checked + .slider {
       .logo {
         padding: 0;
         cursor: pointer;
+        transition: 0.4s;
 
         img {
           width: 100px;
@@ -682,6 +683,10 @@ input:checked + .slider {
   cursor: pointer;
   padding: 2px 6px;
   margin-right: 6px;
+}
+.mobile_logo {
+  display: none;
+  border-radius: 10px;
 }
 
 .menu-toggle:hover {
@@ -4103,8 +4108,13 @@ input:checked + .slider {
         .menu-toggle {
           display: block;
         }
+        .mobile_logo {
+          display: block;
+          border-radius: 10px;
+        }
 
         .logo {
+          display: none;
           img {
             width: 50px;
             height: 50px;
@@ -4629,8 +4639,13 @@ input:checked + .slider {
         .menu-toggle {
           display: block;
         }
+        .mobile_logo {
+          display: block;
+          border-radius: 10px;
+        }
 
         .logo {
+          display: none;
           img {
             width: 50px;
             height: 50px;

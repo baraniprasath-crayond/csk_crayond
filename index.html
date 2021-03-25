@@ -52,7 +52,10 @@
                             </div>
                             <!-- end -->
                             <a href="#" class="logo" alt="crayond">
-                                <img alt="logo-crayond" src="./assets/logo.png" />
+                                <img id="logo" style="width: 40px;height: 40px;" alt="logo-crayond" src="./assets/logo.png" />
+                            </a>
+                            <a href="#" class="mobile_logo" alt="crayond">
+                                <img id="logo" style="width: 55px;height: 55px;" alt="logo-crayond" src="./assets/logo.png" />
                             </a>
                         </div>
                         <div class="col-12 col-xs-12 col-ms-12 col-md-8 col-lg-9 col-xl-9 header_menu">
@@ -2106,6 +2109,20 @@
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js"></script>
 
 <script>
+
+    window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("logo").style.width = "55px";
+                  document.getElementById("logo").style.height = "55px";
+                  document.getElementById("logo").style.borderRadius = "10px";
+            } else {
+                document.getElementById("logo").style.width = "100px";
+                 document.getElementById("logo").style.height = "100px";
+                  document.getElementById("logo").style.borderRadius = "0px";
+            }
+        }
     function handletvsection(img,tittle) {
         var a = img;
         var t = tittle
