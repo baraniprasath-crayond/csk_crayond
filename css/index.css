@@ -2804,7 +2804,7 @@ input:checked + .slider {
   top: 40%;
   height: 40px;
   width: 40px;
-  left: 3.5%;
+  left: 6.5%;
   margin: 0;
   border-radius: 50% !important;
   display: -webkit-box;
@@ -2814,13 +2814,14 @@ input:checked + .slider {
 
 .new_card_section .colm:hover .owl-nav .owl-prev i {
   margin: auto;
-  font-size: 44px;
+  font-size: 100px;
   line-height: 0.5;
   padding-bottom: 6px;
   position: relative;
   top: 3px;
+  opacity: 0.3;
   cursor: pointer;
-  color: #fff;
+  color: #000;
   left: -54px;
   position: absolute;
 }
@@ -2836,9 +2837,9 @@ input:checked + .slider {
   top: 40%;
   height: 40px;
   width: 40px;
-  right: 3.5%;
+  right: 6.5%;
   margin: 0;
-  color: #fff;
+  color: #000;
   border-radius: 50% !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2847,8 +2848,9 @@ input:checked + .slider {
 
 .new_card_section .colm:hover .owl-nav .owl-next i {
   margin: auto;
-  font-size: 44px;
-  line-height: 0.5;
+  font-size: 100px;
+  opacity: 0.3;
+  line-height: 0.6;
   padding-bottom: 6px;
   position: relative;
   top: 3px;
