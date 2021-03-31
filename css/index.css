@@ -1294,7 +1294,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1318,7 +1318,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -1415,12 +1415,16 @@ input:checked + .slider {
 }
 
 .store_card .cards .fan .content .detail .box_div .name {
-  margin-top: 10px;
+  margin-top: 16px;
   color: #000;
   text-align: center;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 12px;
   font-family: "GothamMedium";
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .fan_card {
@@ -2276,7 +2280,7 @@ input:checked + .slider {
 }
 
 .main_section_bk_img {
-  background: url("../assets/Group 142.png") !important;
+  background-image: url("../assets/Group 142.png") !important;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -2371,7 +2375,7 @@ input:checked + .slider {
   width: 100%;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  height: 100%;
+  height: auto;
 }
 
 .top_section_card .card .post_img img:hover {
@@ -4364,7 +4368,8 @@ input:checked + .slider {
     height: 246px;
   }
   .store_card .cards .fan .content .detail .box_div {
-    height: 76%;
+    height: 80px;
+    margin-bottom: 50px;
   }
   .csktv_dk_section {
     display: none !important;
@@ -4783,6 +4788,9 @@ input:checked + .slider {
     background: transparent;
     height: auto;
   }
+  .store_card .cards .row {
+    height: auto !important;
+  }
   .store_card .cards .left {
     margin-bottom: 32px;
   }
@@ -4814,8 +4822,12 @@ input:checked + .slider {
   .store_card .cards .left .whistle img {
     height: 146px;
   }
+  .store_card .cards .fan .content .titile .tag {
+    font-size: 14px;
+  }
   .store_card .cards .fan .content .detail .box_div {
-    height: 76%;
+    height: 80px;
+    margin-bottom: 50px;
   }
   .fan_card {
     padding: 16px;
@@ -4881,6 +4893,9 @@ input:checked + .slider {
   .top_section_card .card .snd {
     height: 130px;
     padding: 0px 18px 12px;
+  }
+  .carousel_main {
+    min-width: 300px;
   }
 }
 
