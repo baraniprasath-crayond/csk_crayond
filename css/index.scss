@@ -2845,6 +2845,74 @@ input:checked + .slider {
 }
 
 .new_card_section {
+  .colm:hover {
+    .owl-nav {
+      .owl-prev {
+        display: block !important;
+        outline: none;
+        position: absolute;
+        top: 40%;
+        height: 40px;
+        // background-color: #ced4da !important;
+        width: 40px;
+        left: 3%;
+        margin: 0;
+        border-radius: 50% !important;
+        display: flex;
+
+        i {
+          margin: auto;
+          font-size: 60px;
+          line-height: 0.5;
+          padding-bottom: 6px;
+          position: relative;
+          top: 3px;
+          cursor: pointer;
+          color: #fff;
+          left: -54px;
+          position: absolute;
+        }
+
+        .fa-chevron-left:before {
+          content: "\f104";
+        }
+      }
+
+      .owl-next {
+        outline: none;
+        display: block !important;
+        position: absolute;
+        top: 40%;
+        height: 40px;
+        // background-color: #ced4da !important;
+        width: 40px;
+        right: 3%;
+        margin: 0;
+        color: #fff;
+        border-radius: 50% !important;
+        display: flex;
+
+        i {
+          margin: auto;
+          font-size: 60px;
+          line-height: 0.5;
+          padding-bottom: 6px;
+          position: relative;
+          top: 3px;
+          cursor: pointer;
+          right: -54px;
+          position: absolute;
+        }
+
+        .fa-chevron-right:before {
+          content: "\f105";
+        }
+      }
+    }
+  }
+  // .mbl_carousel:hover {
+  // }
+
   // margin-bottom: 30px;
   // .news_slider {
   //     .item{
