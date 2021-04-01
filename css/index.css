@@ -5128,4 +5128,13 @@ input:checked + .slider {
     font-size: 22px;
   }
 }
+
+@media only screen and (min-width: 1024px) {
+  .news_card_section .card .news {
+    left: 170%;
+    top: 5px;
+    font-size: 13px;
+    padding: 3px 11px 2px 8px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
