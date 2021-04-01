@@ -1490,7 +1490,7 @@ input:checked + .slider {
 
 .fan_card .cards .view_div .view p {
   padding: 1px 6px;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   font-stretch: normal;
   font-style: normal;
@@ -4640,7 +4640,7 @@ input:checked + .slider {
     font-size: 8px;
   }
   .news_card_section .card .news {
-    left: 170%;
+    left: 10%;
     top: 5px;
     font-size: 13px;
     padding: 3px 11px 2px 8px;
@@ -4795,9 +4795,9 @@ input:checked + .slider {
 
 @media only screen and (max-width: 426px) {
   .news_card_section .card .news {
-    left: 200%;
+    left: 10%;
     top: 5px;
-    font-size: 13px;
+    font-size: 7px;
     padding: 3px 11px 2px 8px;
   }
   .fan_card .cards .fan .content .msg {
@@ -5146,7 +5146,7 @@ input:checked + .slider {
 
 @media only screen and (min-width: 1024px) {
   .news_card_section .card .news {
-    left: 170%;
+    left: 10%;
     top: 5px;
     font-size: 13px;
     padding: 3px 11px 2px 8px;
