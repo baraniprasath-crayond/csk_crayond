@@ -2647,10 +2647,6 @@ input:checked + .slider {
   width: 100%;
 }
 
-.news_card_section .timing .flex .share {
-  margin-top: -7px;
-}
-
 .news_card_section .timing .flex .share:hover .sidepanel {
   width: 235px;
   height: 70px;
