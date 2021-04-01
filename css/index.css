@@ -1270,11 +1270,10 @@ input:checked + .slider {
   background-color: #ffcd01;
   height: 100%;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .store_card .cards .left .whistle {
-  position: absolute;
-  top: -55px;
   width: 345px;
 }
 
@@ -3759,7 +3758,9 @@ input:checked + .slider {
 }
 
 .match_center .height {
-  height: 350px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .match_center .count {
@@ -4394,6 +4395,9 @@ input:checked + .slider {
   }
   .store_card .cards {
     background: transparent;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
     height: auto;
   }
   .store_card .cards .left {
@@ -4431,7 +4435,7 @@ input:checked + .slider {
     height: 246px;
   }
   .store_card .cards .fan .content .detail .box_div {
-    height: 80px;
+    height: 130px;
     margin-bottom: 50px;
   }
   .csktv_dk_section {
@@ -4628,7 +4632,7 @@ input:checked + .slider {
     font-size: 8px;
   }
   .news_card_section .card .news {
-    left: 50%;
+    left: 80%;
     font-size: 13px;
     padding: 3px 11px 2px 8px;
   }
@@ -4651,7 +4655,7 @@ input:checked + .slider {
     font-size: 4rem;
   }
   .match_center .top_section_card .card .news {
-    left: 66%;
+    left: 75%;
     font-size: 13px;
     padding: 3px 11px 2px 8px;
   }
@@ -4781,6 +4785,11 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 426px) {
+  .news_card_section .card .news {
+    left: 200%;
+    font-size: 13px;
+    padding: 3px 11px 2px 8px;
+  }
   .fan_card .cards .fan .content .msg {
     font-size: 17px !important;
   }
@@ -4849,6 +4858,9 @@ input:checked + .slider {
   }
   .store_card .cards {
     background: transparent;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
     height: auto;
   }
   .store_card .cards .row {
@@ -4889,7 +4901,7 @@ input:checked + .slider {
     font-size: 14px;
   }
   .store_card .cards .fan .content .detail .box_div {
-    height: 80px;
+    height: 100px;
     margin-bottom: 50px;
   }
   .fan_card {
