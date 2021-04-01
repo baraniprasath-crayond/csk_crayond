@@ -4195,6 +4195,73 @@ input:checked + .slider {
         margin-top: 26px;
       }
 
+      .owl-nav {
+        display: none;
+        .owl-prev {
+          display: none !important;
+          outline: none;
+          position: absolute;
+          top: 40%;
+          height: 40px;
+          // background-color: #ced4da !important;
+          width: 40px;
+          left: 6.5%;
+          margin: 0;
+          border-radius: 50% !important;
+          display: flex;
+
+          i {
+            margin: auto;
+            font-size: 100px;
+            line-height: 0.5;
+            padding-bottom: 6px;
+            position: relative;
+            top: 3px;
+            opacity: 0.3;
+            cursor: pointer;
+            color: #000;
+            left: -54px;
+            position: absolute;
+          }
+
+          .fa-chevron-left:before {
+            content: "\f104";
+          }
+        }
+
+        .owl-next {
+          outline: none;
+          display: none !important;
+          position: absolute;
+          top: 40%;
+          height: 40px;
+          // background-color: #ced4da !important;
+          width: 40px;
+          right: 6.5%;
+          margin: 0;
+          color: #000;
+          border-radius: 50% !important;
+          display: flex;
+
+          i {
+            margin: auto;
+            font-size: 100px;
+            opacity: 0.3;
+            line-height: 0.6;
+            padding-bottom: 6px;
+            position: relative;
+            top: 3px;
+            cursor: pointer;
+            right: -54px;
+            position: absolute;
+          }
+
+          .fa-chevron-right:before {
+            content: "\f105";
+          }
+        }
+      }
+
       .owl-dots {
         .owl-dot {
           width: 30px;
@@ -5265,7 +5332,7 @@ input:checked + .slider {
   .store_card {
     .cards {
       background: transparent;
-      .row{
+      .row {
         height: auto !important;
       }
       .left {
@@ -5311,8 +5378,8 @@ input:checked + .slider {
 
       .fan {
         .content {
-          .titile{
-            .tag{
+          .titile {
+            .tag {
               font-size: 14px;
             }
           }

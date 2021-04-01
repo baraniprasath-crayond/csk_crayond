@@ -1294,7 +1294,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1318,7 +1318,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -4117,6 +4117,69 @@ input:checked + .slider {
     text-align: center;
     padding-top: 15px;
     margin-top: 26px;
+  }
+  .mbl_carousel .owl-controls .owl-nav {
+    display: none;
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-prev {
+    display: none !important;
+    outline: none;
+    position: absolute;
+    top: 40%;
+    height: 40px;
+    width: 40px;
+    left: 6.5%;
+    margin: 0;
+    border-radius: 50% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-prev i {
+    margin: auto;
+    font-size: 100px;
+    line-height: 0.5;
+    padding-bottom: 6px;
+    position: relative;
+    top: 3px;
+    opacity: 0.3;
+    cursor: pointer;
+    color: #000;
+    left: -54px;
+    position: absolute;
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-prev .fa-chevron-left:before {
+    content: "\f104";
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-next {
+    outline: none;
+    display: none !important;
+    position: absolute;
+    top: 40%;
+    height: 40px;
+    width: 40px;
+    right: 6.5%;
+    margin: 0;
+    color: #000;
+    border-radius: 50% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-next i {
+    margin: auto;
+    font-size: 100px;
+    opacity: 0.3;
+    line-height: 0.6;
+    padding-bottom: 6px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+    right: -54px;
+    position: absolute;
+  }
+  .mbl_carousel .owl-controls .owl-nav .owl-next .fa-chevron-right:before {
+    content: "\f105";
   }
   .mbl_carousel .owl-controls .owl-dots .owl-dot {
     width: 30px;
