@@ -925,7 +925,7 @@ input:checked + .slider {
 
     .num_div {
       .num {
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 0px;
         font-weight: 700;
         font-stretch: normal;
@@ -975,7 +975,7 @@ input:checked + .slider {
   }
 
   .match {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     font-family: "GothamBold";
   }
@@ -1081,12 +1081,12 @@ input:checked + .slider {
             width: 100%;
             object-fit: contain;
 
-            width: 70px;
+            width: 60px;
             margin-top: 6px;
           }
 
           .lo {
-            width: 70px;
+            width: 60px;
             margin-top: 5px;
           }
         }
@@ -1270,13 +1270,15 @@ input:checked + .slider {
       background-color: #ffcd01;
       height: 100%;
       border-radius: 10px;
+      overflow: hidden;
 
       .whistle {
-        position: absolute;
-        //   bottom: -90px;
-        top: -55px;
+        // position: absolute;
+        // //   bottom: -90px;
+        // top: -55px;
 
-        width: 345px;
+        width: 245px;
+        overflow: hidden;
 
         img {
           height: 294px;
@@ -1395,8 +1397,9 @@ input:checked + .slider {
 
         .detail {
           .box_div {
-            width: 100%;
-            height: 110px;
+            // width: 100%;
+            width: 100px;
+            height: 115px;
             border-radius: 8px;
             border: 8px solid #ffcd01;
             // background-color: #ffcd01;
@@ -2140,6 +2143,7 @@ input:checked + .slider {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 700px;
 
     img {
       width: 100%;
@@ -3844,7 +3848,7 @@ input:checked + .slider {
 // Match center page
 .match_center {
   .height {
-    height: 350px;
+    height: fit-content;
   }
 
   .count {
@@ -4163,7 +4167,7 @@ input:checked + .slider {
   .carousel_main {
     .item {
       width: 100% !important;
-      height: 100% !important;
+      height: 600px !important;
     }
 
     .inner {
@@ -4202,6 +4206,73 @@ input:checked + .slider {
         text-align: center;
         padding-top: 15px;
         margin-top: 26px;
+      }
+
+      .owl-nav {
+        display: none;
+        .owl-prev {
+          display: none !important;
+          outline: none;
+          position: absolute;
+          top: 40%;
+          height: 40px;
+          // background-color: #ced4da !important;
+          width: 40px;
+          left: 6.5%;
+          margin: 0;
+          border-radius: 50% !important;
+          display: flex;
+
+          i {
+            margin: auto;
+            font-size: 100px;
+            line-height: 0.5;
+            padding-bottom: 6px;
+            position: relative;
+            top: 3px;
+            opacity: 0.3;
+            cursor: pointer;
+            color: #000;
+            left: -54px;
+            position: absolute;
+          }
+
+          .fa-chevron-left:before {
+            content: "\f104";
+          }
+        }
+
+        .owl-next {
+          outline: none;
+          display: none !important;
+          position: absolute;
+          top: 40%;
+          height: 40px;
+          // background-color: #ced4da !important;
+          width: 40px;
+          right: 6.5%;
+          margin: 0;
+          color: #000;
+          border-radius: 50% !important;
+          display: flex;
+
+          i {
+            margin: auto;
+            font-size: 100px;
+            opacity: 0.3;
+            line-height: 0.6;
+            padding-bottom: 6px;
+            position: relative;
+            top: 3px;
+            cursor: pointer;
+            right: -54px;
+            position: absolute;
+          }
+
+          .fa-chevron-right:before {
+            content: "\f105";
+          }
+        }
       }
 
       .owl-dots {
@@ -4372,7 +4443,7 @@ input:checked + .slider {
     // margin: 0px 13px;
 
     .item {
-      height: 600px;
+      height: 600px !important;
     }
 
     .title {
@@ -4563,6 +4634,7 @@ input:checked + .slider {
   .store_card {
     .cards {
       background: transparent;
+      height: fit-content !important;
 
       .left {
         .shirt {
@@ -4614,7 +4686,7 @@ input:checked + .slider {
           .detail {
             .box_div {
               // height: 76%;
-              height: 80px;
+              height: 130px;
               margin-bottom: 50px;
             }
           }
@@ -4926,7 +4998,8 @@ input:checked + .slider {
   .news_card_section {
     .card {
       .news {
-        left: 50%;
+        left: 170%;
+        top: 5px;
         font-size: 13px;
         padding: 3px 11px 2px 8px;
       }
@@ -4966,7 +5039,7 @@ input:checked + .slider {
 
       .card {
         .news {
-          left: 66%;
+          left: 75%;
           font-size: 13px;
           padding: 3px 11px 2px 8px;
         }
@@ -5166,6 +5239,16 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 426px) {
+  .news_card_section {
+    .card {
+      .news {
+        left: 200%;
+        top: 5px;
+        font-size: 13px;
+        padding: 3px 11px 2px 8px;
+      }
+    }
+  }
   .fan_card {
     .cards {
       .fan {
@@ -5274,7 +5357,8 @@ input:checked + .slider {
   .store_card {
     .cards {
       background: transparent;
-      .row{
+      height: fit-content !important;
+      .row {
         height: auto !important;
       }
       .left {
@@ -5320,15 +5404,15 @@ input:checked + .slider {
 
       .fan {
         .content {
-          .titile{
-            .tag{
+          .titile {
+            .tag {
               font-size: 14px;
             }
           }
           .detail {
             .box_div {
               // height: 76%;
-              height: 80px;
+              height: 100px;
               margin-bottom: 50px;
             }
           }
@@ -5674,6 +5758,39 @@ input:checked + .slider {
       .num_div {
         .num {
           font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+// ipad pro
+@media only screen and (min-width: 1024px) {
+  .news_card_section {
+    .card {
+      .news {
+        left: 170%;
+        top: 5px;
+        font-size: 13px;
+        padding: 3px 11px 2px 8px;
+      }
+    }
+  }
+
+  .match_center {
+    .match_card {
+      .match_details {
+        .score_board {
+          .team_logo {
+            img {
+              width: 70px;
+              margin-top: -5px;
+            }
+            .lo {
+              width: 70px;
+              margin-top: -5px;
+            }
+          }
         }
       }
     }
