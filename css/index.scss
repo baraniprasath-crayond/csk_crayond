@@ -35,8 +35,17 @@ html[data-theme="dark"] {
 }
 
 @font-face {
+  font-family: "GothamBold";
+  src: url("/fonts/Gotham-Font/Gotham-Bold.otf");
+}
+
+@font-face {
   font-family: "GothamMedium";
   src: url("/fonts/Gotham-Font/GothamMedium.ttf");
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/fonts/Gotham-Font/Gotham-Bold.otf");
 }
 @font-face {
   font-family: "GothamBook";
@@ -4471,7 +4480,7 @@ input:checked + .slider {
   .top_section_card {
     .title {
       p {
-        font-size: 17px !important;
+        font-size: 17px;
       }
     }
   }
@@ -5424,10 +5433,20 @@ input:checked + .slider {
 
     .title {
       padding: 12px !important;
+      
     }
 
     .card {
       height: auto;
+      .row{
+        height: auto;
+      }
+      .colm{
+        height: auto;
+      }
+      .post_img{
+        height: auto;
+      }
 
       .snd {
         height: 130px;
