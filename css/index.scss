@@ -916,7 +916,7 @@ input:checked + .slider {
 
     .num_div {
       .num {
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 0px;
         font-weight: 700;
         font-stretch: normal;
@@ -966,7 +966,7 @@ input:checked + .slider {
   }
 
   .match {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
     font-family: "GothamBold";
   }
@@ -1072,12 +1072,12 @@ input:checked + .slider {
             width: 100%;
             object-fit: contain;
 
-            width: 70px;
+            width: 60px;
             margin-top: 6px;
           }
 
           .lo {
-            width: 70px;
+            width: 60px;
             margin-top: 5px;
           }
         }
@@ -4989,7 +4989,8 @@ input:checked + .slider {
   .news_card_section {
     .card {
       .news {
-        left: 80%;
+        left: 170%;
+        top: 5px;
         font-size: 13px;
         padding: 3px 11px 2px 8px;
       }
@@ -5233,6 +5234,7 @@ input:checked + .slider {
     .card {
       .news {
         left: 200%;
+        top: 5px;
         font-size: 13px;
         padding: 3px 11px 2px 8px;
       }
