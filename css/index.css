@@ -36,8 +36,18 @@ html[data-theme="dark"] {
 }
 
 @font-face {
+  font-family: "GothamBold";
+  src: url("/fonts/Gotham-Font/Gotham-Bold.otf");
+}
+
+@font-face {
   font-family: "GothamMedium";
   src: url("/fonts/Gotham-Font/GothamMedium.ttf");
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url("/fonts/Gotham-Font/Gotham-Bold.otf");
 }
 
 @font-face {
@@ -4341,7 +4351,7 @@ input:checked + .slider {
     font-size: 14px !important;
   }
   .top_section_card .title p {
-    font-size: 17px !important;
+    font-size: 17px;
   }
   .header {
     z-index: 1000;
@@ -4963,6 +4973,15 @@ input:checked + .slider {
     padding: 12px !important;
   }
   .top_section_card .card {
+    height: auto;
+  }
+  .top_section_card .card .row {
+    height: auto;
+  }
+  .top_section_card .card .colm {
+    height: auto;
+  }
+  .top_section_card .card .post_img {
     height: auto;
   }
   .top_section_card .card .snd {
