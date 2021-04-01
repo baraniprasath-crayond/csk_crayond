@@ -5757,4 +5757,23 @@ input:checked + .slider {
       }
     }
   }
+
+  .match_center {
+    .match_card {
+      .match_details {
+        .score_board {
+          .team_logo {
+            img {
+              width: 70px;
+              margin-top: -5px;
+            }
+            .lo {
+              width: 70px;
+              margin-top: -5px;
+            }
+          }
+        }
+      }
+    }
+  }
 }

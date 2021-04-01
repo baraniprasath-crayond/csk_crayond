@@ -5136,5 +5136,13 @@ input:checked + .slider {
     font-size: 13px;
     padding: 3px 11px 2px 8px;
   }
+  .match_center .match_card .match_details .score_board .team_logo img {
+    width: 70px;
+    margin-top: -5px;
+  }
+  .match_center .match_card .match_details .score_board .team_logo .lo {
+    width: 70px;
+    margin-top: -5px;
+  }
 }
 /*# sourceMappingURL=index.css.map */
