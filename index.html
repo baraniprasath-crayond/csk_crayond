@@ -52,7 +52,7 @@
                             </div>
                             <!-- end -->
                             <a href="#" class="logo" alt="crayond">
-                                <img id="logo" style="width: 100px;height: 100px;" alt="logo-crayond"
+                                <img id="logo" style="width: 100px;height: 100px;position: absolute; top: 0px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" alt="logo-crayond"
                                     src="./assets/logo.png" />
                             </a>
                             <a href="#" class="mobile_logo" alt="crayond">
@@ -137,8 +137,7 @@
 
                 <!-- onClick open the dropdown will come in this structure only -->
                 <span class="sub_menu_show">
-                    <a href="https://www.chennaisuperkings.com/CSK_WEB/module/news/html/matchLanding.html?TYPE=IPL"
-                        style="color: #fff;">Match Center &#9662;</a>
+                    <a href="https://www.chennaisuperkings.com/CSK_WEB/module/news/html/matchLanding.html?TYPE=IPL">Match Center &#9662;</a>
                     <li class="sub-menu" style="display: none;"><a href="#">Link1</a></li>
                     <li class="sub-menu" style="display: none;"><a href="#">Link2</a></li>
                 </span>
@@ -149,8 +148,7 @@
 
                 <!-- onClick open the dropdown will come in this structure only -->
                 <span class="sub_menu_show">
-                    <a href="https://www.chennaisuperkings.com/CSK_WEB/Merchandise/index.html#/merchandiseLanding"
-                        style="color: #fff;">Shop &#9662;</a>
+                    <a href="https://www.chennaisuperkings.com/CSK_WEB/Merchandise/index.html#/merchandiseLanding">Shop &#9662;</a>
                     <li class="sub-menu" style="display: none;"><a href="#">Link1</a></li>
                     <li class="sub-menu" style="display: none;"><a href="#">Link2</a></li>
                 </span>
@@ -2144,10 +2142,14 @@
             document.getElementById("logo").style.width = "55px";
             document.getElementById("logo").style.height = "55px";
             document.getElementById("logo").style.borderRadius = "10px";
+            document.getElementById("logo").style.top = "2px";
         } else {
             document.getElementById("logo").style.width = "100px";
             document.getElementById("logo").style.height = "100px";
             document.getElementById("logo").style.borderRadius = "0px";
+            document.getElementById("logo").style.borderBottomLeftRadius = "10px";
+            document.getElementById("logo").style.borderBottomRightRadius = "10px";
+            document.getElementById("logo").style.top = "0px";
         }
     }
     function handletvsection(img, tittle) {
