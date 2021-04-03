@@ -740,7 +740,6 @@ input:checked + .slider {
 .mobile-nav {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9700), to(#ffb605));
   background-image: linear-gradient(to bottom, #ff9700, #ffb605);
-  background-image: url(../assets/images/headerbg.svg);
   background-position: center;
   background-size: cover;
   position: fixed;
