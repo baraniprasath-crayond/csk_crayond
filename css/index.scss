@@ -4719,7 +4719,12 @@ input:checked + .slider {
 
   .csktv_bml_section {
     display: block !important;
-
+    .carousel_main {
+      .item{
+        width: 600px;
+        height: 340px !important;
+      }
+    }
     .owl-controls {
       margin-top: -28px;
       margin-bottom: 20px;
@@ -4789,6 +4794,12 @@ input:checked + .slider {
 
 @media only screen and (max-width: 767px) {
   .csktv_bml_section {
+    .carousel_main {
+      .item{
+        width: 400px;
+        height: 300px !important;
+      }
+    }
     .owl-controls {
       margin-top: -28px;
       margin-bottom: 20px;
@@ -5558,6 +5569,16 @@ input:checked + .slider {
   .carousel_main {
     min-width: 300px;
   }
+
+  .csktv_bml_section {
+    .carousel_main {
+      .item{
+        width: 300px;
+        height: 250px !important;
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 376px) {

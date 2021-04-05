@@ -2166,17 +2166,17 @@
         }
     }
 
-    $('.mobile_csk_tv_section').owlCarousel({
-        loop: true,
-        center: true,
-        margin: 20,
-        nav: true,
-        items: 1,
-        lazyLoad: true,
-        startPosition: 0,
-        dots: true,
-        smartSpeed: 2000,
-    })
+    // $('.mobile_csk_tv_section').owlCarousel({
+    //     loop: true,
+    //     center: true,
+    //     margin: 20,
+    //     nav: true,
+    //     items: 1,
+    //     lazyLoad: true,
+    //     startPosition: 0,
+    //     dots: true,
+    //     smartSpeed: 2000,
+    // })
     $(document).ready(function () {
         $('.mbl_carousel').owlCarousel({
             // stagePadding: 200,
@@ -2310,7 +2310,44 @@
         })
         $(".owl-prev").html('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
         $(".owl-next").html('<i class="fa fa-chevron-right" aria-hidden="true"></i>');
+
+        $('.mobile_csk_tv_section').owlCarousel({
+                // stagePadding: 200,
+                autoWidth: true,
+                autoHeight: true,
+                loop: true,
+                merge: true,
+                center: true,
+                autoplay: true,
+                responsiveClass: true,
+                autoplayTimeout: 3000,
+                margin: 10,
+                nav: true,
+                items: 3,
+                dots: true,
+                smartSpeed: 2000,
+                navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false,
+                        // autoWidth:true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true,
+                    },
+                    1000: {
+                        nav: true,
+                        items: 4,
+                    }
+                }
+            })
+            $(".owl-prev").html('<i class="fa fa-chevron-left" aria-hidden="true"></i>');
+            $(".owl-next").html('<i class="fa fa-chevron-right" aria-hidden="true"></i>');
     })
+
+
 
 </script>
 
