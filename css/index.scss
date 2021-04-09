@@ -4760,6 +4760,7 @@ input:checked + .slider {
             }
             .owl-controls {
               .owl-prev {
+                display: block !important;
                 .fa-chevron-left:before {
                   content: "\f104";
                 }
@@ -4774,6 +4775,7 @@ input:checked + .slider {
               }
 
               .owl-next {
+                display: block !important;
                 .fa-chevron-right:before {
                   content: "\f105";
                 }

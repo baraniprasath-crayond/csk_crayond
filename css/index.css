@@ -4494,6 +4494,9 @@ input:checked + .slider {
     width: -moz-fit-content;
     width: fit-content;
   }
+  .store_card .cards .fan .content .detail .owl-controls .owl-prev {
+    display: block !important;
+  }
   .store_card .cards .fan .content .detail .owl-controls .owl-prev .fa-chevron-left:before {
     content: "\f104";
   }
@@ -4503,6 +4506,9 @@ input:checked + .slider {
     color: #ffcd01;
     font-size: 46px;
     left: -20px;
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-next {
+    display: block !important;
   }
   .store_card .cards .fan .content .detail .owl-controls .owl-next .fa-chevron-right:before {
     content: "\f105";
