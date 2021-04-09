@@ -741,7 +741,7 @@ input:checked + .slider {
 }
 
 .mobile-nav {
-  background-image: linear-gradient(to bottom, #ff9700 , #ffb605);
+  background-image: linear-gradient(to bottom, #ff9700, #ffb605);
   // background-image: url(../assets/images/headerbg.svg);
   background-position: center;
   background-size: cover;
@@ -1275,7 +1275,7 @@ input:checked + .slider {
   .cards {
     background-color: #ffffff;
     width: 100%;
-    height: 240px;
+    height: 277px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1411,6 +1411,50 @@ input:checked + .slider {
         }
 
         .detail {
+          .name {
+            margin-top: 16px;
+            color: #000;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            font-family: "GothamMedium";
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            width: fit-content;
+            margin: auto;
+            padding-top: 5px;
+          }
+          .owl-controls {
+            .owl-prev {
+              .fa-chevron-left:before {
+                content: "\f104";
+              }
+
+              i {
+                top: 25%;
+                position: absolute;
+                color: #ffcd01;
+                font-size: 46px;
+                left: -20px;
+              }
+            }
+
+            .owl-next {
+              .fa-chevron-right:before {
+                content: "\f105";
+              }
+
+              i {
+                top: 25%;
+                position: absolute;
+                color: #ffcd01;
+                font-size: 46px;
+                right: -20px;
+              }
+            }
+          }
           .box_div {
             // width: 100%;
             width: 100px;
@@ -4700,10 +4744,53 @@ input:checked + .slider {
       .fan {
         .content {
           .detail {
+            .name {
+              margin-top: 5px;
+              margin-left: 20px;
+              color: #000;
+              text-align: center;
+              font-weight: bold;
+              font-size: 12px;
+              font-family: "GothamMedium";
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              width: fit-content;
+            }
+            .owl-controls {
+              .owl-prev {
+                .fa-chevron-left:before {
+                  content: "\f104";
+                }
+
+                i {
+                  top: 25%;
+                  position: absolute;
+                  color: #ffcd01;
+                  font-size: 46px;
+                  left: -20px;
+                }
+              }
+
+              .owl-next {
+                .fa-chevron-right:before {
+                  content: "\f105";
+                }
+
+                i {
+                  top: 25%;
+                  position: absolute;
+                  color: #ffcd01;
+                  font-size: 46px;
+                  right: -20px;
+                }
+              }
+            }
             .box_div {
               // height: 76%;
               height: 130px;
-              margin-bottom: 50px;
+              // margin-bottom: 50px;
             }
           }
         }
@@ -4719,7 +4806,12 @@ input:checked + .slider {
 
   .csktv_bml_section {
     display: block !important;
-
+    .carousel_main {
+      .item {
+        width: 600px;
+        height: 340px !important;
+      }
+    }
     .owl-controls {
       margin-top: -28px;
       margin-bottom: 20px;
@@ -4789,6 +4881,12 @@ input:checked + .slider {
 
 @media only screen and (max-width: 767px) {
   .csktv_bml_section {
+    .carousel_main {
+      .item {
+        width: 400px;
+        height: 300px !important;
+      }
+    }
     .owl-controls {
       margin-top: -28px;
       margin-bottom: 20px;
@@ -5427,10 +5525,51 @@ input:checked + .slider {
             }
           }
           .detail {
+            .name {
+              color: #000;
+              text-align: center;
+              font-weight: bold;
+              font-size: 12px;
+              font-family: "GothamMedium";
+              overflow: hidden;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              width: fit-content;
+            }
+            .owl-controls {
+              .owl-prev {
+                .fa-chevron-left:before {
+                  content: "\f104";
+                }
+
+                i {
+                  top: 25%;
+                  position: absolute;
+                  color: #ffcd01;
+                  font-size: 46px;
+                  left: -20px;
+                }
+              }
+
+              .owl-next {
+                .fa-chevron-right:before {
+                  content: "\f105";
+                }
+
+                i {
+                  top: 25%;
+                  position: absolute;
+                  color: #ffcd01;
+                  font-size: 46px;
+                  right: -20px;
+                }
+              }
+            }
             .box_div {
               // height: 76%;
               height: 100px;
-              margin-bottom: 50px;
+              // margin-bottom: 50px;
             }
           }
         }
@@ -5557,6 +5696,15 @@ input:checked + .slider {
 
   .carousel_main {
     min-width: 300px;
+  }
+
+  .csktv_bml_section {
+    .carousel_main {
+      .item {
+        width: 300px;
+        height: 250px !important;
+      }
+    }
   }
 }
 

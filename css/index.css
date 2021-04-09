@@ -1266,7 +1266,7 @@ input:checked + .slider {
 .store_card .cards {
   background-color: #ffffff;
   width: 100%;
-  height: 240px;
+  height: 277px;
   position: relative;
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -1398,6 +1398,48 @@ input:checked + .slider {
   cursor: pointer;
   line-height: 0.63;
   font-family: "GothamBold";
+}
+
+.store_card .cards .fan .content .detail .name {
+  margin-top: 16px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "GothamMedium";
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.store_card .cards .fan .content .detail .owl-controls .owl-prev .fa-chevron-left:before {
+  content: "\f104";
+}
+
+.store_card .cards .fan .content .detail .owl-controls .owl-prev i {
+  top: 25%;
+  position: absolute;
+  color: #ffcd01;
+  font-size: 46px;
+  left: -20px;
+}
+
+.store_card .cards .fan .content .detail .owl-controls .owl-next .fa-chevron-right:before {
+  content: "\f105";
+}
+
+.store_card .cards .fan .content .detail .owl-controls .owl-next i {
+  top: 25%;
+  position: absolute;
+  color: #ffcd01;
+  font-size: 46px;
+  right: -20px;
 }
 
 .store_card .cards .fan .content .detail .box_div {
@@ -4436,15 +4478,54 @@ input:checked + .slider {
   .store_card .cards .left .whistle img {
     height: 246px;
   }
+  .store_card .cards .fan .content .detail .name {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "GothamMedium";
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-prev .fa-chevron-left:before {
+    content: "\f104";
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-prev i {
+    top: 25%;
+    position: absolute;
+    color: #ffcd01;
+    font-size: 46px;
+    left: -20px;
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-next .fa-chevron-right:before {
+    content: "\f105";
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-next i {
+    top: 25%;
+    position: absolute;
+    color: #ffcd01;
+    font-size: 46px;
+    right: -20px;
+  }
   .store_card .cards .fan .content .detail .box_div {
     height: 130px;
-    margin-bottom: 50px;
   }
   .csktv_dk_section {
     display: none !important;
   }
   .csktv_bml_section {
     display: block !important;
+  }
+  .csktv_bml_section .carousel_main .item {
+    width: 600px;
+    height: 340px !important;
   }
   .csktv_bml_section .owl-controls {
     margin-top: -28px;
@@ -4496,6 +4577,10 @@ input:checked + .slider {
 }
 
 @media only screen and (max-width: 767px) {
+  .csktv_bml_section .carousel_main .item {
+    width: 400px;
+    height: 300px !important;
+  }
   .csktv_bml_section .owl-controls {
     margin-top: -28px;
     margin-bottom: 20px;
@@ -4907,9 +4992,42 @@ input:checked + .slider {
   .store_card .cards .fan .content .titile .tag {
     font-size: 14px;
   }
+  .store_card .cards .fan .content .detail .name {
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "GothamMedium";
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-prev .fa-chevron-left:before {
+    content: "\f104";
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-prev i {
+    top: 25%;
+    position: absolute;
+    color: #ffcd01;
+    font-size: 46px;
+    left: -20px;
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-next .fa-chevron-right:before {
+    content: "\f105";
+  }
+  .store_card .cards .fan .content .detail .owl-controls .owl-next i {
+    top: 25%;
+    position: absolute;
+    color: #ffcd01;
+    font-size: 46px;
+    right: -20px;
+  }
   .store_card .cards .fan .content .detail .box_div {
     height: 100px;
-    margin-bottom: 50px;
   }
   .fan_card {
     padding: 16px;
@@ -4987,6 +5105,10 @@ input:checked + .slider {
   }
   .carousel_main {
     min-width: 300px;
+  }
+  .csktv_bml_section .carousel_main .item {
+    width: 300px;
+    height: 250px !important;
   }
 }
 
