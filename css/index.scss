@@ -1463,6 +1463,7 @@ input:checked + .slider {
             border: 8px solid #ffcd01;
             // background-color: #ffcd01;
             box-shadow: 0 3px 6px 0 #00000029;
+            margin: auto;
             cursor: pointer;
 
             .box {
@@ -4744,20 +4745,6 @@ input:checked + .slider {
       .fan {
         .content {
           .detail {
-            .name {
-              margin-top: 5px;
-              margin-left: 20px;
-              color: #000;
-              text-align: center;
-              font-weight: bold;
-              font-size: 12px;
-              font-family: "GothamMedium";
-              overflow: hidden;
-              display: -webkit-box;
-              -webkit-line-clamp: 2;
-              -webkit-box-orient: vertical;
-              width: fit-content;
-            }
             .owl-controls {
               .owl-prev {
                 display: block !important;
@@ -5527,18 +5514,6 @@ input:checked + .slider {
             }
           }
           .detail {
-            .name {
-              color: #000;
-              text-align: center;
-              font-weight: bold;
-              font-size: 12px;
-              font-family: "GothamMedium";
-              overflow: hidden;
-              display: -webkit-box;
-              -webkit-line-clamp: 2;
-              -webkit-box-orient: vertical;
-              width: fit-content;
-            }
             .owl-controls {
               .owl-prev {
                 .fa-chevron-left:before {
