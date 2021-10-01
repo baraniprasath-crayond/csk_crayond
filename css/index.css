@@ -2453,7 +2453,6 @@ input:checked + .slider {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  margin-left: 10px;
   margin-right: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -2534,7 +2533,7 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: initial;
   color: #111111;
-  width: 85%;
+  width: 84%;
 }
 
 .top_section_card .card .fab_news_text {
@@ -2550,7 +2549,7 @@ input:checked + .slider {
   color: #111111;
   margin: 0px;
   visibility: hidden;
-  width: 90%;
+  width: 88%;
 }
 
 .top_section_card .card .fab_text {
@@ -2779,7 +2778,7 @@ input:checked + .slider {
 
 .top_section_card .card .news_img img {
   width: 100%;
-  height: 220px;
+  height: 210px;
 }
 
 .top_section_card .card .news_img img:hover {
@@ -3000,7 +2999,6 @@ input:checked + .slider {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
-  border: 2px solid #E0E0E0;
 }
 
 .news_card_section .card .row {
@@ -3045,7 +3043,7 @@ input:checked + .slider {
 .news_card_section .card .fab_gallery {
   position: absolute;
   left: 5%;
-  top: 40%;
+  top: 43%;
   color: #ffffff;
   font-family: "GothamBold";
   margin: 0;
@@ -3082,7 +3080,7 @@ input:checked + .slider {
 .news_card_section .card .view_button {
   position: absolute;
   left: 5%;
-  top: 50%;
+  top: 53%;
   margin: 0;
   cursor: pointer;
 }
@@ -3394,7 +3392,7 @@ input:checked + .slider {
 .title_fab {
   position: absolute;
   left: 29px;
-  top: 30%;
+  top: 34%;
 }
 
 .title_fab .progress_fab {
@@ -3815,8 +3813,7 @@ input:checked + .slider {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
   -webkit-box-shadow: 0px 14px 28px #0000001A;
           box-shadow: 0px 14px 28px #0000001A;
   border: 2px solid #E0E0E0;
@@ -4163,6 +4160,7 @@ input:checked + .slider {
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  margin-right: 15px;
 }
 
 .new_card_section .table_card .table_head {
