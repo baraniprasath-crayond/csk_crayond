@@ -2474,21 +2474,22 @@ input:checked + .slider {
     .news_img {
       img {
         height: 150px;
-        transition: width 1s ease;
+        transition: height 0.3s ease;
       }
     }
 
     .title_fab_news {
       top: 48%;
-      transition: width 1s ease;
+      transition: 0.3s ease;
     }
     .fab_news {
       top: 50%;
-      transition: width 1s ease;
+      transition: 0.3s ease;
     }
     .fab_news_text {
       visibility: visible;
-      transition: width 1s ease;
+      margin-top: 2px;
+      transition: visibility 2s ease;
     }
     .post_img {
       img {
@@ -2529,8 +2530,9 @@ input:checked + .slider {
     .play_button {
       button {
         width: 100%;
-        // color: black;
-        opacity: 1;
+        color: #000000;
+        transition: color 2s ease;
+        
       }
     }
   }
@@ -2751,12 +2753,12 @@ input:checked + .slider {
       button {
         background-color: #ffc107;
         border-radius: 6px;
-        // color: transparent;
-        opacity: 0.0;
+        color: transparent;
         padding: 8px 12px;
         font-size: 0.8rem;
         width: 30%;
         font-family: "GothamMedium";
+        transition: width 1s ease;
         // color: #fff;
         // font-size: 17px;
         // color: #ffc107;
@@ -3897,19 +3899,22 @@ input:checked + .slider {
       .news_img {
         img {
           height: 170px;
+          transition: height 0.3s ease;
         }
       }
 
       .title_fab_news {
         top: 52%;
-        transition: width 1s ease;
+        transition:  0.3s ease;
       }
       .fab_news {
         top: 55%;
-        transition: width 1s ease;
+        transition:  0.3s ease;
       }
       .fab_news_text {
         visibility: visible;
+        margin-top: 5px;
+        transition:  visibility 2s ease;
       }
       .post_img {
         img {
@@ -3951,6 +3956,7 @@ input:checked + .slider {
         button {
           width: 100%;
           color: black;
+          transition: color 1.3s ease;
         }
       }
     }
@@ -4163,6 +4169,7 @@ input:checked + .slider {
           font-size: 0.8rem;
           width: 30%;
           font-family: "GothamMedium";
+          transition: width 1s ease;
           // color: #fff;
           // font-size: 17px;
           // color: #ffc107;
