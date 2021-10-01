@@ -2444,7 +2444,7 @@ input:checked + .slider {
 
 .top_section_card .card:hover .play_button button {
   width: 100%;
-  color: black;
+  opacity: 1;
 }
 
 .top_section_card .card {
@@ -2660,7 +2660,7 @@ input:checked + .slider {
 .top_section_card .card .play_button button {
   background-color: #ffc107;
   border-radius: 6px;
-  color: transparent;
+  opacity: 0.0;
   padding: 8px 12px;
   font-size: 0.8rem;
   width: 30%;
@@ -3052,7 +3052,7 @@ input:checked + .slider {
 .news_card_section .card .fab_text {
   position: absolute;
   left: 5%;
-  top: 68%;
+  top: 70%;
   font-family: "GothamMedium";
   font-size: 14px;
   color: #ffffff;
@@ -3219,7 +3219,7 @@ input:checked + .slider {
 }
 
 .news_card_section .timing {
-  margin-top: 15%;
+  margin-top: 17%;
   margin-right: 3%;
 }
 

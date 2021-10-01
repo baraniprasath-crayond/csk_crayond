@@ -2529,7 +2529,8 @@ input:checked + .slider {
     .play_button {
       button {
         width: 100%;
-        color: black;
+        // color: black;
+        opacity: 1;
       }
     }
   }
@@ -2750,7 +2751,8 @@ input:checked + .slider {
       button {
         background-color: #ffc107;
         border-radius: 6px;
-        color: transparent;
+        // color: transparent;
+        opacity: 0.0;
         padding: 8px 12px;
         font-size: 0.8rem;
         width: 30%;
@@ -3160,7 +3162,7 @@ input:checked + .slider {
     .fab_text {
       position: absolute;
       left: 5%;
-      top: 68%;
+      top: 70%;
       font-family: "GothamMedium";
       font-size: 14px;
       color: #ffffff;
@@ -3341,7 +3343,7 @@ input:checked + .slider {
 
   .timing {
     // position:absolute;
-    margin-top: 15%;
+    margin-top: 17%;
     margin-right: 3%;
 
     .flex {
