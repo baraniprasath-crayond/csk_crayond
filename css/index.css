@@ -2690,6 +2690,39 @@ input:checked + .slider {
   font-family: "GothamMedium";
 }
 
+@media screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+  .top_section_card .card {
+    /* STYLES HERE */
+  }
+  .top_section_card .card .play_button {
+    right: 40%;
+  }
+  .top_section_card .card .fab {
+    right: 38%;
+  }
+  .top_section_card .card .view_button {
+    right: 40%;
+  }
+  .top_section_card .card .fab_gallery {
+    right: 25%;
+  }
+  .top_section_card .card .fab_text {
+    top: 88%;
+  }
+  .top_section_card .card .news {
+    right: 10%;
+    left: 58%;
+  }
+  .top_section_card .card .gallery {
+    right: 9%;
+    left: 60%;
+  }
+  .top_section_card .card .news_h {
+    right: 10%;
+    left: 60%;
+  }
+}
+
 .top_section_card .card .post_img {
   width: 100%;
   height: 100%;
@@ -4315,6 +4348,15 @@ input:checked + .slider {
 
 .new_card_section .table_card .point_board table .head th .fa {
   font-size: 10px;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+  .new_card_section {
+    /* STYLES HERE */
+  }
+  .new_card_section .table_card {
+    margin-right: 0px;
+  }
 }
 
 .social_media_section .title_div {
