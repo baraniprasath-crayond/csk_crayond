@@ -3763,7 +3763,6 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 65%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
@@ -3775,7 +3774,6 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 61%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
@@ -3787,7 +3785,7 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 67%;
+  right: 5%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
