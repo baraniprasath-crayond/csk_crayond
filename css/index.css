@@ -2396,26 +2396,27 @@ input:checked + .slider {
 
 .top_section_card .card:hover .news_img img {
   height: 150px;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
 }
 
 .top_section_card .card:hover .title_fab_news {
   top: 48%;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .top_section_card .card:hover .fab_news {
   top: 50%;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .top_section_card .card:hover .fab_news_text {
   visibility: visible;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  margin-top: 2px;
+  -webkit-transition: visibility 2s ease;
+  transition: visibility 2s ease;
 }
 
 .top_section_card .card:hover .post_img img {
@@ -2444,7 +2445,9 @@ input:checked + .slider {
 
 .top_section_card .card:hover .play_button button {
   width: 100%;
-  color: black;
+  color: #000000;
+  -webkit-transition: color 2s ease;
+  transition: color 2s ease;
 }
 
 .top_section_card .card {
@@ -2453,7 +2456,6 @@ input:checked + .slider {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  margin-left: 10px;
   margin-right: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
@@ -2534,7 +2536,7 @@ input:checked + .slider {
   letter-spacing: normal;
   text-align: initial;
   color: #111111;
-  width: 85%;
+  width: 84%;
 }
 
 .top_section_card .card .fab_news_text {
@@ -2550,7 +2552,7 @@ input:checked + .slider {
   color: #111111;
   margin: 0px;
   visibility: hidden;
-  width: 90%;
+  width: 88%;
 }
 
 .top_section_card .card .fab_text {
@@ -2666,6 +2668,8 @@ input:checked + .slider {
   font-size: 0.8rem;
   width: 30%;
   font-family: "GothamMedium";
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .top_section_card .card .view_button {
@@ -2684,6 +2688,39 @@ input:checked + .slider {
   font-size: 0.8rem;
   width: 100%;
   font-family: "GothamMedium";
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+  .top_section_card .card {
+    /* STYLES HERE */
+  }
+  .top_section_card .card .play_button {
+    right: 40%;
+  }
+  .top_section_card .card .fab {
+    right: 38%;
+  }
+  .top_section_card .card .view_button {
+    right: 40%;
+  }
+  .top_section_card .card .fab_gallery {
+    right: 25%;
+  }
+  .top_section_card .card .fab_text {
+    top: 88%;
+  }
+  .top_section_card .card .news {
+    right: 10%;
+    left: 58%;
+  }
+  .top_section_card .card .gallery {
+    right: 9%;
+    left: 60%;
+  }
+  .top_section_card .card .news_h {
+    right: 10%;
+    left: 60%;
+  }
 }
 
 .top_section_card .card .post_img {
@@ -2779,7 +2816,7 @@ input:checked + .slider {
 
 .top_section_card .card .news_img img {
   width: 100%;
-  height: 220px;
+  height: 210px;
 }
 
 .top_section_card .card .news_img img:hover {
@@ -3000,7 +3037,6 @@ input:checked + .slider {
   margin-bottom: 30px;
   -webkit-box-shadow: 0px 3px 6px #00000029;
           box-shadow: 0px 3px 6px #00000029;
-  border: 2px solid #E0E0E0;
 }
 
 .news_card_section .card .row {
@@ -3045,7 +3081,7 @@ input:checked + .slider {
 .news_card_section .card .fab_gallery {
   position: absolute;
   left: 5%;
-  top: 40%;
+  top: 43%;
   color: #ffffff;
   font-family: "GothamBold";
   margin: 0;
@@ -3054,7 +3090,7 @@ input:checked + .slider {
 .news_card_section .card .fab_text {
   position: absolute;
   left: 5%;
-  top: 68%;
+  top: 70%;
   font-family: "GothamMedium";
   font-size: 14px;
   color: #ffffff;
@@ -3082,7 +3118,7 @@ input:checked + .slider {
 .news_card_section .card .view_button {
   position: absolute;
   left: 5%;
-  top: 50%;
+  top: 53%;
   margin: 0;
   cursor: pointer;
 }
@@ -3221,7 +3257,7 @@ input:checked + .slider {
 }
 
 .news_card_section .timing {
-  margin-top: 15%;
+  margin-top: 17%;
   margin-right: 3%;
 }
 
@@ -3394,7 +3430,7 @@ input:checked + .slider {
 .title_fab {
   position: absolute;
   left: 29px;
-  top: 30%;
+  top: 34%;
 }
 
 .title_fab .progress_fab {
@@ -3762,22 +3798,27 @@ input:checked + .slider {
 
 .new_card_section .news_slider .card:hover .news_img img {
   height: 170px;
+  -webkit-transition: height 0.3s ease;
+  transition: height 0.3s ease;
 }
 
 .new_card_section .news_slider .card:hover .title_fab_news {
   top: 52%;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .new_card_section .news_slider .card:hover .fab_news {
   top: 55%;
-  -webkit-transition: width 1s ease;
-  transition: width 1s ease;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .new_card_section .news_slider .card:hover .fab_news_text {
   visibility: visible;
+  margin-top: 5px;
+  -webkit-transition: visibility 2s ease;
+  transition: visibility 2s ease;
 }
 
 .new_card_section .news_slider .card:hover .post_img img {
@@ -3807,6 +3848,8 @@ input:checked + .slider {
 .new_card_section .news_slider .card:hover .play_button button {
   width: 100%;
   color: black;
+  -webkit-transition: color 1.3s ease;
+  transition: color 1.3s ease;
 }
 
 .new_card_section .news_slider .card {
@@ -3815,8 +3858,7 @@ input:checked + .slider {
   overflow: hidden;
   position: relative;
   border-radius: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 15px;
   -webkit-box-shadow: 0px 14px 28px #0000001A;
           box-shadow: 0px 14px 28px #0000001A;
   border: 2px solid #E0E0E0;
@@ -4018,6 +4060,8 @@ input:checked + .slider {
   font-size: 0.8rem;
   width: 30%;
   font-family: "GothamMedium";
+  -webkit-transition: width 1s ease;
+  transition: width 1s ease;
 }
 
 .new_card_section .news_slider .card .view_button {
@@ -4163,6 +4207,7 @@ input:checked + .slider {
   border-radius: 10px;
   -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  margin-right: 15px;
 }
 
 .new_card_section .table_card .table_head {
@@ -4303,6 +4348,15 @@ input:checked + .slider {
 
 .new_card_section .table_card .point_board table .head th .fa {
   font-size: 10px;
+}
+
+@media screen and (min-device-width: 1024px) and (max-device-width: 1224px) {
+  .new_card_section {
+    /* STYLES HERE */
+  }
+  .new_card_section .table_card {
+    margin-right: 0px;
+  }
 }
 
 .social_media_section .title_div {
