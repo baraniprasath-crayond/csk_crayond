@@ -479,7 +479,6 @@ input:checked + .slider {
   .header .dropbtn {
     background-color: transparent;
     color: #c5c5c5;
-    padding: 5px 14px 5px 14px;
     font-size: 1rem;
     font-family: "GothamMedium";
     border: none;
@@ -2253,7 +2252,8 @@ input:checked + .slider {
   margin-bottom: 0;
   font-size: 17px;
   font-weight: 600;
-  background-color: #363e40;
+  border: 1px solid #ffffff;
+  background-color: transparent;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
