@@ -857,13 +857,24 @@ input:checked + .slider {
 }
 
 .csk_sponsors .title_lable {
-  font-size: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.csk_sponsors .title_lable p {
+  font-size: 25px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 0px 0px 30px;
+  margin: 0px 0px 2px;
   color: #111111;
   text-transform: uppercase;
   text-align: center;
@@ -1795,15 +1806,25 @@ input:checked + .slider {
           box-shadow: 0px 0px 30px 0 white;
 }
 
+.super_kings_section .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .super_kings_section .title p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: "GothamBold";
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 8px 0px 16px;
   color: #111111;
   text-align: center;
   text-transform: uppercase;
@@ -2195,7 +2216,7 @@ input:checked + .slider {
 
 .carousel_main .inner {
   width: 100%;
-  bottom: 0;
+  top: 20px;
   position: absolute;
   padding: 55px 66px;
   color: #000;
@@ -4380,14 +4401,25 @@ input:checked + .slider {
           justify-content: center;
 }
 
+.social_media_section .title_div .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .social_media_section .title_div .title p {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: normal;
-  margin: 0px 0px 20px;
+  margin: 0px 0px 2px;
   color: #111111;
   font-family: "GothamBold";
 }
@@ -5070,7 +5102,7 @@ input:checked + .slider {
     height: 600px !important;
   }
   .carousel_main .title {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -5079,8 +5111,14 @@ input:checked + .slider {
     color: #111111;
     text-align: center;
     margin-bottom: 0px;
-    padding: 0px;
+    padding-bottom: 15px;
     font-family: "GothamBold";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .carousel_main .title p {
     margin: 0px;
