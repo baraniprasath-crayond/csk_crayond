@@ -877,16 +877,23 @@ input:checked + .slider {
   margin-bottom: 30px;
 
   .title_lable {
-    font-size: 30px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    margin: 0px 0px 30px;
-    color: #111111;
-    text-transform: uppercase;
-    text-align: center;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 30px;
+     padding-bottom: 30px;
+    p{
+      font-size: 25px;
+      font-weight: 600;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      margin: 0px 0px 2px;
+      color: #111111;
+      text-transform: uppercase;
+      text-align: center;
+    }
+   
 
     span {
       bottom: 0;
@@ -1838,18 +1845,23 @@ input:checked + .slider {
   }
 
   .title {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
     p {
-      font-size: 30px;
+      font-size: 25px;
       font-family: "GothamBold";
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.5;
       letter-spacing: normal;
-      margin: 8px 0px 16px;
+      // margin: 8px 0px 16px;
       color: #111111;
       text-align: center;
       text-transform: uppercase;
+     
     }
   }
 
@@ -2249,7 +2261,7 @@ input:checked + .slider {
   .inner {
     width: 100%;
     // height: 100%;
-    bottom: 0;
+    top: 20px;
     position: absolute;
     // top: 0;
     padding: 55px 66px;
@@ -4665,14 +4677,18 @@ input:checked + .slider {
     justify-content: center;
 
     .title {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+      padding-bottom: 30px;
       p {
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 600;
         font-stretch: normal;
         font-style: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        margin: 0px 0px 20px;
+        margin: 0px 0px 2px;
         color: #111111;
         font-family: "GothamBold";
       }
@@ -5440,7 +5456,7 @@ input:checked + .slider {
     }
 
     .title {
-      font-size: 30px;
+      font-size: 25px;
       font-weight: 600;
       font-stretch: normal;
       font-style: normal;
@@ -5449,8 +5465,10 @@ input:checked + .slider {
       color: #111111;
       text-align: center;
       margin-bottom: 0px;
-      padding: 0px;
+      padding-bottom: 15px;
       font-family: "GothamBold";
+      display: flex;
+      justify-content: space-between;
 
       p {
         margin: 0px;
