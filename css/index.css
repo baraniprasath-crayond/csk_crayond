@@ -864,7 +864,7 @@ input:checked + .slider {
   line-height: 1.5;
   letter-spacing: normal;
   margin: 0px 0px 30px;
-  color: #fff;
+  color: #111111;
   text-transform: uppercase;
   text-align: center;
 }
@@ -1289,7 +1289,7 @@ input:checked + .slider {
   line-height: 1.5;
   letter-spacing: normal;
   margin: 8px 0px 16px;
-  color: #fff;
+  color: #111111;
   text-align: center;
   text-transform: uppercase;
   font-family: "GothamBold";
@@ -1695,7 +1695,7 @@ input:checked + .slider {
   line-height: 1.5;
   letter-spacing: normal;
   margin: 0px 0px 30px;
-  color: #fff;
+  color: #111111;
   text-transform: uppercase;
   text-align: center;
   font-family: "GothamBold";
@@ -1804,7 +1804,7 @@ input:checked + .slider {
   line-height: 1.5;
   letter-spacing: normal;
   margin: 8px 0px 16px;
-  color: #fff;
+  color: #111111;
   text-align: center;
   text-transform: uppercase;
 }
@@ -4388,7 +4388,7 @@ input:checked + .slider {
   line-height: 1.5;
   letter-spacing: normal;
   margin: 0px 0px 20px;
-  color: #fff;
+  color: #111111;
   font-family: "GothamBold";
 }
 
@@ -5076,7 +5076,7 @@ input:checked + .slider {
     font-style: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #fff;
+    color: #111111;
     text-align: center;
     margin-bottom: 0px;
     padding: 0px;
@@ -5312,7 +5312,7 @@ input:checked + .slider {
     line-height: 1.5;
     letter-spacing: normal;
     margin: 20px 0px;
-    color: #fff;
+    color: #111111;
     text-align: center;
   }
 }
@@ -5366,7 +5366,7 @@ input:checked + .slider {
     line-height: 1.5;
     letter-spacing: normal;
     margin: 20px 0px;
-    color: #fff;
+    color: #111111;
     text-align: center;
   }
   .csktv_dk_section {
@@ -5429,7 +5429,7 @@ input:checked + .slider {
     line-height: 1.5;
     letter-spacing: normal;
     margin: 20px 0px;
-    color: #fff;
+    color: #111111;
     text-align: center;
   }
   .match_center .height {
