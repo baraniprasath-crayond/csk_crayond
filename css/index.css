@@ -1371,7 +1371,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1395,7 +1395,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -2842,7 +2842,7 @@ input:checked + .slider {
 
 .top_section_card .card .fab_text {
   position: absolute;
-  left: 5%;
+  left: 3%;
   top: 90%;
   font-family: "GothamMedium";
   font-size: 14px;
@@ -3311,7 +3311,7 @@ input:checked + .slider {
 
 .news_card_section .card .fab_text {
   position: absolute;
-  left: 4%;
+  left: 3%;
   top: 85%;
   font-family: "GothamMedium";
   font-size: 14px;
@@ -6147,7 +6147,7 @@ input:checked + .slider {
     height: 250px !important;
   }
   .carousel_main .title_border img, .super_kings_section .title_border img, .social_media_section .title_border img, .csk_sponsors .title_border img, .csktv_bml_section .title_border img {
-    width: 22% !important;
+    width: 19% !important;
   }
 }
 
