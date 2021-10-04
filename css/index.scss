@@ -476,7 +476,7 @@ input:checked + .slider {
     .dropbtn {
       background-color: transparent;
       color: rgb(197, 197, 197);
-      // padding: 5px 14px 5px 14px;
+      padding: 5px 14px 5px 14px;
       font-size: 1rem;
       font-family: "GothamMedium";
       border: none;
@@ -1893,6 +1893,10 @@ input:checked + .slider {
 }
 
 .super_kings_section {
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url("../assets/images/BG\ CSK\ Lion.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+
   .super_kings_section_ {
     padding: 10px 80px;
   }
@@ -1998,13 +2002,14 @@ input:checked + .slider {
     width: 250px;
     border-radius: 10px;
     height: 300px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     // background-color: #ffcd01;
     color: #fff;
     overflow: hidden;
     background: url("../assets/images/kings_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
     .cap {
       width: 30px !important;
@@ -2033,7 +2038,10 @@ input:checked + .slider {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 15px;
+    // padding-left: 10px;
+    padding-top: 60px;
+    text-align: center;
+    // padding: 15px;
     -webkit-transform: translateY(80%);
     transform: translateY(80%);
     -webkit-backface-visibility: hidden;
@@ -2073,13 +2081,13 @@ input:checked + .slider {
     transition-property: opacity;
     transition-duration: 0.15s;
     transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
 
     img {
       width: 30px !important;
       height: 30px;
-      position: absolute;
-      right: 0px;
+      // position: absolute;
+      right: 10px;
       //   top: 2px;
     }
 
@@ -2115,7 +2123,6 @@ input:checked + .slider {
   .newsCaption:hover {
     background-color: #000000ad;
     height: 100%;
-
     // opacity: 0.65;
     .newsCaption-title {
       margin: 0px;
@@ -2160,13 +2167,13 @@ input:checked + .slider {
     }
   }
 
+
   .news-Slide-up:hover .newsCaption {
     // opacity: .6;
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
     transition: transform 0.4s, opacity 0.1s;
     background-color: #000000ad;
-
     .newsCaption-title {
       margin: 0px;
       font-size: 16px;
@@ -3004,7 +3011,9 @@ input:checked + .slider {
       }
 
       img {
+        object-fit: cover;
         width: 100%;
+        height: 100%;
         transition-duration: 1s;
         height: 350px;
       }
@@ -3037,6 +3046,7 @@ input:checked + .slider {
         width: 100%;
         // transition-duration: 1s;
         height: 210px;
+        object-fit: cover;
       }
 
       img:hover {
@@ -3176,6 +3186,20 @@ input:checked + .slider {
   }
 }
 
+@media only screen and (width:1024px) {
+  .top_section_card {
+    .card{      
+      .second_fab{
+        .view_button button{
+          width: 57%;
+        }
+        .play_button button{
+          width: 20%;
+        }
+      }   
+    }
+  }
+}
 // end
 
 // news section
@@ -3373,7 +3397,7 @@ input:checked + .slider {
       }
 
       img {
-        // object-fit: cover;
+        object-fit: cover;
         width: 100%;
         height: 100%;
         transition-duration: 1s;
@@ -3640,7 +3664,20 @@ input:checked + .slider {
 
 }
 
-
+@media only screen and (width:1024px) {
+  .news_card_section {
+    .card{      
+      .second_fab{
+        .view_button button{
+          width: 25%;
+        }
+        // .play_button button{
+        //   // width: 35px;
+        // }
+      }   
+    }
+  }
+}
 
 .new_card_section {
   .colm:hover {
@@ -4718,6 +4755,24 @@ input:checked + .slider {
 }
 }
 
+@media only screen and (min-width:768px) and (max-width:1024px) {
+  .new_card_section {
+    .news_slider{
+      .card{      
+        .second_fab{
+          // .view_button button{
+          //   width: 25%;
+          // }
+          .play_button button{
+            width: 17%;
+          }
+        }   
+      }
+    }
+    
+  }
+}
+
 // social media css
 .social_media_section {
   // margin-bottom: 30px;
@@ -4919,7 +4974,7 @@ input:checked + .slider {
 
   .count {
     justify-content: space-around;
-    margin: auto;
+    // margin: auto;
 
     .dot {
       font-size: 30px;
