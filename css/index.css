@@ -727,6 +727,12 @@ input:checked + .slider {
   margin: auto;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .header .row .sign_btn .login_btn {
+    line-height: 64px;
+  }
+}
+
 .header .row .sign_btn .users {
   background-color: #001156;
 }
@@ -1365,7 +1371,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1389,7 +1395,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -2713,7 +2719,7 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 60%;
+  right: 5%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
@@ -2725,7 +2731,7 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 61%;
+  right: 5%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
@@ -2737,7 +2743,7 @@ input:checked + .slider {
   font-family: "GothamMedium";
   color: #ffffff;
   top: 5%;
-  left: 67%;
+  right: 5%;
   padding: 5px 15px 5px 15px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
 }
@@ -3220,8 +3226,8 @@ input:checked + .slider {
   font-size: 10px;
   font-family: "GothamMedium";
   color: #ffffff;
-  top: 4%;
-  right: 4%;
+  top: 5%;
+  right: 5%;
   padding: 2px 10px 2px 10px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   cursor: pointer;
@@ -3233,15 +3239,15 @@ input:checked + .slider {
   font-size: 10px;
   font-family: "GothamMedium";
   color: #ffffff;
-  top: 4%;
-  right: 4%;
+  top: 5%;
+  right: 5%;
   padding: 2px 10px 2px 10px;
   background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
   cursor: pointer;
 }
 
 .news_card_section .card .second_fab {
-  padding-left: 30px;
+  padding-left: 15px;
   margin-top: -150px;
   position: relative;
 }
@@ -5762,12 +5768,14 @@ input:checked + .slider {
     font-size: 8px;
   }
   .news_card_section .card .news {
-    font-size: 13px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .news_card_section .card .gallery {
-    font-size: 13px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .news_card_section .title p {
     font-size: 15px;
@@ -5915,14 +5923,14 @@ input:checked + .slider {
 
 @media only screen and (max-width: 426px) {
   .news_card_section .card .news {
-    top: 5px;
-    font-size: 7px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .news_card_section .card .gallery {
-    top: 5px;
-    font-size: 7px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .new_card_section .p-xs-0 {
     padding: 0;
@@ -6296,12 +6304,14 @@ input:checked + .slider {
 
 @media only screen and (min-width: 1024px) {
   .news_card_section .card .news {
-    font-size: 13px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .news_card_section .card .gallery {
-    font-size: 13px;
-    padding: 3px 11px 2px 8px;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
   }
   .match_center .match_card .match_details .score_board .team_logo img {
     width: 70px;
