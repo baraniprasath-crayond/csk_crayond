@@ -61,7 +61,11 @@
                             </a>
                         </div>
                         <div class="col-12 col-xs-12 col-ms-12 col-md-8 col-lg-9 col-xl-9 header_menu">
-                            <span class="active"><a class="fontLatoRegular" href="./index.html">Home</a></span>
+                            <!-- <span class="active"><a class="fontLatoRegular" href="./index.html">Home</a></span> -->
+                            <span class="active">
+                                <a class="fontLatoRegular" href="./index.html">Home</a>
+                                <!-- <div class="active_border"></div> -->
+                            </span>
 
                             <span><a class="fontLatoRegular"
                                     href="https://www.chennaisuperkings.com/CSK_WEB/module/news/html/matchLanding.html?TYPE=IPL">Match&nbsp;Center</a> </span>
@@ -1666,52 +1670,54 @@
                 </span>
                 <div class="row">
                     <div class="new_store_card_shop">
-                        <div class="col-12">
-                            <div class="individual_store_card">
-                                <div class="wrapper">
-                                    <div class="store_img">
-                                        <img src="./assets/images/tshirt.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="m-0">T-Shirt (Men)</p>
-                                    <div class="border"></div>
-                                    <button type="button">Shop Now</button>
+                        <div class="individual_store_card">
+                            <div class="wrapper">
+                                <div class="store_img">
+                                    <img src="./assets/images/tshirt_png.png" class="img-fluid" alt="">
                                 </div>
+                                <p class="m-0">T-Shirt (Men)</p>
+                                <div class="border"></div>
+                                <button type="button">Shop Now</button>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="individual_store_card">
-                                <div class="wrapper">
-                                    <div class="store_img">
-                                        <img src="./assets/images/tshirt.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="m-0">T-Shirt (Women)</p>
-                                    <div class="border"></div>
-                                    <button type="button">Shop Now</button>
+                        <div class="individual_store_card">
+                            <div class="wrapper">
+                                <div class="store_img">
+                                    <img src="./assets/images/watch_2.png" class="img-fluid" alt="">
                                 </div>
+                                <p class="m-0">Notebook</p>
+                                <div class="border"></div>
+                                <button type="button">Shop Now</button>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="individual_store_card">
-                                <div class="wrapper">
-                                    <div class="store_img">
-                                        <img src="./assets/images/tshirt.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="m-0">Notebook</p>
-                                    <div class="border"></div>
-                                    <button type="button">Shop Now</button>
+                        <div class="individual_store_card">
+                            <div class="wrapper">
+                                <div class="store_img">
+                                    <img src="./assets/images/jadeja_six.png" class="img-fluid" alt="">
                                 </div>
+                                <p class="m-0">T-Shirt (Women)</p>
+                                <div class="border"></div>
+                                <button type="button">Shop Now</button>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="individual_store_card">
-                                <div class="wrapper">
-                                    <div class="store_img">
-                                        <img src="./assets/images/mob_case.png" class="img-fluid" alt="">
-                                    </div>
-                                    <p class="m-0">Mobile Case</p>
-                                    <div class="border"></div>
-                                    <button type="button">Shop Now</button>
+                        <div class="individual_store_card">
+                            <div class="wrapper">
+                                <div class="store_img">
+                                    <img src="./assets/images/watch_2.png" class="img-fluid" alt="">
                                 </div>
+                                <p class="m-0">Notebook</p>
+                                <div class="border"></div>
+                                <button type="button">Shop Now</button>
+                            </div>
+                        </div>
+                        <div class="individual_store_card">
+                            <div class="wrapper">
+                                <div class="store_img">
+                                    <img src="./assets/images/tshirt_png.png" class="img-fluid" alt="">
+                                </div>
+                                <p class="m-0">Mobile Case</p>
+                                <div class="border"></div>
+                                <button type="button">Shop Now</button>
                             </div>
                         </div>
                     </div>
@@ -2327,8 +2333,8 @@ $('#scrollLeft').click(function(){
          $('.new_store_card_shop').owlCarousel({
        
             loop: true,
-            //  autoplay: true,
-             margin: 10,
+             autoplay: true,
+             margin: 30,
              autoplayTimeout: 2000,
              autoplaySpeed: 1000,
              responsiveClass: true,
@@ -2355,7 +2361,7 @@ $('#scrollLeft').click(function(){
                      loop: true
                  },
                  1400: {
-                     items: 4,
+                     items: 5,
                      nav: true,
                      loop: true
                  }
@@ -2439,6 +2445,14 @@ $('#scrollLeft').click(function(){
                     nav: false,
                     // autoWidth:true
                 },
+                320:{
+                     items: 1,
+                     nav: true
+                 },
+                  375: {
+                     items: 1,
+                     nav: true
+                 },
                 600: {
                     items: 2,
                     nav: true,
