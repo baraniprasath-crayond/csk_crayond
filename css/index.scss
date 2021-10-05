@@ -3036,7 +3036,7 @@ input:checked + .slider {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: brightness(0.7);
+        filter: brightness(0.6);
         transition-duration: 1s;
       }
 
@@ -3076,7 +3076,7 @@ input:checked + .slider {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: brightness(0.7);
+        filter: brightness(0.6);
         transition-duration: 1s;
         height: 350px;
       }
@@ -3477,7 +3477,7 @@ input:checked + .slider {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: brightness(0.7);
+        filter: brightness(0.6);
         transition-duration: 1s;
         cursor: pointer;
       }
@@ -4190,7 +4190,7 @@ input:checked + .slider {
   
     .card {
       width: 100%;
-      height: 350px;
+      height: 370px;
       overflow: hidden;
       position: relative;
       border-radius: 10px;
@@ -4472,7 +4472,7 @@ input:checked + .slider {
           object-fit: cover;
           width: 100%;
           height: 100%;
-          filter: brightness(0.7);
+          filter: brightness(0.6);
           transition-duration: 1s;
         }
   
@@ -4510,9 +4510,9 @@ input:checked + .slider {
   
         img {
           width: 100%;
-          filter: brightness(0.7);
+          filter: brightness(0.6);
           transition-duration: 1s;
-          height: 350px;
+          height: inherit;
         }
   
         img:hover {
@@ -4542,7 +4542,7 @@ input:checked + .slider {
         img {
           width: 100%;
           // transition-duration: 1s;
-          height: 210px;
+          height: 240px;
         }
   
         img:hover {
@@ -4684,7 +4684,7 @@ input:checked + .slider {
   }
 
   .table_card {
-    height: 355px;
+    height: 370px;
     background-image: linear-gradient(130deg, #ffcd01 3%, #ff9100 99%);
     border-radius: 10px;
     //   margin: 14px 10px;
@@ -4711,7 +4711,7 @@ input:checked + .slider {
     .view_div {
       display: flex;
       justify-content: center;
-      margin-top: 2px;
+      margin-top: 7px;
 
       .view {
         text-align: center;
