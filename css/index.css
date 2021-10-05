@@ -2704,6 +2704,18 @@ input:checked + .slider {
           transform: scale(1.1);
 }
 
+.top_section_card .card:hover .post_img img {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.top_section_card .card:hover .post_img video {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .top_section_card .card {
   width: 100%;
   height: 350px;

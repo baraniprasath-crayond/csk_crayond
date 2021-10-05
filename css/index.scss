@@ -2754,17 +2754,17 @@ input:checked + .slider {
 
     }
 
-    // .news_img {
-    //   img {
-    //     cursor: pointer;
-    //     transform: scale(1.5);
-    //   }
+    .post_img {
+      img {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
 
-    //   video {
-    //     cursor: pointer;
-    //     transform: scale(1.5);
-    //   }
-    // }
+      video {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    }
 
     
   }
