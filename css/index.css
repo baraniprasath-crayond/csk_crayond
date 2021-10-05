@@ -1371,7 +1371,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1395,7 +1395,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -2704,6 +2704,20 @@ input:checked + .slider {
   margin-bottom: 30px;
 }
 
+.top_section_card .card .bg_gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .top_section_card .card .row {
   height: 100%;
 }
@@ -2752,6 +2766,7 @@ input:checked + .slider {
   padding-left: 15px;
   margin-top: -150px;
   position: absolute;
+  z-index: 1;
 }
 
 .top_section_card .card .second_fab .fab {
@@ -2848,12 +2863,14 @@ input:checked + .slider {
   font-size: 14px;
   color: #ffffff;
   margin: 0;
+  z-index: 1;
 }
 
 .top_section_card .card .share_fab {
   position: absolute;
   right: 10%;
   top: 89.5%;
+  z-index: 1;
 }
 
 .top_section_card .card .share_fab:hover .sidepanel_fab {
@@ -2948,8 +2965,6 @@ input:checked + .slider {
      object-fit: cover;
   width: 100%;
   height: 100%;
-  -webkit-filter: brightness(0.6);
-          filter: brightness(0.6);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -2997,8 +3012,6 @@ input:checked + .slider {
      object-fit: cover;
   width: 100%;
   height: 100%;
-  -webkit-filter: brightness(0.6);
-          filter: brightness(0.6);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   height: 350px;
@@ -4525,7 +4538,7 @@ input:checked + .slider {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 .new_card_section .table_card .view_div .view {

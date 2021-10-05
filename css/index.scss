@@ -2763,6 +2763,20 @@ input:checked + .slider {
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     border:0;
     margin-bottom: 30px;
+
+    .bg_gradient{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: transparent linear-gradient(
+      180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+      z-index: 1;
+      cursor:pointer;
+    }
  
     // border: none;
 
@@ -2818,6 +2832,7 @@ input:checked + .slider {
        padding-left: 15px;
        margin-top: -150px;
        position: absolute;
+       z-index: 1;
 
        .fab {
         padding-bottom: 10px;
@@ -2942,12 +2957,14 @@ input:checked + .slider {
       font-size: 14px;
       color: #ffffff;
       margin: 0;
+      z-index: 1;
     }
 
     .share_fab {
       position: absolute;
       right: 10%;
       top: 89.5%;
+      z-index: 1;
 
       &:hover {
         .sidepanel_fab {
@@ -3036,7 +3053,7 @@ input:checked + .slider {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: brightness(0.6);
+        // filter: brightness(0.6);
         transition-duration: 1s;
       }
 
@@ -3076,7 +3093,7 @@ input:checked + .slider {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        filter: brightness(0.6);
+        // filter: brightness(0.6);
         transition-duration: 1s;
         height: 350px;
       }
@@ -4711,7 +4728,7 @@ input:checked + .slider {
     .view_div {
       display: flex;
       justify-content: center;
-      margin-top: 7px;
+      margin-top: 10px;
 
       .view {
         text-align: center;
