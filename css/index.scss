@@ -2754,6 +2754,21 @@ input:checked + .slider {
 
     }
 
+    .news_img {
+
+      img {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 1s ease;
+      }
+
+      video {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+
+    }
+
     .post_img {
       img {
         cursor: pointer;
@@ -4224,6 +4239,22 @@ input:checked + .slider {
           transform: scale(1.1);
         }
       }
+
+      .news_img {
+
+        img {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: 1s ease;
+        }
+  
+        video {
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+  
+      }
+  
   
       .gal_img {
 
