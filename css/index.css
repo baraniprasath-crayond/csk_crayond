@@ -1371,7 +1371,7 @@ input:checked + .slider {
   color: #ffcd01;
   font-family: "GothamBold";
   font-size: 54px;
-  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
+  text-shadow: -1px -1px 0 #000, 0 -1px 0 #000, 1px -1px 0 #000, 1px 0 0 #000, 1px 1px 0 #000, 0 1px 0 #000, -1px 1px 0 #000, -1px 0 0 #000;
 }
 
 .store_card .cards .left .card_div {
@@ -1395,7 +1395,7 @@ input:checked + .slider {
   font-family: "GothamBold";
   position: absolute;
   top: 0;
-  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
+  text-shadow: -1px -1px 0 #ffffff, 0 -1px 0 #ffffff, 1px -1px 0 #ffffff, 1px 0 0 #ffffff, 1px 1px 0 #ffffff, 0 1px 0 #ffffff, -1px 1px 0 #ffffff, -1px 0 0 #ffffff;
   font-size: 56px;
   color: #ffcd01;
 }
@@ -2294,6 +2294,20 @@ input:checked + .slider {
   font-family: "GothamBold";
 }
 
+.recomended_protects .bg_gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .recomended_protects .item {
   width: 100%;
   cursor: pointer;
@@ -2305,6 +2319,7 @@ input:checked + .slider {
   color: #fff;
   font-weight: 500;
   margin-top: -19%;
+  z-index: 1;
 }
 
 .recomended_protects .item .inner div {
@@ -2857,7 +2872,7 @@ input:checked + .slider {
 
 .top_section_card .card .fab_text {
   position: absolute;
-  left: 3%;
+  left: 5%;
   top: 90%;
   font-family: "GothamMedium";
   font-size: 14px;
@@ -2868,7 +2883,7 @@ input:checked + .slider {
 
 .top_section_card .card .share_fab {
   position: absolute;
-  right: 10%;
+  right: 5%;
   top: 89.5%;
   z-index: 1;
 }
@@ -3233,6 +3248,20 @@ input:checked + .slider {
   height: 100%;
 }
 
+.news_card_section .card .bg_gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#00000000), to(#000000)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .news_card_section .card .news {
   position: absolute;
   border-radius: 6px;
@@ -3263,6 +3292,7 @@ input:checked + .slider {
   padding-left: 15px;
   margin-top: -150px;
   position: relative;
+  z-index: 1;
 }
 
 .news_card_section .card .second_fab .fab {
@@ -3330,6 +3360,7 @@ input:checked + .slider {
   font-size: 14px;
   color: #ffffff;
   margin: 0;
+  z-index: 1;
 }
 
 .news_card_section .card .post_img {
@@ -3374,6 +3405,7 @@ input:checked + .slider {
   position: absolute;
   right: 5%;
   top: 84%;
+  z-index: 1;
 }
 
 .news_card_section .share_fab:hover .sidepanel_fab {
@@ -4182,7 +4214,7 @@ input:checked + .slider {
 
 .new_card_section .news_slider .card .share_fab {
   position: absolute;
-  right: 10%;
+  right: 5%;
   top: 89%;
 }
 
@@ -4278,8 +4310,6 @@ input:checked + .slider {
      object-fit: cover;
   width: 100%;
   height: 100%;
-  -webkit-filter: brightness(0.6);
-          filter: brightness(0.6);
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
