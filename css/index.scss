@@ -472,6 +472,23 @@ input:checked + .slider {
 
     overflow-wrap: break-word;
   }
+
+  @media only screen and (min-width: 728px) and (max-width: 1024px) {
+    .dropbtn {
+      background-color: transparent;
+      color: rgb(197, 197, 197);
+      padding: 5px 14px 5px 14px;
+      font-size: 1rem;
+      font-family: "GothamMedium";
+      border: none;
+      cursor: pointer;
+      z-index: 99999;
+      flex-wrap: wrap;
+
+      overflow-wrap: break-word;
+    }
+  }
+
   @media only screen and (min-width: 1024px) and (max-width: 1224px) {
     .dropbtn {
       background-color: transparent;
@@ -686,13 +703,26 @@ input:checked + .slider {
         margin-right: 50px;
       }
 
-      @media only screen and (min-width: 320px) and (max-width: 768px) {
+      @media only screen and (min-width: 320px) and (max-width: 425px) {
         .arrow_btn {
           i{
            display: none;
           }
          
         }
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        .arrow_btn {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 3px;
+          margin-right: 20px;
+          i{
+            margin: 3px;
+          }
+        }
+        
       }
       
       @media only screen and (min-width: 1024px) and (max-width: 1224px) {
@@ -742,7 +772,7 @@ input:checked + .slider {
   display: none;
 }
 
-@media only screen and (max-width:967px){
+@media only screen and (max-width:430px){
   .mobile-footer{
     display: block;   
     // background-image: url("../assets/Group 142.png");
@@ -802,7 +832,7 @@ input:checked + .slider {
        flex-direction: column;
        border-left-width: thick;
        cursor: pointer;
-      align-items: center;
+       align-items: center;
       img{
         margin-top: -18px;
       }
@@ -834,8 +864,8 @@ input:checked + .slider {
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 35px;
-      height: 35px;
+      width: 2.7rem;
+      height: 2.7rem;
       border-radius: 50%;
       background-color:white;
       img{
@@ -5855,7 +5885,7 @@ input:checked + .slider {
 }
 
 // Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 430px) and (max-width: 991px) {
   .recomended_protects {
     .item {
       img {
@@ -5909,32 +5939,33 @@ input:checked + .slider {
       }
     }
 
-    .row {
-      .header_menu {
-        display: none;
-      }
+    // .row {
 
-      .logo_area {
-        .menu-toggle {
-          display: block;
-        }
+    //   .header_menu {
+    //     display: block;
+    //   }
 
-        .mobile_logo {
-          display: block;
-          border-radius: 10px;
-        }
+    //   .logo_area {
+    //     .menu-toggle {
+    //       display: block;
+    //     }
 
-        .logo {
-          display: none;
+    //     .mobile_logo {
+    //       display: block;
+    //       border-radius: 10px;
+    //     }
 
-          img {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-          }
-        }
-      }
-    }
+    //     .logo {
+    //       display: none;
+
+    //       img {
+    //         width: 50px;
+    //         height: 50px;
+    //         margin: 10px;
+    //       }
+    //     }
+    //   }
+    // }
   }
 }
 
@@ -6042,6 +6073,8 @@ input:checked + .slider {
     }
   }
 }
+
+
 
 @media only screen and (max-width: 1025px) {
   .con {
@@ -6728,48 +6761,55 @@ input:checked + .slider {
   }
 
   .header {
-    .row {
-      .header_menu {
-        display: none;
-      }
-
-      .logo_area {
-        .menu-toggle {
-          display: block;
-        }
-
-        .mobile_logo {
-          display: block;
-          border-radius: 10px;
-        }
-
-        .logo {
-          display: none;
-
-          img {
-            width: 50px;
-            height: 50px;
-            margin: 10px 0px;
-          }
+    
+      .row{
+        .logo_area{
+          padding-left: 0;
         }
       }
+    
+    // .row {
+    //   .header_menu {
+    //     display: block;
+    //   }
 
-      .sign_btn {
-        .contact_num {
-          padding: 8px 10px 8px 10px;
+    //   .logo_area {
+    //     .menu-toggle {
+    //       display: block;
+    //     }
 
-          img {
-            width: 18px;
-            height: 18px;
-            margin: 0;
-          }
+    //     .mobile_logo {
+    //       display: block;
+    //       border-radius: 10px;
+    //     }
 
-          .number_call {
-            display: none;
-          }
-        }
-      }
-    }
+    //     .logo {
+    //       display: none;
+
+    //       img {
+    //         width: 50px;
+    //         height: 50px;
+    //         margin: 10px 0px;
+    //       }
+    //     }
+    //   }
+
+    //   .sign_btn {
+    //     .contact_num {
+    //       padding: 8px 10px 8px 10px;
+
+    //       img {
+    //         width: 18px;
+    //         height: 18px;
+    //         margin: 0;
+    //       }
+
+    //       .number_call {
+    //         display: none;
+    //       }
+    //     }
+    //   }
+    // }
   }
 
   @media screen {

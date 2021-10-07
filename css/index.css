@@ -474,6 +474,22 @@ input:checked + .slider {
   overflow-wrap: break-word;
 }
 
+@media only screen and (min-width: 728px) and (max-width: 1024px) {
+  .header .dropbtn {
+    background-color: transparent;
+    color: #c5c5c5;
+    padding: 5px 14px 5px 14px;
+    font-size: 1rem;
+    font-family: "GothamMedium";
+    border: none;
+    cursor: pointer;
+    z-index: 99999;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow-wrap: break-word;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1224px) {
   .header .dropbtn {
     background-color: transparent;
@@ -688,9 +704,28 @@ input:checked + .slider {
   margin-right: 50px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) {
   .header .row .sign_btn .arrow_btn i {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header .row .sign_btn .arrow_btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 3px;
+    margin-right: 20px;
+  }
+  .header .row .sign_btn .arrow_btn i {
+    margin: 3px;
   }
 }
 
@@ -740,7 +775,7 @@ input:checked + .slider {
   display: none;
 }
 
-@media only screen and (max-width: 967px) {
+@media only screen and (max-width: 430px) {
   .mobile-footer {
     display: block;
     background-color: #25469B !important;
@@ -853,8 +888,8 @@ input:checked + .slider {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 2.7rem;
+    height: 2.7rem;
     border-radius: 50%;
     background-color: white;
   }
@@ -5618,7 +5653,7 @@ input:checked + .slider {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 430px) and (max-width: 991px) {
   .recomended_protects .item img {
     width: 140px;
     height: 140px;
@@ -5643,24 +5678,6 @@ input:checked + .slider {
   .header .sign_btn .dropdown-content {
     z-index: 999999;
     right: auto;
-  }
-  .header .row .header_menu {
-    display: none;
-  }
-  .header .row .logo_area .menu-toggle {
-    display: block;
-  }
-  .header .row .logo_area .mobile_logo {
-    display: block;
-    border-radius: 10px;
-  }
-  .header .row .logo_area .logo {
-    display: none;
-  }
-  .header .row .logo_area .logo img {
-    width: 50px;
-    height: 50px;
-    margin: 10px;
   }
 }
 
@@ -6182,34 +6199,8 @@ input:checked + .slider {
   .match_center .fixtures_card .match_details .score_board .match_vs .vs {
     font-size: 20px;
   }
-  .header .row .header_menu {
-    display: none;
-  }
-  .header .row .logo_area .menu-toggle {
-    display: block;
-  }
-  .header .row .logo_area .mobile_logo {
-    display: block;
-    border-radius: 10px;
-  }
-  .header .row .logo_area .logo {
-    display: none;
-  }
-  .header .row .logo_area .logo img {
-    width: 50px;
-    height: 50px;
-    margin: 10px 0px;
-  }
-  .header .row .sign_btn .contact_num {
-    padding: 8px 10px 8px 10px;
-  }
-  .header .row .sign_btn .contact_num img {
-    width: 18px;
-    height: 18px;
-    margin: 0;
-  }
-  .header .row .sign_btn .contact_num .number_call {
-    display: none;
+  .header .row .logo_area {
+    padding-left: 0;
   }
   .main_footer .footer_list_menu .divider {
     border: none;
