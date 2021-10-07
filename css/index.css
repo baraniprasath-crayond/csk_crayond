@@ -446,8 +446,7 @@ input:checked + .slider {
 }
 
 .header {
-  background-image: url("../assets/Group 142.png") !important;
-  background-color: #ffcb05;
+  background-color: #25469B !important;
   width: 100%;
   z-index: 12;
   position: fixed;
@@ -763,7 +762,7 @@ input:checked + .slider {
   }
   .menu-space {
     display: block;
-    height: 300%;
+    height: 100%;
     background-color: #fff;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
