@@ -704,7 +704,7 @@ input:checked + .slider {
   margin-right: 50px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 427px) {
+@media only screen and (min-width: 320px) and (max-width: 767px) {
   .header .row .sign_btn .arrow_btn i {
     display: none;
   }
@@ -6217,7 +6217,7 @@ input:checked + .slider {
   }
 }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 767px) {
   .header .users {
     display: none !important;
   }
@@ -6453,7 +6453,7 @@ input:checked + .slider {
   }
 }
 
-@media only screen and (max-width: 426px) {
+@media only screen and (max-width: 767px) {
   .news_card_section .timing .flex .text p {
     font-size: 12px;
   }
