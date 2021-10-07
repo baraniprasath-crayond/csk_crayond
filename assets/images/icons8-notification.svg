@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="49.842" viewBox="0 0 49 49.842">
+  <defs>
+    <filter id="icons8-notification" x="0" y="0" width="49" height="49.842" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#001156" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#icons8-notification)">
+    <path id="icons8-notification-2" data-name="icons8-notification" d="M10.814,4.005A4.242,4.242,0,0,0,6.845,8.276V10.3l-.737,1.482,0,.008a.985.985,0,0,0,.88,1.387H9.347a1.668,1.668,0,0,0,3.336,0h2.362a.986.986,0,0,0,.881-1.387l0-.008L15.185,10.3V8.171A4.177,4.177,0,0,0,10.814,4.005Zm.039.833a3.329,3.329,0,0,1,3.5,3.332v2.224a.417.417,0,0,0,.043.186l.776,1.563a.129.129,0,0,1-.126.2H6.984a.129.129,0,0,1-.125-.2h0l.776-1.562a.417.417,0,0,0,.043-.186V8.276A3.4,3.4,0,0,1,10.853,4.838Zm-.672,8.336h1.668a.834.834,0,0,1-1.668,0Z" transform="translate(13.49 15.5)" fill="#25469b"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51" height="49.286" viewBox="0 0 51 49.286">
+  <defs>
+    <filter id="icons8-news" x="0" y="0" width="51" height="49.286" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#001156" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#icons8-news)">
+    <path id="icons8-news-2" data-name="icons8-news" d="M4.286,6A1.292,1.292,0,0,0,3,7.286v7.143a1.864,1.864,0,0,0,1.857,1.857h8.286A1.864,1.864,0,0,0,15,14.429V10.143a1.292,1.292,0,0,0-1.286-1.286h-.429V7.286A1.292,1.292,0,0,0,12,6Zm0,.857H12a.422.422,0,0,1,.429.429v1.93a.429.429,0,0,0,0,.139v4.789a.429.429,0,1,0,.857,0V9.714h.429a.422.422,0,0,1,.429.429v4.286a.994.994,0,0,1-1,1H4.857a.994.994,0,0,1-1-1V7.286A.422.422,0,0,1,4.286,6.857Zm.857,1.714a.429.429,0,1,0,0,.857h6a.429.429,0,1,0,0-.857Zm0,2.286a.429.429,0,0,0-.429.429v2a.429.429,0,0,0,.429.429h2a.429.429,0,0,0,.429-.429v-2a.429.429,0,0,0-.429-.429Zm3.714,0a.429.429,0,1,0,0,.857h2.286a.429.429,0,1,0,0-.857Zm-3.286.857H6.714v1.143H5.571Zm3.286,1.143a.429.429,0,1,0,0,.857h2.286a.429.429,0,1,0,0-.857Z" transform="translate(16.5 13.5)" fill="#25469b"/>
+  </g>
+</svg>

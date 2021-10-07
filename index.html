@@ -45,11 +45,11 @@
                 <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12">
                     <div class="row">
                         <div class="col-8 col-xs-6 col-sm-6 col-md-6 col-lg-1 col-xl-1 logo_area">
-                            <!-- mobile menu toggle icon -->
-                            <div class="menu-toggle" onclick="myFunction()">
+                           
+                            <!-- <div class="menu-toggle" onclick="myFunction()">
                                 <div class="line l1"></div>
                                 <div class="line l2"></div>
-                            </div>
+                            </div> -->
                             <!-- end -->
                             <a href="#" class="logo" alt="crayond">
                                 <img id="logo" style="width: 55px;height: 55px;position: absolute; top: 2px; border-radius: 10px;" alt="logo-crayond"
@@ -145,12 +145,87 @@
     </section>
     <!-- end -->
 
+<section>
+    <div class="mobile-footer" id="footer-mobile">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 colm">
+                <div class="toogle-mobile">
+
+                    <div class="mobile-item mobile-active" id="home">
+                       
+                        <span class="img_span" id="home_span">
+                             <a href="#"><img src="../assets/images/icons8-home (1)filled.svg" id="home_image"/></a>
+                        </span>
+                        <p style="color: white;font-size: 10px;margin-top: 4px;" id="home_text">HOME</p>
+                    </div>
+
+                    <div class="mobile-item" id="score">
+                        <span id="score_span">
+                            <a href="#"><img src="../assets/images/Group 269.svg" id="score_image"/></a>
+                        </span> 
+                       <p style="color: white;font-size: 10px;margin-top: 4px;" id="score_text"></p>     
+                    </div>
+
+                    <div class="mobile-item" id="video">
+                        <span id="video_span">
+                           
+                            <a href="#"><img src="../assets/images/Group 206.svg" id="video_image"/></a>
+                        </span>
+                          
+                        <p style="color: white;font-size: 10px;margin-top: 4px;" id="video_text"></p>  
+                    </div>
+
+                    <div class="mobile-item" id="shopping">
+                        <span id="shopping_span">
+                           <a href="#"><img src="../assets/images/icons8-shopping-bag.svg" id="shopping_image"/></a>
+                        </span>
+                        
+                        <p style="color: white;font-size: 10px;margin-top: 4px;" id="shopping_text"></p>  
+                    </div>
+
+                    <div class="mobile-item" id="menu" >  
+                        <span id="menu_span" >
+                           <img src="../assets/images/Group 209 (1).svg" id="menu_image"/>
+                        </span>
+                                
+                            <p style="color: white;font-size: 10px;margin-top: 4px;" id="menu_text"></p>  
+                    </div>
+
+                </div>
+                <div class="menu-space hidden" id="menu-space">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-xs-4 col-ms-6 col-md-12">
+                                <div class="menu-buttons">
+                                   <a href="#"> <button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-account.svg"/><p>My Account</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-notification.svg"/><p>Notification</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-cash-in-hand.svg"/><p>Investor Corner</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-news.svg"/><p>My News</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-community-grants.svg"/><p>Sponsors</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-teams.svg"/> <p>Team</p></span></button></a>
+                                    <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-picture.svg"/><p>Gallery</p></span></button></a>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                 
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+</section>
+
+
     <!-- mobile menu list -->
     <section>
         <div class="mobile-nav" id='mobile-nav'>
             <ul>
                 <li><a class="active" href="./index.html">Home</a></li>
-
 
                 <!-- onClick open the dropdown will come in this structure only -->
                 <span class="sub_menu_show">
@@ -2053,10 +2128,10 @@
                         <p class="copy_rights">© CSK. All rights reserved. </p>
                     </div>
                     <div class="col-12 col-xs-12 col-ms-12 col-md-12 col-lg-12 col-xl-12 footer_list_menu">
-                        <span class="divider">PRIVACY POLICY</span>
-                        <span class="divider">TERMS & CONDITIONS</span>
-                        <span class="divider">DISCLAIMER</span>
-                        <span>CONTACT US</span>
+                        <span class="divider"><a href="#">PRIVACY POLICY</a></span>
+                        <span class="divider"><a href="#">TERMS & CONDITIONS</a></span>
+                        <span class="divider"><a href="#">DISCLAIMER</a></span>
+                        <span class="divider"><a href="#">CONTACT US</a></span>
                     </div>
                 </div>
                 <div class="footer_bottom_line"></div>
@@ -2075,6 +2150,320 @@
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/owl.carousel.min.js"></script>
 
 <script>
+
+
+
+  $('.mobile-item').each(function(){
+
+     var mobile_item = $(this)
+   
+           mobile_item.click(function(e){    
+
+             if($(this).hasClass('mobile-active')){
+                  if($(this).attr('id') == 'home'){
+
+                    }
+                  if($(this).attr('id') == 'score'){
+                      $('#score').removeClass('mobile-active')
+                      $('#score_text').text('')
+                      $("#score_span").removeClass('img_span')
+                      $('#score_image').attr('src','../assets/images/Group 269.svg')
+                    }
+                  if($(this).attr('id') == 'video'){
+                    $('#video').removeClass('mobile-active')
+                    $('#video_text').text('')
+                    $("#video_span").removeClass('img_span')
+                    $('#video_image').attr('src','../assets/images/Group 206.svg')
+                   }
+                  if($(this).attr('id') == 'shopping'){
+                    $('#shopping').removeClass('mobile-active')
+                    $('#shopping_text').text('')
+                    $("#shopping_span").removeClass('img_span')
+                    $('#shopping_image').attr('src','../assets/images/icons8-shopping-bag.svg')
+          
+                   }       
+                  if($(this).attr('id') == 'menu'){
+                      $('#menu').removeClass('mobile-active')
+                      $('#menu_text').text('')
+                      $("#menu_span").removeClass('img_span')
+                      $('#menu_image').attr('src','../assets/images/Group 209 (1).svg')
+                      $("#footer-mobile").removeClass('menu-footer')
+                      $('#menu-space').addClass('hidden');
+                      $('.toogle-mobile').removeClass('menu-height')
+             
+                 }             
+             }
+              else{
+                $('.mobile-item').each(function(){
+                      var item = $(this)
+                      item.removeClass('mobile-active');
+
+                      if(item.attr('id') == 'home'){                      
+                        $("#home_span").removeClass('img_span')
+                        $('#home_text').text('')
+                        $('#home_image').attr('src','../assets/images/icons8-home.svg')
+                    }
+                      if(item.attr('id') == 'score'){
+                        $("#score_span").removeClass('img_span')
+                        $('#score_image').attr('src','../assets/images/Group 269.svg')
+                      $('#score_text').text('')
+                    }
+                  if(item.attr('id') == 'video'){
+                    $("#video_span").removeClass('img_span')
+                      $('#video_text').text('')
+                      $('#video_image').attr('src','../assets/images/Group 206.svg')
+                   }
+                  if(item.attr('id') == 'shopping'){
+                    $("#shopping_span").removeClass('img_span')
+                      $('#shopping_text').text('')
+                      $('#shopping_image').attr('src','../assets/images/icons8-shopping-bag.svg')
+                   }       
+                  if(item.attr('id') == 'menu'){          
+                    $("#menu_span").removeClass('img_span')
+                    $('#menu_text').text('')
+                    $('#menu_image').attr('src','../assets/images/Group 209 (1).svg')
+                      $("#footer-mobile").removeClass('menu-footer')
+                      $('#menu-space').addClass('hidden');
+                      $('.toogle-mobile').removeClass('menu-height')
+             
+                 }           
+                  })
+
+                 if($(this).attr('id') == "home"){
+                   
+                  $('#home').addClass('mobile-active')
+                  $("#home_span").addClass('img_span')
+                  $('#home_text').text('HOME')
+                  $('#home_image').attr('src','../assets/images/icons8-home (1)filled.svg')
+ 
+                      }
+                  if($(this).attr('id') == "score"){
+                    
+                  $('#score').addClass('mobile-active')
+                  $("#score_span").addClass('img_span')
+                  $('#score_text').text('SCORE')
+                 $('#score_image').attr('src','../assets/images/Filled.svg')
+     
+                }
+                  if($(this).attr('id') == "video"){
+                    
+               $('#video').addClass('mobile-active')
+               $("#video_span").addClass('img_span')
+               $('#video_text').text('CSK TV')
+               $('#video_image').attr('src','../assets/images/CSK TV Filled.svg')
+
+                 }
+                  if($(this).attr('id') == "shopping"){
+                       
+              $('#shopping').addClass('mobile-active')
+              $("#shopping_span").addClass('img_span')
+              $('#shopping_text').text('STORE')
+              $('#shopping_image').attr('src','../assets/images/Store - Filled.svg')
+                   }
+                  if($(this).attr('id') == "menu"){
+                   
+              $('#menu').addClass('mobile-active')
+              $("#menu_span").addClass('img_span')
+              $('#menu_text').text('MENU')
+              $('#menu_image').attr('src','../assets/images/Union 1.svg')
+
+              $("#footer-mobile").addClass('menu-footer');
+              $('#menu-space').removeClass('hidden');
+              $('.toogle-mobile').addClass('menu-height')
+              }
+                   }
+           });
+        });
+
+
+
+// $('#home').click(function(){
+//     if($(this).hasClass('mobile-active')){
+
+//     }
+//     else{
+//         $('#home').addClass('mobile-active')
+//         $('#home').html(
+//             ` <span class="fa-stack">
+//                             <i class="fa fa-circle-thin fa-stack-2x" id="score_circle"></i>
+//                             <i class="fa fa-home fa-stack-1x" style="color: yellow;" id="score_icon"></i>
+//                            </span>
+//                         <p style="color: white;font-size: 17px;margin-top: 2px;">home</p>`
+//         );
+//         $('#video').removeClass('mobile-active')
+//         $('#video').html(
+//         `<i class="fa fa-youtube-play" aria-hidden="true"></i>`
+//            )
+//            $('#shopping').removeClass('mobile-active')
+//         $('#shopping').html(
+//         `<i class="fa fa-shopping-bag" aria-hidden="true"></i>`
+//           )
+//           $('#menu').removeClass('mobile-active')
+//         $('#menu').html(
+//         ` <i class="fa fa-bars" aria-hidden="true"></i>`
+//             )
+//             $('#score').removeClass('mobile-active')
+//             $('#score').html(
+//         `<i class="fa fa-columns" aria-hidden="true"></i>`
+//         )
+//     }
+// })
+
+
+// $('#score').click(function(){
+//     if($(this).hasClass('mobile-active')){
+//         $('#score').removeClass('mobile-active')
+//         $('#score').html(
+//         `<i class="fa fa-columns" aria-hidden="true"></i>`
+//         )
+//     }
+//     else{
+//         $('#score').addClass('mobile-active')
+//         $('#score').html(
+//             ` <span class="fa-stack">
+//                             <i class="fa fa-circle-thin fa-stack-2x" id="score_circle"></i>
+//                             <i class="fa fa-columns fa-stack-1x" style="color: yellow;" id="score_icon"></i>
+//                            </span>
+//                         <p style="color: white;font-size: 17px;margin-top: 2px;">score</p>`
+//         );
+//         $('#video').removeClass('mobile-active')
+//         $('#video').html(
+//         `<i class="fa fa-youtube-play" aria-hidden="true"></i>`
+//            )
+       
+//         $('#shopping').removeClass('mobile-active')
+//         $('#shopping').html(
+//         `<i class="fa fa-shopping-bag" aria-hidden="true"></i>`
+//           )
+       
+//         $('#menu').removeClass('mobile-active')
+//         $('#menu').html(
+//         ` <i class="fa fa-bars" aria-hidden="true"></i>`
+//             )
+//         $('#home').removeClass('mobile-active')
+//             $('#home').html(
+//         `<i class="fa fa-home" aria-hidden="true"></i>`
+//            )
+       
+//     }
+// })
+
+// $('#video').click(function(){
+//     if($(this).hasClass('mobile-active')){
+//         $('#video').removeClass('mobile-active')
+//         $('#video').html(
+//         `<i class="fa fa-youtube-play" aria-hidden="true"></i>`
+//            )
+//     }
+//     else{
+//         $('#video').addClass('mobile-active')
+//         $('#video').html(
+//             `  <span class="fa-stack">
+//                             <i class="fa fa-circle-thin fa-stack-2x" id="video_circle"></i>
+//                             <i class="fa fa-youtube-play fa-stack-1x" style="color: yellow;" id="video_icon"></i>
+//                            </span>
+//                         <p style="color: white;font-size: 17px;margin-top: 2px;">videos</p>`
+//         )
+//         $('#score').removeClass('mobile-active')
+//         $('#score').html(
+//         `<i class="fa fa-columns" aria-hidden="true"></i>`
+//         )
+//         $('#shopping').removeClass('mobile-active')
+//         $('#shopping').html(
+//         `<i class="fa fa-shopping-bag" aria-hidden="true"></i>`
+//           )
+       
+//         $('#menu').removeClass('mobile-active')
+//         $('#menu').html(
+//         ` <i class="fa fa-bars" aria-hidden="true"></i>`
+//             )
+
+//             $('#home').removeClass('mobile-active')
+//             $('#home').html(
+//         `<i class="fa fa-home" aria-hidden="true"></i>`
+//            )
+       
+//     }
+// })
+
+
+// $('#shopping').click(function(){
+//     if($(this).hasClass('mobile-active')){
+//         $('#shopping').removeClass('mobile-active')
+//         $('#shopping').html(
+//         `<i class="fa fa-shopping-bag" aria-hidden="true"></i>`
+//           )
+//     }
+//     else{
+//         $('#shopping').addClass('mobile-active')
+//         $('#shopping').html(
+//             `  <span class="fa-stack">
+//                             <i class="fa fa-circle-thin fa-stack-2x" id="shopping_circle"></i>
+//                             <i class="fa fa-shopping-bag fa-stack-1x" style="color: yellow;" id="shopping_icon"></i>
+//                            </span>
+//                         <p style="color: white;font-size: 17px;margin-top: 2px;">store</p>`
+//         )
+//         $('#video').removeClass('mobile-active')
+//         $('#video').html(
+//         `<i class="fa fa-youtube-play" aria-hidden="true"></i>`
+//            )
+        
+//         $('#score').removeClass('mobile-active')
+//         $('#score').html(
+//         `<i class="fa fa-columns" aria-hidden="true"></i>`
+//         )
+//         $('#menu').removeClass('mobile-active')
+//         $('#menu').html(
+//         ` <i class="fa fa-bars" aria-hidden="true"></i>`
+//             )
+
+//             $('#home').removeClass('mobile-active')
+//             $('#home').html(
+//         `<i class="fa fa-home" aria-hidden="true"></i>`
+//            )
+       
+//     }
+// })
+
+// $('#menu').click(function(){
+//     if($(this).hasClass('mobile-active')){
+//         $('#menu').removeClass('mobile-active')
+//         $("#toogle-mobile").removeClass('menu-footer')
+//         $('#menu').html(
+//         ` <i class="fa fa-bars" aria-hidden="true"></i>`
+//             )
+//     }
+//     else{
+//         $('#menu').addClass('mobile-active')
+//         $('#menu').html(
+//             `  <span class="fa-stack">
+//                             <i class="fa fa-circle-thin fa-stack-2x" id="menu_circle"></i>
+//                             <i class="fa fa-times fa-stack-1x" style="color: yellow;" id="menu_icon"></i>
+//                            </span>
+//                         <p style="color: white;font-size: 17px;margin-top: 2px;">menu</p>`
+//         )
+
+//         $("#toogle-mobile").addClass('menu-footer')
+//         $('#video').removeClass('mobile-active')
+//         $('#video').html(
+//         `<i class="fa fa-youtube-play" aria-hidden="true"></i>`
+//            )
+//         $('#score').removeClass('mobile-active')
+//         $('#score').html(
+//         `<i class="fa fa-columns" aria-hidden="true"></i>`
+//         )
+//         $('#shopping').removeClass('mobile-active')
+//         $('#shopping').html(
+//         `<i class="fa fa-shopping-bag" aria-hidden="true"></i>`
+//           )
+
+//         $('#home').removeClass('mobile-active')
+//             $('#home').html(
+//         `<i class="fa fa-home" aria-hidden="true"></i>`
+//            )
+//     }
+// })
+
 
        var outer = $('.header_menu');
 
@@ -2125,9 +2514,6 @@ $('#scrollLeft').click(function(){
     
 });
 
-   
-
-    window.onscroll = function () { scrollFunction() };
 
     // function scrollFunction() {
     //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -2144,6 +2530,9 @@ $('#scrollLeft').click(function(){
     //         document.getElementById("logo").style.top = "0px";
     //     }
     // }
+
+    
+
     function handletvsection(img, tittle) {
         var a = img;
         var t = tittle

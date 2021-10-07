@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48.6" height="51" viewBox="0 0 48.6 51">
+  <defs>
+    <filter id="icons8-account" x="0" y="0" width="48.6" height="51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-color="#001156" flood-opacity="0.129"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#icons8-account)">
+    <path id="icons8-account-2" data-name="icons8-account" d="M12.8,4a3,3,0,1,0,3,3A3.007,3.007,0,0,0,12.8,4Zm0,.9A2.1,2.1,0,1,1,10.7,7,2.093,2.093,0,0,1,12.8,4.9ZM9.35,11.2A1.357,1.357,0,0,0,8,12.55v.36a2.721,2.721,0,0,0,1.413,2.218A6.314,6.314,0,0,0,12.8,16a6.314,6.314,0,0,0,3.387-.872A2.721,2.721,0,0,0,17.6,12.91v-.36a1.357,1.357,0,0,0-1.35-1.35Zm0,.9h6.9a.443.443,0,0,1,.45.45v.36a1.828,1.828,0,0,1-1,1.459,5.47,5.47,0,0,1-2.9.731,5.47,5.47,0,0,1-2.9-.731,1.828,1.828,0,0,1-1-1.459v-.36A.443.443,0,0,1,9.35,12.1Z" transform="translate(11.5 15.5)" fill="#25469b"/>
+  </g>
+</svg>
