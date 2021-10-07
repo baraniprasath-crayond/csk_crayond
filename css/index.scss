@@ -843,7 +843,6 @@ input:checked + .slider {
       flex-direction: column;
       align-items: center;
       position:relative;
-      z-index:5;
       transform: translate3d(0,-22px,0);
       border-radius:50px;
       padding: 0.2em 0.3em;

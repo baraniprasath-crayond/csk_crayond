@@ -871,7 +871,6 @@ input:checked + .slider {
         -ms-flex-align: center;
             align-items: center;
     position: relative;
-    z-index: 5;
     -webkit-transform: translate3d(0, -22px, 0);
             transform: translate3d(0, -22px, 0);
     border-radius: 50px;
