@@ -194,9 +194,9 @@
 
                 </div>
                 <div class="menu-space hidden" id="menu-space">
-                    <div class="container-fluid">
+                    <div class="container mobile-sizes" >
                         <div class="row">
-                            <div class="col-12 col-xs-4 col-ms-6 col-md-12">
+                            <div class="col-12 col-xs-2 col-sm-2 col-md-12">
                                 <div class="menu-buttons">
                                    <a href="#"> <button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-account.svg"/><p>My Account</p></span></button></a>
                                     <a href="#"><button type="button" class="btn btn-default btn-sm"><span><img src="../assets/images/icons8-notification.svg"/><p>Notification</p></span></button></a>
@@ -2183,13 +2183,27 @@
           
                    }       
                   if($(this).attr('id') == 'menu'){
-                      $('#menu').removeClass('mobile-active')
-                      $('#menu_text').text('')
-                      $("#menu_span").removeClass('img_span')
-                      $('#menu_image').attr('src','../assets/images/Group 209 (1).svg')
+                    //   $('#menu').removeClass('mobile-active')
+                    //   $('#menu_text').text('')
+                    //   $("#menu_span").removeClass('img_span')
+                    if($('#menu').hasClass('menu_item')){
+                      $('#menu').removeClass('cancel_item')
+                      $('#menu_image').attr('src','../assets/images/Union 1.svg')
+                      $("#footer-mobile").addClass('menu-footer')
+                      $('#menu-space').removeClass('hidden');
+                      $('.toogle-mobile').addClass('menu-height')    
+                      }
+                    
+                     
+                      if($('#menu').hasClass('cancel_item')){
+                        $('#menu_image').attr('src','../assets/images/Group 209 (3).svg')
                       $("#footer-mobile").removeClass('menu-footer')
                       $('#menu-space').addClass('hidden');
                       $('.toogle-mobile').removeClass('menu-height')
+                      $('#menu').addClass('menu_item')
+
+                      }
+                     
              
                  }             
              }
@@ -2263,6 +2277,7 @@
                   if($(this).attr('id') == "menu"){
                    
               $('#menu').addClass('mobile-active')
+              $('#menu').addClass('cancel_item')
               $("#menu_span").addClass('img_span')
               $('#menu_text').text('MENU')
               $('#menu_image').attr('src','../assets/images/Union 1.svg')

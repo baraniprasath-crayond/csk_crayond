@@ -879,6 +879,27 @@ input:checked + .slider {
   }
 }
 
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .mobile-sizes {
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .mobile-sizes {
+    padding-right: 66px;
+    padding-left: 66px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .mobile-sizes {
+    padding-right: 166px;
+    padding-left: 166px;
+  }
+}
+
 .main_body_contant {
   padding-top: 64px;
 }
@@ -1835,11 +1856,18 @@ input:checked + .slider {
   border-radius: 10px;
   background: transparent;
   color: #fff;
+  font-family: 'GothamMedium';
   font-size: 16px;
   padding: 7px 18px;
   font-weight: 500;
   margin-top: 30px;
   cursor: pointer;
+}
+
+.new_store_card .row .text-center .exploreBtn:hover {
+  border-color: #ffcd01;
+  background: #ffcd01;
+  color: #000;
 }
 
 .fan_card {
@@ -2453,6 +2481,7 @@ input:checked + .slider {
   background: transparent linear-gradient(180deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
   z-index: 1;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .recomended_protects .item {
@@ -3087,11 +3116,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f0f0f0;
-  opacity: 0.9;
 }
 
 .top_section_card .card .share_fab:hover .sidepanel_fab div {
@@ -3116,11 +3147,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f2f2f2;
-  opacity: 0.9;
 }
 
 .top_section_card .card .share_fab .sidepanel_fab div {
@@ -3624,11 +3657,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f2f2f2;
-  opacity: 0.9;
 }
 
 .news_card_section .share_fab:hover .sidepanel_fab div {
@@ -3653,11 +3688,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f2f2f2;
-  opacity: 0.9;
 }
 
 .news_card_section .share_fab .sidepanel_fab div {
@@ -4463,11 +4500,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f2f2f2;
-  opacity: 0.9;
 }
 
 .new_card_section .news_slider .card .share_fab:hover .sidepanel_fab div {
@@ -4492,11 +4531,13 @@ input:checked + .slider {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow-x: hidden;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   background-color: #f2f2f2;
-  opacity: 0.9;
 }
 
 .new_card_section .news_slider .card .share_fab .sidepanel_fab div {
