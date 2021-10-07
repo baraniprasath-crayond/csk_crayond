@@ -2185,7 +2185,8 @@
                   if($(this).attr('id') == 'menu'){
                     //   $('#menu').removeClass('mobile-active')
                     //   $('#menu_text').text('')
-                    //   $("#menu_span").removeClass('img_span')
+                    //   $("#menu_span").removeClass('img_span')    
+
                     if($('#menu').hasClass('menu_item')){
                       $('#menu').removeClass('cancel_item')
                       $('#menu_image').attr('src','../assets/images/Union 1.svg')
@@ -2194,16 +2195,15 @@
                       $('.toogle-mobile').addClass('menu-height')    
                       }
                     
-                     
                       if($('#menu').hasClass('cancel_item')){
-                        $('#menu_image').attr('src','../assets/images/Group 209 (3).svg')
+                      $('#menu_image').attr('src','../assets/images/Group 209 (3).svg')
                       $("#footer-mobile").removeClass('menu-footer')
                       $('#menu-space').addClass('hidden');
                       $('.toogle-mobile').removeClass('menu-height')
                       $('#menu').addClass('menu_item')
-
                       }
                      
+                    
              
                  }             
              }
@@ -2236,6 +2236,8 @@
                     $("#menu_span").removeClass('img_span')
                     $('#menu_text').text('')
                     $('#menu_image').attr('src','../assets/images/Group 209 (1).svg')
+                    $('#menu').removeClass('cancel_item')
+                    $('#menu').removeClass('menu_item')
                       $("#footer-mobile").removeClass('menu-footer')
                       $('#menu-space').addClass('hidden');
                       $('.toogle-mobile').removeClass('menu-height')
