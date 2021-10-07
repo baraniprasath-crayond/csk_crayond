@@ -2185,17 +2185,31 @@
                   if($(this).attr('id') == 'menu'){
                     //   $('#menu').removeClass('mobile-active')
                     //   $('#menu_text').text('')
-                    //   $("#menu_span").removeClass('img_span')    
+                    //   $("#menu_span").removeClass('img_span')  
+                    
+                    if($('#menu').hasClass('cancel_again')){
+                        $('#menu').removeClass('menu_item')
+                        $('#menu').addClass('cancel_item')
+                        $('#menu_image').attr('src','../assets/images/Group 209 (3).svg')
+                        $("#footer-mobile").removeClass('menu-footer')
+                        $('#menu-space').addClass('hidden');
+                        $('.toogle-mobile').removeClass('menu-height')
+                    }
+                    
 
-                    // if($('#menu').hasClass('menu_item')){
-                    //   $('#menu').removeClass('cancel_item')
-                    //   $('#menu_image').attr('src','../assets/images/Union 1.svg')
-                    //   $("#footer-mobile").addClass('menu-footer')
-                    //   $('#menu-space').removeClass('hidden');
-                    //   $('.toogle-mobile').addClass('menu-height')    
-                    //   }
+                    if($('#menu').hasClass('menu_item')){
+                      $('#menu').removeClass('cancel_item')
+                      $('#menu_image').attr('src','../assets/images/Union 1.svg')
+                      $("#footer-mobile").addClass('menu-footer')
+                      $('#menu-space').removeClass('hidden');
+                      $('.toogle-mobile').addClass('menu-height')    
+                      $('#menu').addClass('cancel_again')
+                      }
                     
                       if($('#menu').hasClass('cancel_item')){
+                      if($('#menu').hasClass('cancel_again')){
+                        $('#menu').removeClass('cancel_again')
+                      }
                       $('#menu_image').attr('src','../assets/images/Group 209 (3).svg')
                       $("#footer-mobile").removeClass('menu-footer')
                       $('#menu-space').addClass('hidden');
