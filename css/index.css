@@ -755,7 +755,7 @@ input:checked + .slider {
     border-top-right-radius: 20px;
   }
   .menu-footer {
-    height: 280px;
+    height: 300px;
   }
   .hidden {
     display: none;
@@ -780,18 +780,30 @@ input:checked + .slider {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    padding: 10px;
+  }
+  .menu-buttons .col-6 {
     padding: 5px;
   }
-  .menu-buttons button {
+  .menu-buttons a button {
     background-color: transparent;
     color: #2A64AD;
     border: 1px solid #92A3CD;
-    margin: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    border-radius: 6px;
   }
-  .menu-buttons button span {
-    width: 112px;
-    height: 30px;
-    font-size: 8px;
+  .menu-buttons a span {
+    height: 35px;
+    font-size: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -805,11 +817,11 @@ input:checked + .slider {
         -ms-flex-align: center;
             align-items: center;
   }
-  .menu-buttons button span img {
-    margin-top: -15px;
+  .menu-buttons a span img {
+    margin-top: -18px;
   }
-  .menu-buttons button span p {
-    margin-top: -15px;
+  .menu-buttons a span p {
+    margin-top: -17px;
   }
   .menu-height {
     margin-bottom: -20px;
@@ -874,30 +886,6 @@ input:checked + .slider {
     border-radius: 50px;
     padding: 0.2em 0.3em;
     background-color: #25469B !important;
-  }
-}
-
-@media only screen and (min-device-width: 345px) and (max-device-width: 375px) {
-  .menu-buttons button span {
-    width: 127px;
-  }
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 425px) {
-  .menu-buttons button span {
-    width: 137px;
-  }
-}
-
-@media only screen and (min-width: 425px) and (max-width: 768px) {
-  .menu-buttons button span {
-    width: 157px;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .menu-buttons button span {
-    width: 300px;
   }
 }
 
