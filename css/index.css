@@ -710,7 +710,7 @@ input:checked + .slider {
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
   .header .row .sign_btn .arrow_btn {
     display: -webkit-box;
     display: -ms-flexbox;
