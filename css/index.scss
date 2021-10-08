@@ -3530,33 +3530,8 @@ input:checked + .slider {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1224px) { 
-  .top_section_card{
-   .card{
-     .share_fab {
-       right: 0;
-     }
-     .fab_text{
-       left: 0%;
-     }
-   }
-  }
-  /* STYLES HERE */
-}
-// @media only screen and (width:1024px) {
-//   .top_section_card {
-//     .card{      
-//       .second_fab{
-//         .view_button button{
-//           width: 57%;
-//         }
-//         .play_button button{
-//           width: 20%;
-//         }
-//       }   
-//     }
-//   }
-// }
+
+
 // end
 
 // news section
@@ -5967,6 +5942,17 @@ input:checked + .slider {
     //   }
     // }
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1224px) { 
+  .recomended_protects {
+    .item {
+      .inner{
+        margin-top: -25%;
+      }
+    }
+  }
+  /* STYLES HERE */
 }
 
 // Small devices (portrait tablets and large phones, 600px and up) */

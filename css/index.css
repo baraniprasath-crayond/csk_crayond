@@ -3450,16 +3450,6 @@ input:checked + .slider {
   color: #1877f2;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1224px) {
-  .top_section_card .card .share_fab {
-    right: 0;
-  }
-  .top_section_card .card .fab_text {
-    left: 0%;
-  }
-  /* STYLES HERE */
-}
-
 .news_card_section .card:hover .progress {
   width: 120px;
   -webkit-transition: width 1s ease;
@@ -5679,6 +5669,13 @@ input:checked + .slider {
     z-index: 999999;
     right: auto;
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1224px) {
+  .recomended_protects .item .inner {
+    margin-top: -25%;
+  }
+  /* STYLES HERE */
 }
 
 @media only screen and (min-width: 600px) {
