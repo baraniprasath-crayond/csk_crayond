@@ -2566,6 +2566,15 @@ input:checked + .slider {
       // position: absolute;
     }
   }
+  
+  @media  only screen and (min-width:2559px){
+    .item{
+      .inner{
+        margin-top: -40px;
+      }
+    }
+  }
+
 
   .title_lable {
     font-size: 20px;
