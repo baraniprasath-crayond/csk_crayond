@@ -2557,6 +2557,7 @@ input:checked + .slider {
       // opacity: 0.9;
       height: 160px;
       border-radius: 10px;
+      object-fit: cover;
       // background-image: linear-gradient(
       //   to bottom,
       //   rgba(17, 17, 17, 0),
@@ -5156,7 +5157,7 @@ input:checked + .slider {
   // margin-bottom: 30px;
 
   .title_div {
-    display: flex;
+    // display: flex;
     .title_border{
         img{
           width: 40%;

@@ -2531,6 +2531,8 @@ input:checked + .slider {
 .recomended_protects .item img {
   height: 160px;
   border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .recomended_protects .title_lable {
@@ -4977,12 +4979,6 @@ input:checked + .slider {
   .new_card_section .news_slider .card .share_fab {
     right: 5%;
   }
-}
-
-.social_media_section .title_div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .social_media_section .title_div .title_border img {
