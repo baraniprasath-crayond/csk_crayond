@@ -6129,6 +6129,9 @@ input:checked + .slider {
     font-size: 12px;
     padding: 5px 15px 5px 15px;
   }
+  .news_card_section .colmm {
+    padding: 0px;
+  }
   .news_card_section .title p {
     font-size: 15px;
   }
