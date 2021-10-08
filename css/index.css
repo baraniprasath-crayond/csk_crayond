@@ -4647,7 +4647,9 @@ input:checked + .slider {
   width: 100%;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
-  height: inherit;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .new_card_section .news_slider .card .gal_img img:hover {
@@ -4682,6 +4684,8 @@ input:checked + .slider {
 .new_card_section .news_slider .card .news_img img {
   width: 100%;
   height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .new_card_section .news_slider .card .news_img img:hover {
